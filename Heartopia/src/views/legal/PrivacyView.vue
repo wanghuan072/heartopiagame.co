@@ -1,0 +1,70 @@
+<template>
+  <div class="legal-page">
+    <div class="container legal-container">
+      <a :href="getLocalizedPath('/')" class="legal-back">{{ t('common.legalBack') }}</a>
+      <h1 class="legal-title">{{ t('PrivacyPage.title') }}</h1>
+      <p>{{ t('PrivacyPage.p1') }}</p>
+      <p>{{ t('PrivacyPage.p2') }}</p>
+      <p>{{ t('PrivacyPage.p3Part1') }}<a href="/cookies">{{ t('PrivacyPage.cookiePolicy') }}</a>{{ t('PrivacyPage.p3Part2') }}</p>
+      <p>{{ t('PrivacyPage.p4') }}</p>
+      <p>{{ t('PrivacyPage.p5') }}</p>
+      <p>{{ t('PrivacyPage.p6') }}</p>
+      <p>{{ t('PrivacyPage.p7') }}</p>
+      <p class="legal-updated">{{ t('common.lastUpdated') }} {{ t('PrivacyPage.questions') }} <a href="mailto:wyong@heartopiagame.co">wyong@heartopiagame.co</a>.</p>
+    </div>
+  </div>
+</template>
+
+<script setup>
+import { useI18n } from 'vue-i18n'
+import { useLocalizedPath } from '@/composables/useLocalizedPath'
+
+const { t } = useI18n()
+const { getLocalizedPath } = useLocalizedPath()
+</script>
+
+<style scoped>
+.legal-page {
+  min-height: 100vh;
+  padding: 2rem 0 4rem;
+  background: linear-gradient(180deg, #f8fbfa 0%, #fff 100%);
+}
+.legal-container {
+  max-width: 720px;
+}
+.legal-back {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-primary-dark);
+  margin-bottom: 1.5rem;
+  text-decoration: none;
+}
+.legal-back:hover {
+  text-decoration: underline;
+}
+.legal-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 0 0 1rem;
+}
+.legal-page p {
+  font-size: 0.95rem;
+  color: var(--color-text-soft);
+  line-height: 1.65;
+  margin: 0 0 1rem;
+}
+.legal-page a {
+  color: var(--color-primary-dark);
+  text-decoration: none;
+}
+.legal-page a:hover {
+  text-decoration: underline;
+}
+.legal-updated {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+</style>
