@@ -178,8 +178,8 @@ export default {
             cookiePolicy: 'Politique des Cookies',
         },
         disclaimer:
-            'Heartopia.live est une base de données créée par des fans pour le jeu Heartopia.',
-        copyright: '© 2026 Heartopia.live',
+            'heartopiagame.co est une base de données créée par des fans pour le jeu Heartopia.',
+        copyright: '© 2026 heartopiagame.co',
     },
     HomePage: {
         hero: {
