@@ -178,7 +178,7 @@ export default {
       cookiePolicy: 'Cookie Policy',
     },
     disclaimer:
-      'Heartopia.live is a fan-made database for the Heartopia game. Heartopia and all related assets are trademarks of XD Games.',
+      'Heartopia.live is a fan-made database for the Heartopia game.',
     copyright: '© 2026 Heartopia.live',
   },
   HomePage: {

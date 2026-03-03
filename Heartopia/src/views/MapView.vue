@@ -10,7 +10,7 @@
     <div class="container">
       <section class="map-embed">
         <iframe
-          src="https://webresources.cc/heartopia/en.html"
+          src="https://heartopiamap.com/"
           :title="t('MapPage.hero.title')"
           class="map-iframe"
           loading="lazy"

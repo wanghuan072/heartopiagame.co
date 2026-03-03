@@ -178,7 +178,7 @@ export default {
             cookiePolicy: 'Cookie-Richtlinie',
         },
         disclaimer:
-            'Heartopia.live ist eine von Fans erstellte Datenbank für das Spiel Heartopia. Heartopia und alle zugehörigen Assets sind Marken von XD Games.',
+            'Heartopia.live ist eine von Fans erstellte Datenbank für das Spiel Heartopia.',
         copyright: '© 2026 Heartopia.live',
     },
     HomePage: {

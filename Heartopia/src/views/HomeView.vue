@@ -199,7 +199,7 @@
           </div>
           <div class="map-image">
             <iframe
-              src="https://webresources.cc/heartopia/en.html"
+              src="https://heartopiamap.com/"
               title="Heartopia Interactive Map"
               class="map-iframe"
               loading="lazy"
