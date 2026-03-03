@@ -31,11 +31,13 @@ import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useGuideData } from '@/composables/useGuideData'
 import { useLocalizedPath } from '@/composables/useLocalizedPath'
+import { useSEO } from '@/seo/composables.js'
 
 const route = useRoute()
 const { locale } = useI18n()
 const { getLocalizedPath } = useLocalizedPath()
 const { guides, loadData, findGuideByAddressBar } = useGuideData()
+const { setSEO } = useSEO()
 const guide = ref(null)
 
 async function initGuide() {
@@ -51,7 +53,13 @@ watch(() => locale.value, () => initGuide())
 watch(
   guide,
   (g) => {
-    if (g?.seo?.title) document.title = g.seo.title
+    if (g?.seo && (g.seo.title || g.seo.description || g.seo.keywords)) {
+      setSEO({
+        title: g.seo.title,
+        description: g.seo.description,
+        keywords: g.seo.keywords,
+      })
+    }
   },
   { immediate: true }
 )

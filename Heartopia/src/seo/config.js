@@ -13,13 +13,13 @@ export const seoConfig = {
     discord: 'heartopiaguide',
   },
 
-  // 默认 SEO 设置
+  // 默认 SEO 设置（仅作 fallback，页面 TDK 以 i18n seo.* 为准）
   defaults: {
-    title: 'Heartopia Guide & Wiki | Recipes, Fish, Map, Codes, Characters',
+    title: 'Heartopia Guide & Wiki | Recipes, Map, Codes, Characters',
     description:
       'Complete Heartopia guide: gift codes, interactive map, recipes, fish, insects, birds, crops, characters & events. Your go-to Heartopia game resource. Find everything in one place.',
     keywords:
-      'Heartopia, Heartopia game, Heartopia guide, Heartopia wiki, Heartopia map, Heartopia recipes, Heartopia fish, Heartopia codes, Heartopia characters',
+      'Heartopia, Heartopia guide, Heartopia wiki, Heartopia map, Heartopia recipes, Heartopia codes, Heartopia characters',
     author: 'Heartopia Guide',
     image: 'https://heartopiagame.co/og-image.png',
     type: 'website',

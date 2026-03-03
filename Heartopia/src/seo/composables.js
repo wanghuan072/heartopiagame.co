@@ -1,6 +1,7 @@
 import { ref, computed, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
+import i18n from '@/i18n/index.js'
 import { seoConfig } from './config.js'
 
 /**
@@ -130,36 +131,27 @@ export function useSEO() {
   }
 }
 
-/**
- * 根据路由 meta.seoKey 从 i18n 解析 TDK，自动设置 TDK、Canonical、结构化数据
- */
+/** 自动 SEO：从 i18n seo.* 读取 TDK 替换默认值（参考 vein-game） */
 export function useAutoSEO() {
   const { setSEO, generateStructuredData, addStructuredData } = useSEO()
   const route = useRoute()
-  const { t, locale } = useI18n()
+  const { locale } = useI18n()
 
   const handleSEO = () => {
     const seoKey = route.meta?.seoKey
-    const defaults = { ...seoConfig.defaults }
+    let finalSEO = { ...seoConfig.defaults }
 
-    const finalSEO = seoKey
-      ? {
-          ...defaults,
-          title: t(`seo.${seoKey}.title`) || defaults.title,
-          description: t(`seo.${seoKey}.description`) || defaults.description,
-          keywords: t(`seo.${seoKey}.keywords`) || defaults.keywords,
-          type: 'website',
-        }
-      : defaults
+    if (seoKey) {
+      const localeMessages = i18n.global.getLocaleMessage(locale.value) || i18n.global.getLocaleMessage('en')
+      const seo = localeMessages?.seo?.[seoKey]
+      if (seo?.title) {
+        finalSEO = { ...finalSEO, title: seo.title, description: seo.description, keywords: seo.keywords }
+      }
+    }
 
     setSEO(finalSEO)
-    const pageType = finalSEO.type === 'article' ? 'Article' : 'WebPage'
-    addStructuredData(generateStructuredData(pageType))
+    addStructuredData(generateStructuredData('WebPage'))
   }
 
-  watch(
-    () => [route.fullPath, locale.value],
-    () => handleSEO(),
-    { immediate: true }
-  )
+  watch([() => route.fullPath, locale], handleSEO, { immediate: true })
 }
