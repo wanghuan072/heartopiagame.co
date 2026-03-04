@@ -1,0 +1,156 @@
+export default [
+    {
+      slug: 'anthurium',
+      name: '红掌',
+      level: 5,
+      growthTime: null,
+      seedBuy: 60,
+      seedSell: 30,
+      sellPrices: [185],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'calla-lily',
+      name: '马蹄莲',
+      level: 6,
+      growthTime: '1天6小时',
+      seedBuy: 90,
+      seedSell: null,
+      sellPrices: [250],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'carnation',
+      name: '康乃馨',
+      level: 7,
+      growthTime: '1天6小时',
+      seedBuy: 120,
+      seedSell: null,
+      sellPrices: [305],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'corn-poppy',
+      name: '虞美人',
+      level: 5,
+      growthTime: '1天',
+      seedBuy: 60,
+      seedSell: 30,
+      sellPrices: [185, 280, 370],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'cranesbill',
+      name: '老鹳草',
+      level: 13,
+      growthTime: null,
+      seedBuy: 300,
+      seedSell: null,
+      sellPrices: [],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'daisy',
+      name: '雏菊',
+      level: 3,
+      growthTime: '18小时',
+      seedBuy: 30,
+      seedSell: 15,
+      sellPrices: [100, 150, 200, 250, 400],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'hyacinth',
+      name: '风信子',
+      level: 11,
+      growthTime: null,
+      seedBuy: 300,
+      seedSell: null,
+      sellPrices: [],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'laceleaf',
+      name: '花烛',
+      level: 5,
+      growthTime: '1天',
+      seedBuy: 60,
+      seedSell: null,
+      sellPrices: [185, 280, 370, 465, 740],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'lily',
+      name: '百合',
+      level: 9,
+      growthTime: '2天',
+      seedBuy: 200,
+      seedSell: null,
+      sellPrices: [],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'morning-glory',
+      name: '牵牛花',
+      level: 6,
+      growthTime: '1天6小时',
+      seedBuy: 90,
+      seedSell: null,
+      sellPrices: [250],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'moth-orchid',
+      name: '蝴蝶兰',
+      level: 12,
+      growthTime: null,
+      seedBuy: 300,
+      seedSell: null,
+      sellPrices: [],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'pansy',
+      name: '三色堇',
+      level: 4,
+      growthTime: '18小时',
+      seedBuy: 30,
+      seedSell: 15,
+      sellPrices: [100, 150, 200, 250, 400],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'rose',
+      name: '玫瑰',
+      level: 10,
+      growthTime: '3天',
+      seedBuy: 300,
+      seedSell: null,
+      sellPrices: [],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'tulip',
+      name: '郁金香',
+      level: 8,
+      growthTime: '2天',
+      seedBuy: 150,
+      seedSell: null,
+      sellPrices: [],
+      imageSrc: null,
+      imageAlt: null
+    },
+  ]

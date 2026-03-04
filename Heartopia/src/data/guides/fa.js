@@ -3,9 +3,9 @@ export default [
       id: 1,
       title: 'Guide du débutant Heartopia',
       description: 'Un guide complet pour bien débuter sur Heartopia : niveau DG, loisirs, routine quotidienne, astuces de ville, gagner de l’argent et comment débloquer la pêche, le jardinage, la cuisine, l’observation d’oiseaux et les familiers.',
-      publishDate: '2026-02-01',
-      addressBar: 'guide-debutant',
-      imageSrc: 'https://picsum.photos/800/450?random=guide1',
+      publishDate: '2026-03-04',
+      addressBar: 'beginner-guide',
+      imageSrc: '/images/guide/guide01-01.webp',
       imageAlt: 'Couverture du guide du débutant Heartopia',
       seo: {
         title: 'Guide du débutant Heartopia | Guide Heartopia',

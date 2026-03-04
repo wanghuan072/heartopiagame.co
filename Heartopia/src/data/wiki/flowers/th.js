@@ -1,0 +1,156 @@
+export default [
+    {
+        slug: 'anthurium',
+        name: 'หน้าวัว',
+        level: 5,
+        growthTime: null,
+        seedBuy: 60,
+        seedSell: 30,
+        sellPrices: [185],
+        imageSrc: null,
+        imageAlt: null
+    },
+    {
+        slug: 'calla-lily',
+        name: 'คัลล่า ลิลลี่',
+        level: 6,
+        growthTime: '1 วัน 6 ชั่วโมง',
+        seedBuy: 90,
+        seedSell: null,
+        sellPrices: [250],
+        imageSrc: null,
+        imageAlt: null
+    },
+    {
+        slug: 'carnation',
+        name: 'คาร์เนชัน',
+        level: 7,
+        growthTime: '1 วัน 6 ชั่วโมง',
+        seedBuy: 120,
+        seedSell: null,
+        sellPrices: [305],
+        imageSrc: null,
+        imageAlt: null
+    },
+    {
+        slug: 'corn-poppy',
+        name: 'ป๊อปปี้',
+        level: 5,
+        growthTime: '1 วัน',
+        seedBuy: 60,
+        seedSell: 30,
+        sellPrices: [185, 280, 370],
+        imageSrc: null,
+        imageAlt: null
+    },
+    {
+        slug: 'cranesbill',
+        name: 'เจอเรเนียม',
+        level: 13,
+        growthTime: null,
+        seedBuy: 300,
+        seedSell: null,
+        sellPrices: [],
+        imageSrc: null,
+        imageAlt: null
+    },
+    {
+        slug: 'daisy',
+        name: 'เดซี่',
+        level: 3,
+        growthTime: '18 ชั่วโมง',
+        seedBuy: 30,
+        seedSell: 15,
+        sellPrices: [100, 150, 200, 250, 400],
+        imageSrc: null,
+        imageAlt: null
+    },
+    {
+        slug: 'hyacinth',
+        name: 'ไฮอะซินท์',
+        level: 11,
+        growthTime: null,
+        seedBuy: 300,
+        seedSell: null,
+        sellPrices: [],
+        imageSrc: null,
+        imageAlt: null
+    },
+    {
+        slug: 'laceleaf',
+        name: 'ดอกหน้าวัว (Laceleaf)',
+        level: 5,
+        growthTime: '1 วัน',
+        seedBuy: 60,
+        seedSell: null,
+        sellPrices: [185, 280, 370, 465, 740],
+        imageSrc: null,
+        imageAlt: null
+    },
+    {
+        slug: 'lily',
+        name: 'ลิลลี่',
+        level: 9,
+        growthTime: '2 วัน',
+        seedBuy: 200,
+        seedSell: null,
+        sellPrices: [],
+        imageSrc: null,
+        imageAlt: null
+    },
+    {
+        slug: 'morning-glory',
+        name: 'มอร์นิ่งกลอรี่',
+        level: 6,
+        growthTime: '1 วัน 6 ชั่วโมง',
+        seedBuy: 90,
+        seedSell: null,
+        sellPrices: [250],
+        imageSrc: null,
+        imageAlt: null
+    },
+    {
+        slug: 'moth-orchid',
+        name: 'กล้วยไม้ฟาแลนนอปซิส',
+        level: 12,
+        growthTime: null,
+        seedBuy: 300,
+        seedSell: null,
+        sellPrices: [],
+        imageSrc: null,
+        imageAlt: null
+    },
+    {
+        slug: 'pansy',
+        name: 'แพนซี่ (หน้าแมว)',
+        level: 4,
+        growthTime: '18 ชั่วโมง',
+        seedBuy: 30,
+        seedSell: 15,
+        sellPrices: [100, 150, 200, 250, 400],
+        imageSrc: null,
+        imageAlt: null
+    },
+    {
+        slug: 'rose',
+        name: 'กุหลาบ',
+        level: 10,
+        growthTime: '3 วัน',
+        seedBuy: 300,
+        seedSell: null,
+        sellPrices: [],
+        imageSrc: null,
+        imageAlt: null
+    },
+    {
+        slug: 'tulip',
+        name: 'ทิวลิป',
+        level: 8,
+        growthTime: '2 วัน',
+        seedBuy: 150,
+        seedSell: null,
+        sellPrices: [],
+        imageSrc: null,
+        imageAlt: null
+    },
+]

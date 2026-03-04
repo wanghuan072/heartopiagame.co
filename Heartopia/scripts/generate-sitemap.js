@@ -9,8 +9,8 @@ const __dirname = path.dirname(__filename)
 
 const fullDomain = seoConfig.fullDomain
 
-/** 与 i18n 一致：默认英语无前缀，其他语言 URL 加 /de/、/fa/ */
-const supportedLocales = ['en', 'de', 'fa']
+/** 与 i18n 一致：默认英语无前缀，其他语言 URL 加 /de/、/zh/、/th/ 等 */
+const supportedLocales = ['en', 'de', 'fa', 'id', 'es', 'pt', 'zh', 'th']
 
 function createLocalizedPath(routePath, locale = 'en') {
   if (locale === 'en') return routePath

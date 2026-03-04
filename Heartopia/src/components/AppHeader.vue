@@ -3,7 +3,7 @@ import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useLocalizedPath } from '@/composables/useLocalizedPath'
-import { supportedLocales } from '@/i18n/index.js'
+import { supportedLocales, localeNames } from '@/i18n/index.js'
 
 const router = useRouter()
 const route = useRoute()
@@ -72,7 +72,7 @@ onUnmounted(() => document.removeEventListener('click', handleClickOutside))
             :aria-expanded="isLangDropdownOpen"
             @click="toggleLangDropdown"
           >
-            <span class="lang-current">{{ currentLocale.toUpperCase() }}</span>
+            <span class="lang-current">{{ localeNames[currentLocale] || currentLocale }}</span>
             <svg class="lang-arrow" :class="{ open: isLangDropdownOpen }" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <polyline points="6,9 12,15 18,9" />
             </svg>
@@ -86,7 +86,7 @@ onUnmounted(() => document.removeEventListener('click', handleClickOutside))
               :class="{ active: currentLocale === loc }"
               @click="selectLanguage(loc)"
             >
-              {{ loc.toUpperCase() }}
+              {{ localeNames[loc] || loc }}
             </button>
           </div>
         </div>

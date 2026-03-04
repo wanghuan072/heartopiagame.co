@@ -1,0 +1,145 @@
+export default [
+    {
+      slug: 'avocado',
+      name: 'Alpukat',
+      level: 13,
+      growthTime: null,
+      seedBuy: 180,
+      seedSell: null,
+      sellPrices: [],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'cacao',
+      name: 'Kakao',
+      level: 12,
+      growthTime: null,
+      seedBuy: 110,
+      seedSell: null,
+      sellPrices: [],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'carrot',
+      name: 'Wortel',
+      level: 5,
+      growthTime: '2 jam',
+      seedBuy: 50,
+      seedSell: 25,
+      sellPrices: [155, 207, 258, 310],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'corn',
+      name: 'Jagung',
+      level: 6,
+      growthTime: '12 jam',
+      seedBuy: 170,
+      seedSell: null,
+      sellPrices: [515, 690, 860, 1545],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'eggplant',
+      name: 'Terong',
+      level: 8,
+      growthTime: '7 jam',
+      seedBuy: 135,
+      seedSell: null,
+      sellPrices: [406, 544, 678, 812, 1218],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'grape',
+      name: 'Anggur',
+      level: 7,
+      growthTime: '10 jam',
+      seedBuy: 160,
+      seedSell: null,
+      sellPrices: [480, 643, 801, 960],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'lettuce',
+      name: 'Selada',
+      level: 3,
+      growthTime: '8 jam',
+      seedBuy: 145,
+      seedSell: 72,
+      sellPrices: [435, 582, 726, 870, 1305],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'pineapple',
+      name: 'Nanas',
+      level: 4,
+      growthTime: '30 menit',
+      seedBuy: 15,
+      seedSell: 7,
+      sellPrices: [52, 69, 86, 104],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'potatoes',
+      name: 'Kentang',
+      level: 1,
+      growthTime: '60 menit',
+      seedBuy: 30,
+      seedSell: 15,
+      sellPrices: [90, 120, 150, 180],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'strawberry',
+      name: 'Stroberi',
+      level: 6,
+      growthTime: '6 jam',
+      seedBuy: 125,
+      seedSell: null,
+      sellPrices: [375, 502, 626, 750, 1125],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'tea-tree',
+      name: 'Pohon Teh',
+      level: 11,
+      growthTime: null,
+      seedBuy: 25,
+      seedSell: null,
+      sellPrices: [],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'tomato',
+      name: 'Tomat',
+      level: 1,
+      growthTime: '15 menit',
+      seedBuy: 10,
+      seedSell: 5,
+      sellPrices: [30, 40, 50, 60, 70],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'wheat',
+      name: 'Gandum',
+      level: 2,
+      growthTime: '4 jam',
+      seedBuy: 95,
+      seedSell: 47,
+      sellPrices: [285, 381, 475, 570, 855],
+      imageSrc: null,
+      imageAlt: null
+    },
+  ]

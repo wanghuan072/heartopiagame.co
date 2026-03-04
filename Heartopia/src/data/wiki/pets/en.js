@@ -536,5 +536,4 @@ export default [
     imageSrc: null,
     imageAlt: null
   },
-
 ]

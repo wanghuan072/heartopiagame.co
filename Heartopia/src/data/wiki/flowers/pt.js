@@ -1,0 +1,156 @@
+export default [
+    {
+        slug: 'anthurium',
+        name: 'Antúrio',
+        level: 5,
+        growthTime: null,
+        seedBuy: 60,
+        seedSell: 30,
+        sellPrices: [185],
+        imageSrc: null,
+        imageAlt: null
+    },
+    {
+        slug: 'calla-lily',
+        name: 'Copo-de-leite',
+        level: 6,
+        growthTime: '1 dia e 6 horas',
+        seedBuy: 90,
+        seedSell: null,
+        sellPrices: [250],
+        imageSrc: null,
+        imageAlt: null
+    },
+    {
+        slug: 'carnation',
+        name: 'Cravo',
+        level: 7,
+        growthTime: '1 dia e 6 horas',
+        seedBuy: 120,
+        seedSell: null,
+        sellPrices: [305],
+        imageSrc: null,
+        imageAlt: null
+    },
+    {
+        slug: 'corn-poppy',
+        name: 'Papoula',
+        level: 5,
+        growthTime: '1 dia',
+        seedBuy: 60,
+        seedSell: 30,
+        sellPrices: [185, 280, 370],
+        imageSrc: null,
+        imageAlt: null
+    },
+    {
+        slug: 'cranesbill',
+        name: 'Gerânio',
+        level: 13,
+        growthTime: null,
+        seedBuy: 300,
+        seedSell: null,
+        sellPrices: [],
+        imageSrc: null,
+        imageAlt: null
+    },
+    {
+        slug: 'daisy',
+        name: 'Margarida',
+        level: 3,
+        growthTime: '18 horas',
+        seedBuy: 30,
+        seedSell: 15,
+        sellPrices: [100, 150, 200, 250, 400],
+        imageSrc: null,
+        imageAlt: null
+    },
+    {
+        slug: 'hyacinth',
+        name: 'Jacinto',
+        level: 11,
+        growthTime: null,
+        seedBuy: 300,
+        seedSell: null,
+        sellPrices: [],
+        imageSrc: null,
+        imageAlt: null
+    },
+    {
+        slug: 'laceleaf',
+        name: 'Flor-de-pavão (Laceleaf)',
+        level: 5,
+        growthTime: '1 dia',
+        seedBuy: 60,
+        seedSell: null,
+        sellPrices: [185, 280, 370, 465, 740],
+        imageSrc: null,
+        imageAlt: null
+    },
+    {
+        slug: 'lily',
+        name: 'Lírio',
+        level: 9,
+        growthTime: '2 dias',
+        seedBuy: 200,
+        seedSell: null,
+        sellPrices: [],
+        imageSrc: null,
+        imageAlt: null
+    },
+    {
+        slug: 'morning-glory',
+        name: 'Glória-da-manhã',
+        level: 6,
+        growthTime: '1 dia e 6 horas',
+        seedBuy: 90,
+        seedSell: null,
+        sellPrices: [250],
+        imageSrc: null,
+        imageAlt: null
+    },
+    {
+        slug: 'moth-orchid',
+        name: 'Orquídea Borboleta',
+        level: 12,
+        growthTime: null,
+        seedBuy: 300,
+        seedSell: null,
+        sellPrices: [],
+        imageSrc: null,
+        imageAlt: null
+    },
+    {
+        slug: 'pansy',
+        name: 'Amor-perfeito',
+        level: 4,
+        growthTime: '18 horas',
+        seedBuy: 30,
+        seedSell: 15,
+        sellPrices: [100, 150, 200, 250, 400],
+        imageSrc: null,
+        imageAlt: null
+    },
+    {
+        slug: 'rose',
+        name: 'Rosa',
+        level: 10,
+        growthTime: '3 dias',
+        seedBuy: 300,
+        seedSell: null,
+        sellPrices: [],
+        imageSrc: null,
+        imageAlt: null
+    },
+    {
+        slug: 'tulip',
+        name: 'Tulipa',
+        level: 8,
+        growthTime: '2 dias',
+        seedBuy: 150,
+        seedSell: null,
+        sellPrices: [],
+        imageSrc: null,
+        imageAlt: null
+    },
+]

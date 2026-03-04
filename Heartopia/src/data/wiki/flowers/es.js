@@ -1,0 +1,156 @@
+export default [
+    {
+      slug: 'anthurium',
+      name: 'Anturio',
+      level: 5,
+      growthTime: null,
+      seedBuy: 60,
+      seedSell: 30,
+      sellPrices: [185],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'calla-lily',
+      name: 'Cala (Lirio de agua)',
+      level: 6,
+      growthTime: '1 día 6 horas',
+      seedBuy: 90,
+      seedSell: null,
+      sellPrices: [250],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'carnation',
+      name: 'Clavel',
+      level: 7,
+      growthTime: '1 día 6 horas',
+      seedBuy: 120,
+      seedSell: null,
+      sellPrices: [305],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'corn-poppy',
+      name: 'Amapola silvestre',
+      level: 5,
+      growthTime: '1 día',
+      seedBuy: 60,
+      seedSell: 30,
+      sellPrices: [185, 280, 370],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'cranesbill',
+      name: 'Geranio (Cranesbill)',
+      level: 13,
+      growthTime: null,
+      seedBuy: 300,
+      seedSell: null,
+      sellPrices: [],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'daisy',
+      name: 'Margarita',
+      level: 3,
+      growthTime: '18 horas',
+      seedBuy: 30,
+      seedSell: 15,
+      sellPrices: [100, 150, 200, 250, 400],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'hyacinth',
+      name: 'Jacinto',
+      level: 11,
+      growthTime: null,
+      seedBuy: 300,
+      seedSell: null,
+      sellPrices: [],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'laceleaf',
+      name: 'Anturio (Laceleaf)',
+      level: 5,
+      growthTime: '1 día',
+      seedBuy: 60,
+      seedSell: null,
+      sellPrices: [185, 280, 370, 465, 740],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'lily',
+      name: 'Lirio',
+      level: 9,
+      growthTime: '2 días',
+      seedBuy: 200,
+      seedSell: null,
+      sellPrices: [],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'morning-glory',
+      name: 'Ipomea (Morning Glory)',
+      level: 6,
+      growthTime: '1 día 6 horas',
+      seedBuy: 90,
+      seedSell: null,
+      sellPrices: [250],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'moth-orchid',
+      name: 'Orquídea Mariposa',
+      level: 12,
+      growthTime: null,
+      seedBuy: 300,
+      seedSell: null,
+      sellPrices: [],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'pansy',
+      name: 'Pensamiento',
+      level: 4,
+      growthTime: '18 horas',
+      seedBuy: 30,
+      seedSell: 15,
+      sellPrices: [100, 150, 200, 250, 400],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'rose',
+      name: 'Rosa',
+      level: 10,
+      growthTime: '3 días',
+      seedBuy: 300,
+      seedSell: null,
+      sellPrices: [],
+      imageSrc: null,
+      imageAlt: null
+    },
+    {
+      slug: 'tulip',
+      name: 'Tulipán',
+      level: 8,
+      growthTime: '2 días',
+      seedBuy: 150,
+      seedSell: null,
+      sellPrices: [],
+      imageSrc: null,
+      imageAlt: null
+    },
+  ]

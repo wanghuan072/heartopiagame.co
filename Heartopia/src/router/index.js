@@ -67,6 +67,9 @@ router.beforeEach((to, _from, next) => {
   const first = segments[0]
   const locale = supportedLocales.includes(first) ? first : 'en'
   i18n.global.locale.value = locale
+  if (typeof document !== 'undefined') {
+    document.documentElement.lang = locale
+  }
   next()
 })
 

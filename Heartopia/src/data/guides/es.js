@@ -3,9 +3,9 @@ export default [
         id: 1,
         title: 'Guía para Principiantes de Heartopia',
         description: 'Una guía completa para principiantes de Heartopia: nivel DG, pasatiempos, rutina diaria, consejos del pueblo, cómo ganar dinero y cómo desbloquear Pesca, Jardinería, Cocina, Observación de Aves y mascotas.',
-        publishDate: '2026-02-01',
-        addressBar: 'guia-principiantes',
-        imageSrc: 'https://picsum.photos/800/450?random=guide1',
+        publishDate: '2026-04-04',
+        addressBar: 'beginner-guide',
+        imageSrc: '/images/guide/guide01-01.webp',
         imageAlt: 'Portada de la guía para principiantes de Heartopia',
         seo: {
             title: 'Guía para Principiantes de Heartopia | Guía de Heartopia',
