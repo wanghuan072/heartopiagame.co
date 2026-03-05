@@ -153,14 +153,85 @@ const { getLocalizedPath } = useLocalizedPath()
   grid-template-columns: repeat(5, 1fr);
   gap: 1rem;
 }
-@media (max-width: 1100px) {
+
+@media (max-width: 1024px) {
+  .wiki-list-main {
+    padding: 1.5rem 0;
+  }
   .wiki-grid {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem;
+  }
+  .wiki-why,
+  .wiki-faq {
+    padding: 2rem 0;
   }
 }
-@media (max-width: 640px) {
+
+@media (max-width: 768px) {
+  .wiki-list-page {
+    --m-h2: 1.3rem;
+    --m-h3: 1.1rem;
+    --m-p: 0.8rem;
+    --m-line: 1.2;
+    --m-gap: 0.7rem;
+    --m-block: 1rem;
+    --m-tight: 0.75rem;
+  }
+  .wiki-list-main {
+    padding: var(--m-block) 0;
+  }
+  .wiki-list-heading {
+    font-size: var(--m-h2);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .wiki-list-intro {
+    font-size: var(--m-p);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
   .wiki-grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: var(--m-tight);
+  }
+  .wiki-block {
+    padding: var(--m-block);
+  }
+  .wiki-block-label {
+    font-size: var(--m-p);
+    line-height: var(--m-line);
+  }
+  .wiki-why,
+  .wiki-faq {
+    padding: var(--m-block) 0;
+  }
+  .wiki-section-title {
+    font-size: var(--m-h2);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .wiki-why-lead {
+    font-size: var(--m-p);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .wiki-why-list li {
+    font-size: var(--m-p);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .wiki-faq-item {
+    padding: var(--m-gap) 0;
+  }
+  .wiki-faq-q {
+    font-size: var(--m-h3);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .wiki-faq-a {
+    font-size: var(--m-p);
+    line-height: var(--m-line);
   }
 }
 

@@ -315,4 +315,125 @@ const { t } = useI18n()
 .map-faq-a a:hover {
   text-decoration: underline;
 }
+
+/* ---------- 响应式：1024 iPad / 768 移动端 ---------- */
+@media (max-width: 1024px) {
+  .map-embed {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .map-features,
+  .map-categories,
+  .map-how {
+    margin-bottom: 1.5rem;
+  }
+  .map-feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .map-cat-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .map-faq {
+    padding: 3rem 0 4rem;
+    margin-top: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .map-page {
+    --m-h2: 1.3rem;
+    --m-h3: 1.1rem;
+    --m-p: 0.8rem;
+    --m-line: 1.2;
+    --m-gap: 0.7rem;
+    --m-block: 1rem;
+    --m-tight: 0.75rem;
+    padding-bottom: var(--m-block);
+  }
+  .map-embed {
+    margin-top: var(--m-block);
+    margin-bottom: var(--m-block);
+  }
+  .map-iframe {
+    min-height: 50vh;
+    height: 360px;
+  }
+  .map-section-title,
+  .map-faq__title {
+    font-size: var(--m-h2);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .map-features,
+  .map-categories,
+  .map-how {
+    margin-bottom: var(--m-block);
+  }
+  .map-feature-grid {
+    grid-template-columns: 1fr;
+    gap: var(--m-tight);
+  }
+  .map-feature-item {
+    padding: var(--m-block);
+  }
+  .map-feature-item h3 {
+    font-size: var(--m-h3);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .map-feature-item p {
+    font-size: var(--m-p);
+    line-height: var(--m-line);
+  }
+  .map-cat-grid {
+    grid-template-columns: 1fr;
+    gap: var(--m-tight);
+  }
+  .map-cat-item {
+    padding: var(--m-gap) var(--m-block);
+    font-size: var(--m-p);
+    line-height: var(--m-line);
+  }
+  .map-cat-desc {
+    font-size: var(--m-p);
+    line-height: var(--m-line);
+  }
+  .map-how-list {
+    margin-bottom: var(--m-gap);
+    font-size: var(--m-p);
+    line-height: var(--m-line);
+  }
+  .map-tip {
+    font-size: var(--m-p);
+    line-height: var(--m-line);
+    padding: var(--m-gap);
+  }
+  .map-about {
+    padding-top: var(--m-block);
+  }
+  .map-about p {
+    font-size: var(--m-p);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .map-faq {
+    padding: var(--m-block) 0;
+    margin-top: var(--m-block);
+  }
+  .map-faq__title {
+    margin-bottom: var(--m-gap);
+  }
+  .map-faq-item {
+    padding: var(--m-gap) 0;
+  }
+  .map-faq-q {
+    font-size: var(--m-h3);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .map-faq-a {
+    font-size: var(--m-p);
+    line-height: var(--m-line);
+  }
+}
 </style>

@@ -135,4 +135,75 @@ const { getLocalizedPath } = useLocalizedPath()
   margin-bottom: 0;
   color: var(--color-text-muted);
 }
+
+/* ---------- 响应式：1024 iPad / 768 移动端 ---------- */
+@media (max-width: 1024px) {
+  .app-footer {
+    padding: 2rem 0 1.5rem;
+  }
+  .footer-top {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  .footer-brand {
+    flex: 1 1 100%;
+  }
+  .footer-col {
+    flex: 1 1 calc(50% - 0.75rem);
+    min-width: 0;
+  }
+  .footer-sep {
+    margin: 1.5rem 0 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .app-footer {
+    padding: 1rem 0;
+  }
+  .footer-top {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .footer-brand {
+    flex: none;
+    gap: 0.7rem;
+  }
+  .footer-brand-text {
+    gap: 0.7rem;
+  }
+  .footer-brand-name {
+    font-size: 1.3rem;
+    line-height: 1.2;
+  }
+  .footer-intro {
+    font-size: 0.8rem;
+    line-height: 1.2;
+  }
+  .footer-col {
+    flex: none;
+    width: 100%;
+    gap: 0.7rem;
+  }
+  .footer-col h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.7rem;
+    line-height: 1.2;
+  }
+  .footer-col a {
+    font-size: 0.8rem;
+    line-height: 1.2;
+  }
+  .footer-sep {
+    margin: 1rem 0;
+  }
+  .footer-bottom p {
+    font-size: 0.8rem;
+    line-height: 1.2;
+    margin-bottom: 0.7rem;
+  }
+  .footer-bottom .copyright {
+    margin-bottom: 0;
+  }
+}
 </style>

@@ -215,12 +215,92 @@ function getAvatarUrl(c) {
 @media (max-width: 1024px) {
   .chars-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+  .chars-section {
+    padding: 2rem 0;
+  }
+  .chars-about,
+  .chars-faq {
+    padding: 2rem 0 3rem;
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
+  .characters-page {
+    --m-h2: 1.3rem;
+    --m-h3: 1.1rem;
+    --m-p: 0.8rem;
+    --m-line: 1.2;
+    --m-gap: 0.7rem;
+    --m-block: 1rem;
+    --m-tight: 0.75rem;
+  }
+  .chars-section {
+    padding: var(--m-block) 0;
+  }
+  .section-heading {
+    font-size: var(--m-h2);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
   .chars-grid {
     grid-template-columns: 1fr;
+    gap: var(--m-tight);
+  }
+  .char-card {
+    padding: var(--m-block);
+    gap: var(--m-gap);
+  }
+  .char-main {
+    gap: var(--m-gap);
+  }
+  .char-avatar {
+    width: 56px;
+    height: 56px;
+  }
+  .char-meta {
+    margin-left: calc(56px + var(--m-gap));
+    font-size: var(--m-p);
+    line-height: var(--m-line);
+  }
+  .char-text h3 {
+    font-size: var(--m-h3);
+    line-height: var(--m-line);
+  }
+  .char-role,
+  .char-desc {
+    font-size: var(--m-p);
+    line-height: var(--m-line);
+  }
+  .chars-about,
+  .chars-faq {
+    padding: var(--m-block) 0;
+  }
+  .chars-about-inner .section-heading {
+    margin-bottom: var(--m-gap);
+  }
+  .chars-about-inner p {
+    font-size: var(--m-p);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .chars-faq__title {
+    font-size: var(--m-h2);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .chars-faq-item {
+    padding: var(--m-gap) 0;
+  }
+  .chars-faq-q {
+    font-size: var(--m-h3);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .chars-faq-a {
+    font-size: var(--m-p);
+    line-height: var(--m-line);
   }
 }
 

@@ -310,4 +310,32 @@ const filteredCrops = computed(() => {
   color: var(--color-text-muted);
   line-height: 1.55;
 }
+
+@media (max-width: 1024px) {
+  .crops-list { gap: 0.75rem; }
+  .crops-intro { margin-top: 1.5rem; padding: 1.25rem; }
+  .crops-faq { margin-top: 1.5rem; padding-top: 1.25rem; }
+}
+
+@media (max-width: 768px) {
+  .crops-page {
+    --m-h1: 1.5rem; --m-h2: 1.3rem; --m-h3: 1.1rem; --m-p: 0.8rem; --m-line: 1.2; --m-gap: 0.7rem; --m-block: 1rem; --m-tight: 0.75rem;
+  }
+  .crops-hero .wiki-hero__title { font-size: var(--m-h1); line-height: var(--m-line); }
+  .crops-hero .wiki-hero__subtitle { font-size: var(--m-p); margin-bottom: var(--m-gap); line-height: var(--m-line); }
+  .crops-hero .wiki-hero { margin-bottom: var(--m-block); padding: var(--m-block); }
+  .crops-count { font-size: var(--m-p); margin-bottom: var(--m-gap); line-height: var(--m-line); }
+  .crops-list { gap: var(--m-tight); }
+  .crops-row { padding: var(--m-block); }
+  .crops-name { font-size: var(--m-h3); line-height: var(--m-line); }
+  .crops-meta, .crops-info, .crops-tag { font-size: var(--m-p); line-height: var(--m-line); }
+  .crops-intro { margin-top: var(--m-block); padding: var(--m-block); }
+  .crops-intro__title { font-size: var(--m-h2); margin-bottom: var(--m-gap); line-height: var(--m-line); }
+  .crops-intro__lead, .crops-intro__text { font-size: var(--m-p); line-height: var(--m-line); }
+  .crops-faq { margin-top: var(--m-block); padding-top: var(--m-block); }
+  .crops-faq__title { font-size: var(--m-h2); margin-bottom: var(--m-gap); line-height: var(--m-line); }
+  .crops-faq-item { padding-bottom: var(--m-gap); }
+  .crops-faq-q { font-size: var(--m-h3); margin-bottom: var(--m-gap); line-height: var(--m-line); }
+  .crops-faq-a { font-size: var(--m-p); line-height: var(--m-line); }
+}
 </style>

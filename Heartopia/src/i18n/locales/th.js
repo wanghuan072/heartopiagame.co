@@ -356,6 +356,8 @@ export default {
         legalBack: '← กลับหน้าแรก',
         lastUpdated: 'อัปเดตล่าสุด: 27 กุมภาพันธ์ 2026',
         languageSwitcher: { label: 'เปลี่ยนภาษา' },
+        openMenu: 'เปิดเมนู',
+        closeMenu: 'ปิดเมนู',
     },
     CodesPage: {
         hero: {

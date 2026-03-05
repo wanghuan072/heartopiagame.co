@@ -310,4 +310,32 @@ const filteredFlowers = computed(() => {
   color: var(--color-text-muted);
   line-height: 1.55;
 }
+
+@media (max-width: 1024px) {
+  .flowers-list { gap: 0.75rem; }
+  .flowers-intro { margin-top: 1.5rem; padding: 1.25rem; }
+  .flowers-faq { margin-top: 1.5rem; padding-top: 1.25rem; }
+}
+
+@media (max-width: 768px) {
+  .flowers-page {
+    --m-h1: 1.5rem; --m-h2: 1.3rem; --m-h3: 1.1rem; --m-p: 0.8rem; --m-line: 1.2; --m-gap: 0.7rem; --m-block: 1rem; --m-tight: 0.75rem;
+  }
+  .flowers-hero .wiki-hero__title { font-size: var(--m-h1); line-height: var(--m-line); }
+  .flowers-hero .wiki-hero__subtitle { font-size: var(--m-p); margin-bottom: var(--m-gap); line-height: var(--m-line); }
+  .flowers-hero .wiki-hero { margin-bottom: var(--m-block); padding: var(--m-block); }
+  .flowers-count { font-size: var(--m-p); margin-bottom: var(--m-gap); line-height: var(--m-line); }
+  .flowers-list { gap: var(--m-tight); }
+  .flowers-row { padding: var(--m-block); }
+  .flowers-name { font-size: var(--m-h3); line-height: var(--m-line); }
+  .flowers-meta, .flowers-tag { font-size: var(--m-p); line-height: var(--m-line); }
+  .flowers-intro { margin-top: var(--m-block); padding: var(--m-block); }
+  .flowers-intro__title { font-size: var(--m-h2); margin-bottom: var(--m-gap); line-height: var(--m-line); }
+  .flowers-intro__lead, .flowers-intro__text { font-size: var(--m-p); line-height: var(--m-line); }
+  .flowers-faq { margin-top: var(--m-block); padding-top: var(--m-block); }
+  .flowers-faq__title { font-size: var(--m-h2); margin-bottom: var(--m-gap); line-height: var(--m-line); }
+  .flowers-faq-item { padding-bottom: var(--m-gap); }
+  .flowers-faq-q { font-size: var(--m-h3); margin-bottom: var(--m-gap); line-height: var(--m-line); }
+  .flowers-faq-a { font-size: var(--m-p); line-height: var(--m-line); }
+}
 </style>

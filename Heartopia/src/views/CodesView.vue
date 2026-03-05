@@ -279,9 +279,92 @@ const copyCode = async (code) => {
   align-items: flex-start;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1024px) {
   .codes-main-layout {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .codes-main,
+  .codes-expired,
+  .codes-faq {
+    padding: 2rem 0 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .codes-page {
+    --m-h2: 1.3rem;
+    --m-h3: 1.1rem;
+    --m-p: 0.8rem;
+    --m-line: 1.2;
+    --m-gap: 0.7rem;
+    --m-block: 1rem;
+    --m-tight: 0.75rem;
+  }
+  .codes-main,
+  .codes-expired,
+  .codes-faq {
+    padding: var(--m-block) 0;
+  }
+  .codes-main-layout {
+    gap: var(--m-tight);
+  }
+  .section-heading {
+    font-size: var(--m-h2);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .codes-note {
+    font-size: var(--m-p);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .codes-active-list {
+    gap: var(--m-tight);
+  }
+  .codes-card {
+    padding: var(--m-block);
+  }
+  .codes-card-header {
+    margin-bottom: var(--m-gap);
+  }
+  .codes-reward,
+  .codes-meta {
+    font-size: var(--m-p);
+    line-height: var(--m-line);
+  }
+  .codes-side {
+    padding: var(--m-block);
+  }
+  .redeem-steps {
+    font-size: var(--m-p);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .redeem-tip {
+    font-size: var(--m-p);
+    line-height: var(--m-line);
+  }
+  .codes-expired-grid {
+    gap: var(--m-tight);
+  }
+  .codes-expired-card {
+    padding: var(--m-block);
+  }
+  .codes-faq-content .section-heading {
+    margin-bottom: var(--m-gap);
+  }
+  .codes-faq-item {
+    padding: var(--m-gap) 0;
+  }
+  .codes-faq-q {
+    font-size: var(--m-h3);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .codes-faq-a {
+    font-size: var(--m-p);
+    line-height: var(--m-line);
   }
 }
 
@@ -432,7 +515,13 @@ const copyCode = async (code) => {
   gap: 1rem;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1024px) {
+  .codes-expired-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
   .codes-expired-grid {
     grid-template-columns: 1fr;
   }

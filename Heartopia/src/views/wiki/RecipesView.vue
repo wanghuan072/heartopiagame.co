@@ -345,4 +345,32 @@ const filteredRecipes = computed(() => {
 .recipes-faq a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 1024px) {
+  .recipes-list { gap: 0.75rem; }
+  .recipes-intro { margin-top: 1.5rem; padding: 1.25rem; }
+  .recipes-faq { margin-top: 1.5rem; padding-top: 1.25rem; }
+}
+
+@media (max-width: 768px) {
+  .recipes-page {
+    --m-h1: 1.5rem; --m-h2: 1.3rem; --m-h3: 1.1rem; --m-p: 0.8rem; --m-line: 1.2; --m-gap: 0.7rem; --m-block: 1rem; --m-tight: 0.75rem;
+  }
+  .recipes-hero .wiki-hero__title { font-size: var(--m-h1); line-height: var(--m-line); }
+  .recipes-hero .wiki-hero__subtitle { font-size: var(--m-p); margin-bottom: var(--m-gap); line-height: var(--m-line); }
+  .recipes-hero .wiki-hero { margin-bottom: var(--m-block); padding: var(--m-block); }
+  .recipes-count { font-size: var(--m-p); margin-bottom: var(--m-gap); line-height: var(--m-line); }
+  .recipes-list { gap: var(--m-tight); }
+  .recipes-row { padding: var(--m-block); }
+  .recipes-name { font-size: var(--m-h3); line-height: var(--m-line); }
+  .recipes-meta, .recipes-ing-text, .recipes-value { font-size: var(--m-p); line-height: var(--m-line); }
+  .recipes-intro { margin-top: var(--m-block); padding: var(--m-block); }
+  .recipes-intro__title { font-size: var(--m-h2); margin-bottom: var(--m-gap); line-height: var(--m-line); }
+  .recipes-intro__lead, .recipes-intro__text { font-size: var(--m-p); line-height: var(--m-line); }
+  .recipes-faq { margin-top: var(--m-block); padding-top: var(--m-block); }
+  .recipes-faq__title { font-size: var(--m-h2); margin-bottom: var(--m-gap); line-height: var(--m-line); }
+  .recipes-faq-item { padding: var(--m-gap) 0; }
+  .recipes-faq-q { font-size: var(--m-h3); margin-bottom: var(--m-gap); line-height: var(--m-line); }
+  .recipes-faq-a { font-size: var(--m-p); line-height: var(--m-line); }
+}
 </style>

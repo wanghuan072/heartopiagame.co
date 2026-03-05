@@ -717,7 +717,6 @@ const selectedCharIndex = ref(0)
   position: relative;
   z-index: 1;
   text-align: center;
-  padding: 0 0 4rem 0;
 }
 
 .hero-glass {
@@ -1154,7 +1153,7 @@ const selectedCharIndex = ref(0)
   text-decoration: underline;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   .db-bento {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1162,7 +1161,7 @@ const selectedCharIndex = ref(0)
     grid-column: span 2;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .db-bento {
     grid-template-columns: 1fr;
   }
@@ -1467,7 +1466,7 @@ const selectedCharIndex = ref(0)
   min-height: 280px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   .map-content {
     grid-template-columns: 1fr;
   }
@@ -1516,5 +1515,205 @@ const selectedCharIndex = ref(0)
 }
 .faq-a a:hover {
   text-decoration: underline;
+}
+
+/* ---------- 响应式：1024 iPad / 768 移动端 ---------- */
+@media (max-width: 1024px) {
+  .why-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .why-section,
+  .map-section,
+  .db-section,
+  .checklist-section,
+  .characters-section,
+  .faq-section {
+    padding: 3rem 0;
+  }
+  .checklist-board {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  /* 移动端设计 token：只在此处改数值，下面全部用变量引用 */
+  .home-page {
+    --m-h1: 1.5rem;
+    --m-h2: 1.3rem;
+    --m-h3: 1.1rem;
+    --m-p: 0.8rem;
+    --m-line: 1.2;
+    --m-gap: 0.7rem;      /* 标题/标签与内容间距 */
+    --m-block: 1rem;      /* 板块 padding、大间距 */
+    --m-tight: 0.75rem;   /* 网格/列表 gap */
+  }
+
+  .hero-section,
+  .why-section,
+  .map-section,
+  .db-section,
+  .checklist-section,
+  .characters-section,
+  .faq-section {
+    padding: var(--m-block) 0;
+  }
+
+  .hero-section {
+    min-height: auto;
+  }
+  .hero-glass {
+    padding: var(--m-block);
+    margin-bottom: var(--m-block);
+
+  }
+  .hero-glass h1 {
+    font-size: var(--m-h1);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .hero-badge,
+  .why-icon,
+  .map-icon-wrap,
+  .db-card-pill,
+  .db-card-icon-wrap {
+    margin-bottom: var(--m-gap);
+  }
+  .hero-desc,
+  .section-desc,
+  .map-desc {
+    font-size: var(--m-p);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .hero-ctas {
+    gap: var(--m-gap);
+  }
+  .hero-ctas .btn {
+    padding: 0.6rem var(--m-block);
+    font-size: var(--m-p);
+  }
+  .hero-downloads {
+    margin-top: var(--m-block);
+    gap: var(--m-gap);
+  }
+  .store-pill,
+  .store-bottom {
+    font-size: var(--m-p);
+  }
+  .store-pill {
+    padding: 0.5rem var(--m-block);
+  }
+
+  .section-heading,
+  .map-title,
+  .db-heading {
+    font-size: var(--m-h2);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+
+  .why-grid {
+    grid-template-columns: 1fr;
+    gap: var(--m-tight);
+  }
+  .why-card {
+    padding: var(--m-block);
+  }
+  .why-card h3 {
+    font-size: var(--m-h3);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .why-card p {
+    font-size: var(--m-p);
+    line-height: var(--m-line);
+  }
+
+  .map-content {
+    padding: var(--m-block);
+    gap: var(--m-tight);
+  }
+  .map-features li,
+  .map-btn {
+    font-size: var(--m-p);
+    line-height: var(--m-line);
+  }
+  .map-features {
+    margin-bottom: var(--m-gap);
+  }
+
+  .db-desc {
+    font-size: var(--m-p);
+    margin-bottom: var(--m-tight);
+    line-height: var(--m-line);
+  }
+  .db-bento {
+    gap: var(--m-tight);
+    margin-bottom: var(--m-tight);
+  }
+  .db-card,
+  .db-cell--feature .db-card,
+  .db-cell--tile .db-card {
+    padding: var(--m-block);
+  }
+  .db-cell--feature .db-card {
+    min-height: auto;
+  }
+  .db-card-title {
+    font-size: var(--m-h3);
+    line-height: var(--m-line);
+  }
+  .db-cell--feature .db-card-title {
+    margin-bottom: var(--m-gap);
+  }
+  .db-cell--feature .db-card-tagline,
+  .db-wiki-link {
+    font-size: var(--m-p);
+    line-height: var(--m-line);
+  }
+
+  .checklist-board {
+    grid-template-columns: 1fr;
+    gap: var(--m-tight);
+  }
+  .checklist-column {
+    padding: var(--m-block);
+  }
+  .checklist-column h3 {
+    font-size: var(--m-h3);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .check-line strong,
+  .check-line span {
+    font-size: var(--m-p);
+    line-height: var(--m-line);
+  }
+
+  .characters-head {
+    margin-bottom: var(--m-tight);
+  }
+  .characters-gallery-name {
+    font-size: var(--m-h3);
+    padding: var(--m-gap) var(--m-block);
+    line-height: var(--m-line);
+  }
+
+  .faq-list {
+    gap: var(--m-tight);
+  }
+  .faq-item {
+    padding-bottom: var(--m-gap);
+  }
+  .faq-q {
+    font-size: var(--m-h3);
+    line-height: var(--m-line);
+  }
+  .faq-a {
+    font-size: var(--m-p);
+    margin-top: var(--m-gap);
+    line-height: var(--m-line);
+  }
 }
 </style>

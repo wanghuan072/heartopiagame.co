@@ -356,6 +356,8 @@ export default {
     legalBack: '← Home',
     lastUpdated: 'Last updated: February 27, 2026.',
     languageSwitcher: { label: 'Switch language' },
+    openMenu: 'Open menu',
+    closeMenu: 'Close menu',
   },
   CodesPage: {
     hero: {

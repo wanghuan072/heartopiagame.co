@@ -358,4 +358,32 @@ const filteredInsects = computed(() => {
   color: var(--color-text-muted);
   line-height: 1.55;
 }
+
+@media (max-width: 1024px) {
+  .insects-list { gap: 0.75rem; }
+  .insects-intro { margin-top: 1.5rem; padding: 1.25rem; }
+  .insects-faq { margin-top: 1.5rem; padding-top: 1.25rem; }
+}
+
+@media (max-width: 768px) {
+  .insects-page {
+    --m-h1: 1.5rem; --m-h2: 1.3rem; --m-h3: 1.1rem; --m-p: 0.8rem; --m-line: 1.2; --m-gap: 0.7rem; --m-block: 1rem; --m-tight: 0.75rem;
+  }
+  .insects-hero .wiki-hero__title { font-size: var(--m-h1); line-height: var(--m-line); }
+  .insects-hero .wiki-hero__subtitle { font-size: var(--m-p); margin-bottom: var(--m-gap); line-height: var(--m-line); }
+  .insects-hero .wiki-hero { margin-bottom: var(--m-block); padding: var(--m-block); }
+  .insects-count { font-size: var(--m-p); margin-bottom: var(--m-gap); line-height: var(--m-line); }
+  .insects-list { gap: var(--m-tight); }
+  .insects-row { padding: var(--m-block); }
+  .insects-name { font-size: var(--m-h3); line-height: var(--m-line); }
+  .insects-meta, .insects-tag { font-size: var(--m-p); line-height: var(--m-line); }
+  .insects-intro { margin-top: var(--m-block); padding: var(--m-block); }
+  .insects-intro__title { font-size: var(--m-h2); margin-bottom: var(--m-gap); line-height: var(--m-line); }
+  .insects-intro__lead, .insects-intro__text { font-size: var(--m-p); line-height: var(--m-line); }
+  .insects-faq { margin-top: var(--m-block); padding-top: var(--m-block); }
+  .insects-faq__title { font-size: var(--m-h2); margin-bottom: var(--m-gap); line-height: var(--m-line); }
+  .insects-faq-item { padding-bottom: var(--m-gap); }
+  .insects-faq-q { font-size: var(--m-h3); margin-bottom: var(--m-gap); line-height: var(--m-line); }
+  .insects-faq-a { font-size: var(--m-p); line-height: var(--m-line); }
+}
 </style>

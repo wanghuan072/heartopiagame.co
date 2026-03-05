@@ -180,10 +180,70 @@ const events = [
   grid-template-columns: 1fr 1fr;
   gap: 2rem 2.5rem;
 }
+@media (max-width: 1024px) {
+  .events-list-main {
+    padding: 0 0 2rem;
+  }
+  .events-list-footer {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    gap: 1.5rem;
+  }
+  .events-extra {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+  }
+}
+
 @media (max-width: 768px) {
+  .events-list-page {
+    --m-h2: 1.3rem; --m-p: 0.8rem; --m-line: 1.2; --m-gap: 0.7rem; --m-block: 1rem;
+    padding-bottom: var(--m-block);
+  }
+  .events-list-main {
+    padding: 0 0 var(--m-block);
+  }
+  .events-list-item {
+    padding: var(--m-gap) 0;
+    flex-wrap: wrap;
+  }
+  .events-list-title {
+    font-size: var(--m-p);
+    line-height: var(--m-line);
+  }
+  .events-list-meta {
+    font-size: var(--m-p);
+    line-height: var(--m-line);
+  }
   .events-list-footer {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    margin-top: var(--m-block);
+    padding-top: var(--m-block);
+    gap: var(--m-gap);
+  }
+  .events-list-footer-title {
+    font-size: var(--m-h2);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .events-list-about p,
+  .events-list-what,
+  .events-list-bullets li {
+    font-size: var(--m-p);
+    line-height: var(--m-line);
+  }
+  .events-list-note {
+    font-size: var(--m-p);
+    padding: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .events-extra {
+    margin-top: var(--m-block);
+    padding-top: var(--m-block);
+  }
+  .events-extra p {
+    font-size: var(--m-p);
+    line-height: var(--m-line);
   }
 }
 

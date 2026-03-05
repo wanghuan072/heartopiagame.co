@@ -155,7 +155,30 @@ function formatDate(iso) {
   line-height: 1.55;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
+  .guide-list-main {
+    padding: 1.5rem 0;
+  }
+  .guide-list {
+    gap: 1rem;
+  }
+  .guides-intro {
+    margin-top: 1.5rem;
+    padding: 1.25rem;
+  }
+  .guides-faq {
+    margin-top: 1.5rem;
+    padding-top: 1.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .guide-list-page {
+    --m-h2: 1.3rem; --m-h3: 1.1rem; --m-p: 0.8rem; --m-line: 1.2; --m-gap: 0.7rem; --m-block: 1rem; --m-tight: 0.75rem;
+  }
+  .guide-list-main {
+    padding: var(--m-block) 0;
+  }
   .guide-list-card {
     grid-template-columns: 1fr;
   }
@@ -163,7 +186,51 @@ function formatDate(iso) {
     aspect-ratio: 2 / 1;
   }
   .guide-list-body {
-    padding: 1rem 1.25rem 1.25rem;
+    padding: var(--m-block);
+  }
+  .guide-list-title {
+    font-size: var(--m-h3);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .guide-list-desc-card {
+    font-size: var(--m-p);
+    line-height: var(--m-line);
+  }
+  .guides-intro {
+    margin-top: var(--m-block);
+    padding: var(--m-block);
+  }
+  .guides-intro__title {
+    font-size: var(--m-h2);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .guides-intro__lead,
+  .guides-intro__text {
+    font-size: var(--m-p);
+    line-height: var(--m-line);
+  }
+  .guides-faq {
+    margin-top: var(--m-block);
+    padding-top: var(--m-block);
+  }
+  .guides-faq__title {
+    font-size: var(--m-h2);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .guides-faq-item {
+    padding-bottom: var(--m-gap);
+  }
+  .guides-faq-q {
+    font-size: var(--m-h3);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .guides-faq-a {
+    font-size: var(--m-p);
+    line-height: var(--m-line);
   }
 }
 

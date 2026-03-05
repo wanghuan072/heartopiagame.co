@@ -224,9 +224,10 @@ const eventStatusLabel = computed(() => statusLabel(eventStatus))
 .detail-body .detail-card--tips {
   grid-column: 1 / -1;
 }
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   .detail-body {
     grid-template-columns: 1fr;
+    gap: 1rem;
   }
   .detail-body .detail-card--info,
   .detail-body .detail-card--items,
@@ -235,6 +236,69 @@ const eventStatusLabel = computed(() => statusLabel(eventStatus))
   .detail-body .detail-card--double,
   .detail-body .detail-card--tips {
     grid-column: 1;
+  }
+  .detail {
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .detail {
+    --m-h1: 1.5rem; --m-h2: 1.3rem; --m-h3: 1.1rem; --m-p: 0.8rem; --m-line: 1.2; --m-gap: 0.7rem; --m-block: 1rem; --m-tight: 0.75rem;
+    padding: var(--m-block) 0;
+  }
+  .detail-hero-title {
+    font-size: var(--m-h1);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .detail-hero-desc {
+    font-size: var(--m-p);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .detail-hero-chips span {
+    font-size: var(--m-p);
+  }
+  .detail-body {
+    gap: var(--m-tight);
+  }
+  .detail-card {
+    padding: var(--m-block);
+  }
+  .detail-card-title {
+    font-size: var(--m-h3);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .detail-card-desc,
+  .detail-card-note {
+    font-size: var(--m-p);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .detail-kv dt,
+  .detail-kv dd {
+    font-size: var(--m-p);
+    line-height: var(--m-line);
+  }
+  .detail-two-col {
+    grid-template-columns: 1fr;
+    gap: var(--m-gap);
+  }
+  .detail-two-col h3 {
+    font-size: var(--m-h3);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .detail-list {
+    font-size: var(--m-p);
+    line-height: var(--m-line);
+  }
+  .detail-card-more {
+    font-size: var(--m-p);
+    margin-top: var(--m-gap);
+    line-height: var(--m-line);
   }
 }
 

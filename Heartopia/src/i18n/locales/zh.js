@@ -356,6 +356,8 @@ export default {
         legalBack: '← 返回首页',
         lastUpdated: '最后更新于：2026 年 2 月 27 日。',
         languageSwitcher: { label: '切换语言' },
+        openMenu: '打开菜单',
+        closeMenu: '关闭菜单',
     },
     CodesPage: {
         hero: {

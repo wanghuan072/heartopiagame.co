@@ -260,4 +260,32 @@ const filteredForageables = computed(() => {
   color: var(--color-text-muted);
   line-height: 1.55;
 }
+
+@media (max-width: 1024px) {
+  .foraging-list { gap: 0.75rem; }
+  .foraging-intro { margin-top: 1.5rem; padding: 1.25rem; }
+  .foraging-faq { margin-top: 1.5rem; padding-top: 1.25rem; }
+}
+
+@media (max-width: 768px) {
+  .foraging-page {
+    --m-h1: 1.5rem; --m-h2: 1.3rem; --m-h3: 1.1rem; --m-p: 0.8rem; --m-line: 1.2; --m-gap: 0.7rem; --m-block: 1rem; --m-tight: 0.75rem;
+  }
+  .foraging-hero .wiki-hero__title { font-size: var(--m-h1); line-height: var(--m-line); }
+  .foraging-hero .wiki-hero__subtitle { font-size: var(--m-p); margin-bottom: var(--m-gap); line-height: var(--m-line); }
+  .foraging-hero .wiki-hero { margin-bottom: var(--m-block); padding: var(--m-block); }
+  .foraging-count { font-size: var(--m-p); margin-bottom: var(--m-gap); line-height: var(--m-line); }
+  .foraging-list { gap: var(--m-tight); }
+  .foraging-row { padding: var(--m-block); }
+  .foraging-name { font-size: var(--m-h3); line-height: var(--m-line); }
+  .foraging-meta, .foraging-tag { font-size: var(--m-p); line-height: var(--m-line); }
+  .foraging-intro { margin-top: var(--m-block); padding: var(--m-block); }
+  .foraging-intro__title { font-size: var(--m-h2); margin-bottom: var(--m-gap); line-height: var(--m-line); }
+  .foraging-intro__lead, .foraging-intro__text { font-size: var(--m-p); line-height: var(--m-line); }
+  .foraging-faq { margin-top: var(--m-block); padding-top: var(--m-block); }
+  .foraging-faq__title { font-size: var(--m-h2); margin-bottom: var(--m-gap); line-height: var(--m-line); }
+  .foraging-faq-item { padding-bottom: var(--m-gap); }
+  .foraging-faq-q { font-size: var(--m-h3); margin-bottom: var(--m-gap); line-height: var(--m-line); }
+  .foraging-faq-a { font-size: var(--m-p); line-height: var(--m-line); }
+}
 </style>

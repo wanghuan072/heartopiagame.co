@@ -183,4 +183,68 @@ function formatDate(iso) {
   color: var(--color-text-soft);
   margin: 0 0 1rem;
 }
+
+@media (max-width: 1024px) {
+  .guide-detail-page {
+    padding: 1.5rem 0 3rem;
+  }
+  .guide-detail-hero {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .guide-detail-page {
+    --m-h1: 1.5rem; --m-h2: 1.3rem; --m-h3: 1.1rem; --m-p: 0.8rem; --m-line: 1.2; --m-gap: 0.7rem; --m-block: 1rem;
+    padding: var(--m-block) 0;
+  }
+  .guide-detail-back {
+    margin-bottom: var(--m-gap);
+    font-size: var(--m-p);
+  }
+  .guide-detail-hero {
+    margin-bottom: var(--m-block);
+  }
+  .guide-detail-title {
+    font-size: var(--m-h1);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .guide-detail-desc {
+    font-size: var(--m-p);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .guide-detail-date {
+    font-size: var(--m-p);
+    margin-bottom: var(--m-gap);
+  }
+  .guide-detail-body {
+    font-size: var(--m-p);
+    line-height: var(--m-line);
+  }
+  .guide-detail-body :deep(h2) {
+    font-size: var(--m-h2);
+    margin: var(--m-block) 0 var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .guide-detail-body :deep(h3) {
+    font-size: var(--m-h3);
+    margin: var(--m-gap) 0 var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .guide-detail-body :deep(p) {
+    margin: 0 0 var(--m-gap);
+  }
+  .guide-detail-missing h1 {
+    font-size: var(--m-h1);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+  .guide-detail-missing p {
+    font-size: var(--m-p);
+    margin-bottom: var(--m-gap);
+    line-height: var(--m-line);
+  }
+}
 </style>

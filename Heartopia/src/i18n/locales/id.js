@@ -356,6 +356,8 @@ export default {
         legalBack: '← Beranda',
         lastUpdated: 'Terakhir diperbarui: 27 Februari 2026.',
         languageSwitcher: { label: 'Ganti bahasa' },
+        openMenu: 'Buka menu',
+        closeMenu: 'Tutup menu',
     },
     CodesPage: {
         hero: {
