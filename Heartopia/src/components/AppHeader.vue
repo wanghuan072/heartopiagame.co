@@ -305,13 +305,13 @@ onUnmounted(() => {
 
 /* 汉堡按钮：默认隐藏，小屏显示 */
 .header-actions {
-  display: none;
+  display: flex;
   align-items: center;
   gap: 0.75rem;
 }
 
 .hamburger-btn {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -433,6 +433,9 @@ onUnmounted(() => {
     display: none;
   }
   .header-actions {
+    display: flex;
+  }
+  .hamburger-btn {
     display: flex;
   }
   .nav-mobile {
