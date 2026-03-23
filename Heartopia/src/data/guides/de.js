@@ -73,4 +73,54 @@ export default [
             <p>Halte dich an diesen Heartopia Einsteiger-Guide für einen reibungslosen Start. Für <a href="/wiki/fish">Fische</a>, <a href="/wiki/crops">Pflanzen</a>, <a href="/wiki/recipes">Rezepte</a> und <a href="/wiki/achievements">Erfolge</a> nutze das <a href="/wiki">Heartopia Wiki</a> im Hauptmenü.</p>
           `,
     },
+    {
+      id: 2,
+      title: 'Heartopia Guide: Tägliche & wöchentliche Quests',
+      description:
+        'Wie tägliche und wöchentliche Quests sowie die Hauptstory Beitragsmedaillen liefern und dein DG-Level voranbringen—mit Checkliste, damit du nicht hinterherhinkst.',
+      publishDate: '2026-03-23',
+      addressBar: 'daily-weekly-quests-dg-medals',
+      imageSrc: '/images/guide/guide01-01.webp',
+      imageAlt: 'Heartopia tägliche Quests und Beitragsmedaillen',
+      seo: {
+        title: 'Heartopia Tägliche & Wöchentliche Quests | Beitragsmedaillen & DG-Level',
+        description:
+          'Heartopia Quest-Guide: Erledige 5 tägliche Quests, wöchentliche Ziele und die Hauptstory für Beitragsmedaillen. Gib sie in der D.G.-Gilde aus, um das DG-Level zu erhöhen.',
+        keywords: 'heartopia, tägliche quests, wöchentliche quests, beitragsmedaillen, dg level, development guild',
+      },
+      detailsHtml: `
+            <h2>Warum Quests in Heartopia wichtig sind</h2>
+            <p>Dein <strong>DG-Level (Development Guild)</strong> schaltet Hobbys, Gebiete und Systeme frei. <strong>Beitragsmedaillen</strong> gibst du in der <strong>D.G. Mitglieder-Gilde</strong> aus, um das DG-Level zu steigern. Zuverlässige Quellen sind <strong>tägliche Quests</strong>, <strong>wöchentliche Quests</strong> und die <strong>Hauptstory</strong>—derselbe Fortschrittszyklus wie im <a href="/guide/beginner-guide">Einsteiger-Guide</a>.</p>
+
+            <h2>Tägliche Quests (5 pro Tag)</h2>
+            <p>Heartopia bietet dir jeden Tag <strong>fünf tägliche Quests</strong>. Sie sind eine der besten Quellen für <strong>Beitragsmedaillen</strong> zum DG-Aufstieg. Mach sie zur Priorität, bevor du Energie in optionale Aktivitäten steckst: Sie setzen sich täglich zurück—was du auslässt, holst du erst im nächsten Zyklus nach.</p>
+            <ul>
+              <li><strong>Quest-Menü beim Einloggen prüfen</strong> — Nimm die fünf Tagesaufgaben und erledige sie sinnvoll (z. B. Stadtbesuche mit Angeln oder Erledigungen kombinieren).</li>
+              <li><strong>Mit der Routine verbinden</strong> — Viele Ziele überschneiden sich mit Gießen, Angeln, NPC-Gesprächen und Kochen—wie im <a href="/guide/beginner-guide">Einsteiger-Guide</a> beschrieben.</li>
+            </ul>
+
+            <h2>Wöchentliche Quests</h2>
+            <p>Neben den Dailies gibt es <strong>wöchentliche Ziele</strong> mit <strong>größeren Belohnungen</strong>. Sie dauern länger—verteile sie über die Woche statt alles auf den letzten Tag zu schieben. Wöchentlicher und täglicher Fortschritt ergänzen sich und versorgen dich mit Medaillen und weiteren Drops.</p>
+
+            <h2>Hauptstory</h2>
+            <p>Die <strong>Hauptgeschichte</strong> vergibt <strong>Beitragsmedaillen</strong> und hilft, <strong>NPCs und Orte freizuschalten</strong>. Wenn sich das DG-Level träge anfühlt, spiel die Story voran—neue Figuren und Gebiete bringen meist mehr Quests und Shops. Die <strong>Zoohandlung von Mrs. Joan</strong> öffnet ab <strong>DG Stufe 12</strong>, siehe unsere <a href="/wiki/pets">Haustiere</a>-Seite.</p>
+
+            <h2>Beitragsmedaillen sinnvoll einsetzen</h2>
+            <p>In der <strong>D.G. Mitglieder-Gilde</strong> tauschst du Beitragsmedaillen gegen <strong>DG-Levelaufstiege</strong>. Plane, was du als Nächstes brauchst: Höheres DG schaltet <strong>Hobby-Erweiterungstickets</strong> und Meilenstein-Features (Haustiere, weitere Hobbys) frei. Konstantes Leveln schlägt Medaillen horten ohne Plan.</p>
+
+            <h2>Bezug zu den Hobbys</h2>
+            <p>DG-Belohnungen und Quests liefern auch <strong>Hobby-Erweiterungstickets</strong> für <strong>Kochen</strong>, <strong><a href="/wiki/birds">Vogelbeobachtung</a></strong>, <strong><a href="/wiki/insects">Insektenfang</a></strong> und Haustierpfade. Danach helfen dir <a href="/wiki/fish">Fische</a>, <a href="/wiki/crops">Pflanzen</a> und <a href="/wiki/recipes">Rezepte</a> im <a href="/wiki">Wiki</a>.</p>
+
+            <h2>Kurz-Checkliste</h2>
+            <ul>
+              <li>Alle <strong>5 täglichen Quests</strong> vor dem Ausloggen erledigen.</li>
+              <li><strong>Wöchentliche</strong> Ziele im Blick behalten und stückweise abarbeiten.</li>
+              <li>Bei stockenden Medaillen oder Freischaltungen die <strong>Hauptstory</strong> voranbringen.</li>
+              <li>Medaillen in der <strong>D.G. Mitglieder-Gilde</strong> einlösen, damit das DG-Level weitersteigt.</li>
+            </ul>
+
+            <h2>Mehr zu Heartopia</h2>
+            <p>Neu dabei? Lies den vollen <a href="/guide/beginner-guide">Heartopia Einsteiger-Guide</a>. Für Codes und zeitlich begrenzte Belohnungen: <a href="/codes">Codes</a>. Sammler finden <a href="/wiki/achievements">Erfolge</a> im <a href="/wiki">Heartopia Wiki</a>.</p>
+          `,
+    },
 ]

@@ -73,4 +73,54 @@ export default [
           <p>Suivez ce guide du débutant Heartopia et vous prendrez un excellent départ. Pour les <a href="/wiki/fish">poissons</a>, les <a href="/wiki/crops">cultures</a>, les <a href="/wiki/recipes">recettes</a> et les <a href="/wiki/achievements">succès</a>, utilisez le <a href="/wiki">Wiki Heartopia</a> depuis le menu principal.</p>
         `,
     },
+    {
+      id: 2,
+      title: 'Heartopia : quêtes quotidiennes et hebdomadaires',
+      description:
+        'Comment les quêtes quotidiennes et hebdomadaires et l’histoire principale fournissent des Médailles de Contribution pour monter en niveau DG (Guilde de Développement), avec une checklist pour ne pas prendre de retard.',
+      publishDate: '2026-03-23',
+      addressBar: 'daily-weekly-quests-dg-medals',
+      imageSrc: '/images/guide/guide01-01.webp',
+      imageAlt: 'Guide des quêtes quotidiennes et médailles DG Heartopia',
+      seo: {
+        title: 'Heartopia Quêtes Quotidiennes & Hebdomadaires | Médailles DG & Niveau',
+        description:
+          'Guide des quêtes Heartopia : terminez 5 quêtes quotidiennes, les objectifs hebdomadaires et l’histoire principale pour des Médailles de Contribution. Dépensez-les à la guilde D.G. pour augmenter le niveau DG.',
+        keywords: 'heartopia, quêtes quotidiennes, quêtes hebdomadaires, médailles de contribution, niveau dg, guilde de développement',
+      },
+      detailsHtml: `
+          <h2>Pourquoi les quêtes comptent</h2>
+          <p>Votre <strong>niveau DG (Development Guild)</strong> débloque loisirs, zones et systèmes. Les <strong>Médailles de Contribution</strong> se dépensent à la <strong>Guilde des Membres D.G.</strong> pour monter le DG. Les sources les plus fiables sont les <strong>quêtes quotidiennes</strong>, les <strong>quêtes hebdomadaires</strong> et l’<strong>histoire principale</strong>—la même boucle que notre <a href="/guide/beginner-guide">guide du débutant</a>.</p>
+
+          <h2>Quêtes quotidiennes (5 par jour)</h2>
+          <p>Heartopia propose <strong>cinq quêtes quotidiennes</strong> chaque jour. Les terminer est l’un des meilleurs moyens d’obtenir des <strong>Médailles de Contribution</strong> pour le DG. Traitez-les en priorité avant l’énergie optionnelle : elles se réinitialisent chaque jour, donc ce que vous sautez attend le cycle suivant.</p>
+          <ul>
+            <li><strong>Ouvrez le menu des quêtes à la connexion</strong> — Prenez les cinq quêtes et avancez dans un ordre logique (par exemple, combinez les visites aux PNJ en ville avec la pêche ou des courses).</li>
+            <li><strong>Alignez-les sur votre routine</strong> — Beaucoup d’objectifs recoupent l’arrosage, la pêche, les dialogues et la cuisine, comme dans le <a href="/guide/beginner-guide">guide du débutant</a>.</li>
+          </ul>
+
+          <h2>Quêtes hebdomadaires</h2>
+          <p>En plus des quotidiennes, les <strong>objectifs hebdomadaires</strong> offrent en général des <strong>récompenses plus grosses</strong>. Elles prennent plus de temps—étalez-les sur la semaine plutôt que de tout faire au dernier moment. Le progrès hebdomadaire complète le quotidien ; tous deux nourrissent le DG en médailles et butin.</p>
+
+          <h2>Histoire principale</h2>
+          <p>L’<strong>histoire principale</strong> accorde des <strong>Médailles de Contribution</strong> et aide à <strong>débloquer PNJ et lieux</strong>. Si le DG stagne, faites avancer l’histoire quand vous pouvez : nouvelles zones et personnages apportent souvent plus de quêtes et de boutiques. L’<strong>animalerie de Mme Joan</strong> s’ouvre au <strong>niveau DG 12</strong>, comme sur la page <a href="/wiki/pets">Familiers</a>.</p>
+
+          <h2>Dépenser les médailles intelligemment</h2>
+          <p>À la <strong>Guilde des Membres D.G.</strong>, vous échangez les Médailles de Contribution contre des <strong>montées de niveau DG</strong>. Avant de dépenser, voyez la suite : un DG plus haut débloque des <strong>Tickets d’Extension de Hobby</strong> et des jalons (familiers, loisirs supplémentaires). Monter régulièrement vaut mieux qu’entasser des médailles sans plan.</p>
+
+          <h2>Lien avec les loisirs</h2>
+          <p>Les récompenses DG et les quêtes alimentent aussi les <strong>Tickets d’Extension</strong> pour la <strong>Cuisine</strong>, l’<strong><a href="/wiki/birds">observation d’oiseaux</a></strong>, la <strong><a href="/wiki/insects">capture d’insectes</a></strong> et les soins aux familiers. Ensuite, le <a href="/wiki">Wiki</a> liste les <a href="/wiki/fish">poissons</a>, les <a href="/wiki/crops">cultures</a> et les <a href="/wiki/recipes">recettes</a>.</p>
+
+          <h2>Checklist rapide</h2>
+          <ul>
+            <li>Terminez les <strong>5 quêtes quotidiennes</strong> avant de vous déconnecter.</li>
+            <li>Suivez les objectifs <strong>hebdomadaires</strong> tout au long de la semaine.</li>
+            <li>Si médailles ou déblocages bloquent, faites progresser l’<strong>histoire principale</strong>.</li>
+            <li>Convertissez les médailles à la <strong>Guilde D.G.</strong> pour que le niveau DG continue de monter.</li>
+          </ul>
+
+          <h2>Aller plus loin</h2>
+          <p>Nouveau sur l’île ? Lisez le <a href="/guide/beginner-guide">guide du débutant Heartopia</a> complet. Pour les codes et récompenses limitées dans le temps : page <a href="/codes">Codes</a>. Les collectionneurs peuvent parcourir les <a href="/wiki/achievements">succès</a> du <a href="/wiki">Wiki Heartopia</a>.</p>
+        `,
+    },
   ]

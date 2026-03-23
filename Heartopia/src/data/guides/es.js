@@ -73,4 +73,54 @@ export default [
           <p>Sigue esta guía para principiantes de Heartopia y tendrás un inicio fluido. Para consultar <a href="/wiki/fish">peces</a>, <a href="/wiki/crops">cultivos</a>, <a href="/wiki/recipes">recetas</a> y <a href="/wiki/achievements">logros</a>, usa la <a href="/wiki">Wiki de Heartopia</a> desde el menú principal.</p>
         `,
     },
+    {
+      id: 2,
+      title: 'Guía de misiones diarias y semanales en Heartopia',
+      description:
+        'Cómo las misiones diarias y semanales y la historia principal te dan Medallas de Contribución para subir el nivel DG (Gremio de Desarrollo), con una lista práctica para no quedarte atrás.',
+      publishDate: '2026-03-23',
+      addressBar: 'daily-weekly-quests-dg-medals',
+      imageSrc: '/images/guide/guide01-01.webp',
+      imageAlt: 'Guía de misiones diarias y medallas DG en Heartopia',
+      seo: {
+        title: 'Heartopia Misiones Diarias y Semanales | Medallas de Contribución y Nivel DG',
+        description:
+          'Guía de misiones en Heartopia: completa 5 misiones diarias, objetivos semanales y la historia principal para obtener Medallas de Contribución y subir de nivel en el gremio D.G.',
+        keywords: 'heartopia, misiones diarias, misiones semanales, medallas de contribución, nivel dg, gremio de desarrollo',
+      },
+      detailsHtml: `
+          <h2>Por qué importan las misiones</h2>
+          <p>Tu <strong>nivel DG (Development Guild)</strong> desbloquea pasatiempos, zonas y sistemas. Las <strong>Medallas de Contribución</strong> se gastan en el <strong>Gremio de Miembros D.G.</strong> para subir de nivel. Las fuentes más fiables son las <strong>misiones diarias</strong>, las <strong>misiones semanales</strong> y la <strong>historia principal</strong>—el mismo bucle que resume nuestra <a href="/guide/beginner-guide">guía para principiantes</a>.</p>
+
+          <h2>Misiones diarias (5 al día)</h2>
+          <p>Heartopia ofrece <strong>cinco misiones diarias</strong> cada día. Completarlas es una de las mejores formas de ganar <strong>Medallas de Contribución</strong> para el DG. Priorízalas antes de gastar energía en tareas opcionales: se reinician cada día, así que lo que dejes pendiente se retrasa al siguiente ciclo.</p>
+          <ul>
+            <li><strong>Revisa el menú de misiones al entrar</strong> — Toma las cinco diarias y complétalas en orden lógico (por ejemplo, combina visitas a NPCs en la ciudad con pesca o recados).</li>
+            <li><strong>Únelas a tu rutina</strong> — Muchos objetivos encajan con regar cultivos, pescar, hablar con NPCs y cocinar, como en la <a href="/guide/beginner-guide">guía para principiantes</a>.</li>
+          </ul>
+
+          <h2>Misiones semanales</h2>
+          <p>Además de las diarias, los <strong>objetivos semanales</strong> suelen dar <strong>recompensas mayores</strong>. Tardan más: repártelos a lo largo de la semana en lugar de apurar al final. El progreso semanal suma al diario y ambos alimentan tu DG con medallas y otros premios.</p>
+
+          <h2>Historia principal</h2>
+          <p>La <strong>historia principal</strong> otorga <strong>Medallas de Contribución</strong> y ayuda a <strong>desbloquear NPCs y ubicaciones</strong>. Si el DG va lento, avanza la historia cuando puedas: nuevas áreas y personajes suelen traer más misiones y tiendas. Por ejemplo, la <strong>tienda de mascotas de la señora Joan</strong> se desbloquea en <strong>DG nivel 12</strong>, resumido en nuestra página de <a href="/wiki/pets">mascotas</a>.</p>
+
+          <h2>Gastar medallas con cabeza</h2>
+          <p>En el <strong>Gremio de Miembros D.G.</strong> intercambias Medallas de Contribución por <strong>subidas de nivel DG</strong>. Antes de gastar, mira qué quieres después: un DG más alto desbloquea <strong>Tickets de Expansión de Hobby</strong> y hitos (mascotas, más pasatiempos). Subir de forma constante vale más que acumular medallas sin plan.</p>
+
+          <h2>Relación con los pasatiempos</h2>
+          <p>Las recompensas DG y las misiones también dan <strong>Tickets de Expansión de Hobby</strong> para <strong>Cocina</strong>, <strong><a href="/wiki/birds">observación de aves</a></strong>, <strong><a href="/wiki/insects">captura de insectos</a></strong> y el cuidado de mascotas. Luego usa la <a href="/wiki">Wiki</a> para <a href="/wiki/fish">peces</a>, <a href="/wiki/crops">cultivos</a> y <a href="/wiki/recipes">recetas</a>.</p>
+
+          <h2>Lista rápida</h2>
+          <ul>
+            <li>Termina las <strong>5 misiones diarias</strong> antes de cerrar sesión.</li>
+            <li>Controla los objetivos <strong>semanales</strong> y avanza poco a poco.</li>
+            <li>Si se frenan medallas o desbloqueos, avanza la <strong>historia principal</strong>.</li>
+            <li>Canjea medallas en el <strong>Gremio D.G.</strong> para que el nivel DG siga subiendo.</li>
+          </ul>
+
+          <h2>Más recursos</h2>
+          <p>¿Empiezas ahora? Lee la <a href="/guide/beginner-guide">guía para principiantes de Heartopia</a>. Para códigos y recompensas por tiempo limitado, visita <a href="/codes">Códigos</a>. Los coleccionistas pueden ver <a href="/wiki/achievements">logros</a> en la <a href="/wiki">Wiki de Heartopia</a>.</p>
+        `,
+    },
 ]

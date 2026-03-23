@@ -73,4 +73,54 @@ export default [
         <p>Stick to this Heartopia beginner guide and you’ll have a smooth start. For <a href="/wiki/fish">fish</a>, <a href="/wiki/crops">crops</a>, <a href="/wiki/recipes">recipes</a>, and <a href="/wiki/achievements">achievements</a>, use the <a href="/wiki">Heartopia Wiki</a> from the main menu.</p>
       `,
   },
+  {
+    id: 2,
+    title: 'Heartopia Daily & Weekly Quests Guide',
+    description:
+      'How daily and weekly quests, main story progress, and Contribution Medals fuel your DG (Development Guild) level—plus practical tips so you never fall behind.',
+    publishDate: '2026-03-23',
+    addressBar: 'daily-weekly-quests-dg-medals',
+    imageSrc: '/images/guide/guide01-01.webp',
+    imageAlt: 'Heartopia daily quests and Contribution Medals guide cover',
+    seo: {
+      title: 'Heartopia Daily & Weekly Quests | Contribution Medals & DG Level',
+      description:
+        'Heartopia quest guide: complete 5 daily quests, weekly objectives, and main story for Contribution Medals. Spend medals at the D.G. Guild to raise DG level.',
+      keywords: 'heartopia, daily quests, weekly quests, contribution medals, DG level, development guild',
+    },
+    detailsHtml: `
+        <h2>Why Quests Matter in Heartopia</h2>
+        <p>Your <strong>DG (Development Guild) level</strong> gates hobbies, areas, and systems. <strong>Contribution Medals</strong> are what you spend to level DG at the <strong>D.G. Members Guild</strong>. The most reliable sources of those medals are <strong>daily quests</strong>, <strong>weekly quests</strong>, and the <strong>main story</strong>—the same progression loop highlighted in our <a href="/guide/beginner-guide">beginner guide</a>.</p>
+
+        <h2>Daily Quests (5 per day)</h2>
+        <p>Heartopia gives you <strong>five daily quests</strong> each day. Completing them is one of the best ways to earn <strong>Contribution Medals</strong> for DG level-ups. Make them your top priority before spending energy on optional tasks: they reset on a daily schedule, so progress you skip is delayed until the next cycle.</p>
+        <ul>
+          <li><strong>Check the quest menu when you log in</strong> — Pick the five dailies and complete them in a sensible order (for example, combine town NPC visits with fishing or errands).</li>
+          <li><strong>Pair with your routine</strong> — Many goals overlap with watering crops, fishing, talking to NPCs, and cooking—the same daily loop described in the <a href="/guide/beginner-guide">beginner guide</a>.</li>
+        </ul>
+
+        <h2>Weekly Quests</h2>
+        <p>Beyond dailies, <strong>weekly objectives</strong> reward you with <strong>larger payouts</strong> when finished. They take longer, so spread them across the week instead of rushing at the end. Weekly progress stacks with dailies: both support your DG progress through medals and other rewards.</p>
+
+        <h2>Main Story Progress</h2>
+        <p>The <strong>main story</strong> grants <strong>Contribution Medals</strong> and helps <strong>unlock NPCs and locations</strong>. If DG progress feels slow, push the story when you can—new characters and areas usually mean more quests and shops. For example, <strong>Mrs. Joan’s Pet Store</strong> unlocks at <strong>DG Lv.12</strong>, as summarized on our <a href="/wiki/pets">Pets</a> page.</p>
+
+        <h2>Spending Contribution Medals Wisely</h2>
+        <p>Visit the <strong>D.G. Members Guild</strong> to trade Contribution Medals for <strong>DG level increases</strong>. Before you spend, note what you want next: higher DG unlocks <strong>Hobby Expansion Tickets</strong> and milestone features (including pets and extra hobbies). Steady leveling matters more than sitting on medals with no plan.</p>
+
+        <h2>How This Ties Into Hobbies</h2>
+        <p>DG rewards and quests also feed <strong>Hobby Expansion Tickets</strong>, which unlock <strong>Cooking</strong>, <strong><a href="/wiki/birds">Birdwatching</a></strong>, <strong><a href="/wiki/insects">Insect Catching</a></strong>, and pet-care paths. Once those systems open, lean on the <a href="/wiki">Wiki</a> for <a href="/wiki/fish">fish</a>, <a href="/wiki/crops">crops</a>, and <a href="/wiki/recipes">recipes</a>.</p>
+
+        <h2>Quick Checklist</h2>
+        <ul>
+          <li>Finish all <strong>5 daily quests</strong> before you log off.</li>
+          <li>Track <strong>weekly</strong> goals and chip away through the week.</li>
+          <li>Advance the <strong>main story</strong> when medals or unlocks stall.</li>
+          <li>Redeem medals at the <strong>D.G. Members Guild</strong> so DG level keeps moving.</li>
+        </ul>
+
+        <h2>More on Heartopia</h2>
+        <p>New to the island? Read the full <a href="/guide/beginner-guide">Heartopia beginner guide</a>. For codes and limited-time drops, visit <a href="/codes">Codes</a>. Collectors can browse <a href="/wiki/achievements">Achievements</a> inside the <a href="/wiki">Heartopia Wiki</a>.</p>
+      `,
+  },
 ]

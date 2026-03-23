@@ -73,4 +73,54 @@ export default [
           <p>Ikuti panduan pemula Heartopia ini dan awal permainan Anda akan berjalan lancar. Untuk info <a href="/wiki/fish">ikan</a>, <a href="/wiki/crops">tanaman</a>, <a href="/wiki/recipes">resep</a>, dan <a href="/wiki/achievements">pencapaian</a>, gunakan <a href="/wiki">Heartopia Wiki</a> dari menu utama.</p>
         `,
     },
+    {
+      id: 2,
+      title: 'Panduan Misi Harian & Mingguan Heartopia',
+      description:
+        'Bagaimana misi harian dan mingguan serta cerita utama memberi Medali Kontribusi untuk naik level DG (Development Guild), plus checklist agar progres tidak tertinggal.',
+      publishDate: '2026-03-23',
+      addressBar: 'daily-weekly-quests-dg-medals',
+      imageSrc: '/images/guide/guide01-01.webp',
+      imageAlt: 'Panduan misi harian dan medali DG Heartopia',
+      seo: {
+        title: 'Heartopia Misi Harian & Mingguan | Medali Kontribusi & Level DG',
+        description:
+          'Panduan misi Heartopia: selesaikan 5 misi harian, target mingguan, dan cerita utama untuk Medali Kontribusi. Tukarkan di Guild D.G. untuk menaikkan level DG.',
+        keywords: 'heartopia, misi harian, misi mingguan, medali kontribusi, level dg, development guild',
+      },
+      detailsHtml: `
+          <h2>Mengapa misi penting</h2>
+          <p><strong>Level DG (Development Guild)</strong> membuka hobi, area, dan sistem. <strong>Medali Kontribusi</strong> dibelanjakan di <strong>Guild Anggota D.G.</strong> untuk naik level DG. Sumber paling andal adalah <strong>misi harian</strong>, <strong>misi mingguan</strong>, dan <strong>cerita utama</strong>—sama seperti siklus di <a href="/guide/beginner-guide">panduan pemula</a>.</p>
+
+          <h2>Misi harian (5 per hari)</h2>
+          <p>Heartopia memberi <strong>lima misi harian</strong> setiap hari. Menyelesaikannya adalah cara terbaik untuk Medali Kontribusi guna naik DG. Utamakan sebelum menghabiskan energi untuk hal opsional: misi di-reset harian, jadi yang terlewat baru bisa dikejar di siklus berikutnya.</p>
+          <ul>
+            <li><strong>Cek menu misi saat login</strong> — Ambil lima misi harian dan kerjakan berurutan masuk akal (misalnya gabung kunjungan NPC di kota dengan memancing atau tugas singkat).</li>
+            <li><strong>Satukan dengan rutinitas</strong> — Banyak target overlap dengan menyiram tanaman, memancing, bicara ke NPC, dan memasak—seperti di <a href="/guide/beginner-guide">panduan pemula</a>.</li>
+          </ul>
+
+          <h2>Misi mingguan</h2>
+          <p>Selain harian, <strong>target mingguan</strong> memberi <strong>hadiah lebih besar</strong> saat selesai. Butuh waktu lebih lama—bagi kerjaan sepanjang minggu, jangan menumpuk di hari terakhir. Progres mingguan melengkapi harian; keduanya mendukung DG lewat medali dan reward lain.</p>
+
+          <h2>Cerita utama</h2>
+          <p><strong>Cerita utama</strong> memberi <strong>Medali Kontribusi</strong> dan membantu <strong>membuka NPC serta lokasi</strong>. Jika DG terasa lambat, majukan cerita bila bisa—area dan karakter baru biasanya membawa lebih banyak misi dan toko. <strong>Toko hewan Mrs. Joan</strong> terbuka di <strong>DG Lv.12</strong>, ringkasnya di halaman <a href="/wiki/pets">Peliharaan</a>.</p>
+
+          <h2>Membelanjakan medali dengan bijak</h2>
+          <p>Di <strong>Guild Anggota D.G.</strong> Anda menukar Medali Kontribusi untuk <strong>kenaikan level DG</strong>. Sebelum belanja, tentukan prioritas berikutnya: DG lebih tinggi membuka <strong>Tiket Ekspansi Hobi</strong> dan fitur tonggak (peliharaan, hobi tambahan). Naik level stabil lebih baik daripada menimbun medali tanpa rencana.</p>
+
+          <h2>Hubungan dengan hobi</h2>
+          <p>Reward DG dan misi juga menyalurkan <strong>Tiket Ekspansi Hobi</strong> untuk <strong>Memasak</strong>, <strong><a href="/wiki/birds">Mengamati burung</a></strong>, <strong><a href="/wiki/insects">Menangkap serangga</a></strong>, dan perawatan hewan. Setelah terbuka, gunakan <a href="/wiki">Wiki</a> untuk <a href="/wiki/fish">ikan</a>, <a href="/wiki/crops">tanaman</a>, dan <a href="/wiki/recipes">resep</a>.</p>
+
+          <h2>Checklist singkat</h2>
+          <ul>
+            <li>Selesaikan <strong>5 misi harian</strong> sebelum logout.</li>
+            <li>Pantau target <strong>mingguan</strong> dan kerjakan sedikit demi sedikit.</li>
+            <li>Jika medali atau unlock macet, majukan <strong>cerita utama</strong>.</li>
+            <li>Tukarkan medali di <strong>Guild D.G.</strong> agar level DG terus naik.</li>
+          </ul>
+
+          <h2>Sumber lain</h2>
+          <p>Baru main? Baca <a href="/guide/beginner-guide">panduan pemula Heartopia</a> lengkap. Untuk kode dan hadiah terbatas waktu, kunjungi <a href="/codes">Kode</a>. Kolektor bisa cek <a href="/wiki/achievements">Pencapaian</a> di <a href="/wiki">Heartopia Wiki</a>.</p>
+        `,
+    },
   ]

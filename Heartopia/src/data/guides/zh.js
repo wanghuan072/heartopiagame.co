@@ -73,4 +73,54 @@ export default [
           <p>遵循这份新手指南，你的心动小镇之旅将会非常顺畅。关于<a href="/wiki/fish">鱼类</a>、<a href="/wiki/crops">作物</a>、<a href="/wiki/recipes">菜谱</a>和<a href="/wiki/achievements">成就</a>的详细信息，请通过主菜单进入<a href="/wiki">心动小镇 Wiki</a>。</p>
         `,
     },
+    {
+      id: 2,
+      title: '心动小镇每日与每周任务指南',
+      description:
+        '详解每日任务、每周任务与主线如何产出贡献勋章，以及如何在发展家协会稳步提升发展家（DG）等级，附实用清单，避免进度落后。',
+      publishDate: '2026-03-23',
+      addressBar: 'daily-weekly-quests-dg-medals',
+      imageSrc: '/images/guide/guide01-01.webp',
+      imageAlt: '心动小镇每日任务与贡献勋章指南封面',
+      seo: {
+        title: '心动小镇每日任务与每周任务 | 贡献勋章与发展家等级',
+        description:
+          '心动小镇任务攻略：每天完成 5 个每日任务、每周目标与主线推进以获得贡献勋章，在发展家协会消耗勋章提升 DG 等级。',
+        keywords: '心动小镇, 每日任务, 每周任务, 贡献勋章, 发展家等级, DG, 发展家协会',
+      },
+      detailsHtml: `
+          <h2>为什么任务很重要</h2>
+          <p>你的<strong>发展家（DG）等级</strong>决定爱好、区域与许多系统的解锁。<strong>贡献勋章</strong>是在<strong>发展家协会</strong>消耗、用于提升 DG 等级的货币。勋章最稳定的来源是<strong>每日任务</strong>、<strong>每周任务</strong>与<strong>主线剧情</strong>——与我们的<a href="/guide/beginner-guide">新手指南</a>中描述的循环一致。</p>
+
+          <h2>每日任务（每天 5 个）</h2>
+          <p>游戏每天提供<strong>五个每日任务</strong>，完成它们是获得<strong>贡献勋章</strong>、提升 DG 的重要途径。建议优先于纯休闲玩法处理每日：任务按日刷新，当天未完成的进度会推迟到下一周期。</p>
+          <ul>
+            <li><strong>上线先打开任务界面</strong> — 确认五个每日目标，按合理顺序完成（例如把进城对话与钓鱼、跑腿合并）。</li>
+            <li><strong>与日常习惯结合</strong> — 许多目标与浇水、钓鱼、与 NPC 对话、烹饪重叠，正是<a href="/guide/beginner-guide">新手指南</a>里推荐的每日循环。</li>
+          </ul>
+
+          <h2>每周任务</h2>
+          <p>除每日外，<strong>每周目标</strong>在完成时往往提供<strong>更丰厚的奖励</strong>。耗时更长，建议周内分散完成，避免最后一天赶工。每周进度与每日并行，都能通过勋章与其他奖励支撑 DG 成长。</p>
+
+          <h2>主线剧情</h2>
+          <p><strong>主线故事</strong>会给予<strong>贡献勋章</strong>，并帮助<strong>解锁 NPC 与地点</strong>。若感觉 DG 升级变慢，可在条件允许时推进主线——新区域与角色通常带来更多任务与商店。例如<strong>琼奶奶的宠物店</strong>在<strong>DG 12 级</strong>解锁，概述见<a href="/wiki/pets">宠物</a>页。</p>
+
+          <h2>贡献勋章怎么花才划算</h2>
+          <p>前往<strong>发展家协会</strong>，用贡献勋章换取<strong>DG 等级提升</strong>。消费前先想好下一步目标：更高 DG 会解锁<strong>爱好扩展券</strong>以及里程碑功能（含宠物与更多爱好）。稳定升级比长期囤积勋章更有意义。</p>
+
+          <h2>与爱好系统的关系</h2>
+          <p>DG 奖励与任务也会提供<strong>爱好扩展券</strong>，用于解锁<strong>烹饪</strong>、<strong><a href="/wiki/birds">观鸟</a></strong>、<strong><a href="/wiki/insects">捕虫</a></strong>及宠物相关玩法。解锁后可查阅<a href="/wiki">百科</a>中的<a href="/wiki/fish">鱼类</a>、<a href="/wiki/crops">作物</a>与<a href="/wiki/recipes">菜谱</a>。</p>
+
+          <h2>实用清单</h2>
+          <ul>
+            <li>下线前尽量完成全部<strong>5 个每日任务</strong>。</li>
+            <li>关注<strong>每周</strong>目标，分摊到一周完成。</li>
+            <li>勋章或解锁卡住时，推进<strong>主线</strong>。</li>
+            <li>及时在<strong>发展家协会</strong>消耗勋章，保持 DG 等级持续增长。</li>
+          </ul>
+
+          <h2>延伸阅读</h2>
+          <p>刚入坑可阅读完整的<a href="/guide/beginner-guide">心动小镇新手指南</a>。礼包与限时奖励见<a href="/codes">兑换码</a>页；收集与成就可在<a href="/wiki">心动小镇 Wiki</a>的<a href="/wiki/achievements">成就</a>栏目查看。</p>
+        `,
+    },
   ]
