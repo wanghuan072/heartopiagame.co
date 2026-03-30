@@ -123,4 +123,69 @@ export default [
           <p>Novo na ilha? Leia o <a href="/guide/beginner-guide">guia para iniciantes de Heartopia</a>. Para códigos e recompensas por tempo limitado, veja <a href="/codes">Códigos</a>. Colecionadores podem ver <a href="/wiki/achievements">conquistas</a> na <a href="/wiki">Heartopia Wiki</a>.</p>
         `,
     },
+    {
+      id: 3,
+      title: 'Como eu uso o Mapa Interativo e a Wiki no Heartopia (guia de jogador)',
+      description:
+        'Um fluxo prático do ponto de vista do jogador: planejar rotas, acompanhar colecionáveis e evitar idas e voltas usando o mapa, as listas da Wiki e a página de Códigos.',
+      publishDate: '2026-03-23',
+      addressBar: 'interactive-map-wiki-player-workflow',
+      imageSrc: '/images/guide/guide01-01.webp',
+      imageAlt: 'Guia de jogador: mapa interativo e Wiki de Heartopia',
+      seo: {
+        title: 'Heartopia Mapa Interativo e Wiki | Dicas de fluxo de jogador',
+        description:
+          'Use o mapa interativo e a Wiki juntos para planejar rotas, acompanhar colecionáveis e ganhar tempo. Checklist prática e links úteis.',
+        keywords: 'heartopia, mapa interativo, wiki, guia, dicas, rotas, colecionáveis, códigos',
+      },
+      detailsHtml: `
+          <h2>Por que eu combino Mapa + Wiki</h2>
+          <p>Quando eu jogo Heartopia, tento evitar as “viagens sem foco” em que acabo voltando para o mesmo lugar duas vezes ou esqueço o que eu estava procurando. O que mais funciona para mim é combinar o <a href="/map"><strong>Mapa Interativo</strong></a> com a <a href="/wiki"><strong>Wiki</strong></a>: o mapa me ajuda a decidir <em>onde</em> ir, e a wiki me ajuda a decidir <em>o que</em> buscar.</p>
+
+          <h2>Passo 1: Comece por um objetivo (não por um local)</h2>
+          <p>Antes de abrir o mapa, eu escolho um objetivo claro para a sessão:</p>
+          <ul>
+            <li><strong>Completar uma lista</strong> (peixes, insetos, pássaros etc.).</li>
+            <li><strong>Preparar cozinha/crafting</strong> reunindo ingredientes.</li>
+            <li><strong>Fazer uma rotina de missões</strong> sem ficar indo e voltando.</li>
+          </ul>
+          <p>Com o objetivo definido, eu monto uma checklist rápida na wiki e só então planejo o caminho.</p>
+
+          <h2>Passo 2: Use as listas da Wiki para uma checklist curta</h2>
+          <p>Eu abro a seção certa e escolho poucos alvos (normalmente 3–7). Estas são as páginas que eu mais uso:</p>
+          <ul>
+            <li><a href="/wiki/fish"><strong>Peixes</strong></a></li>
+            <li><a href="/wiki/insects"><strong>Insetos</strong></a> e <a href="/wiki/birds"><strong>Pássaros</strong></a></li>
+            <li><a href="/wiki/crops"><strong>Plantações</strong></a>, <a href="/wiki/flowers"><strong>Flores</strong></a> e <a href="/wiki/foraging"><strong>Coleta</strong></a></li>
+            <li><a href="/wiki/recipes"><strong>Receitas</strong></a></li>
+          </ul>
+          <p>Manter a lista curta é intencional: fica mais fácil completar um circuito e sentir o progresso.</p>
+
+          <h2>Passo 3: Planeje a rota no Mapa Interativo</h2>
+          <p>Depois eu abro o <a href="/map"><strong>Mapa Interativo</strong></a> e transformo a checklist em uma rota. Minha regra é simples: <strong>agrupar objetivos por área</strong> para não ficar atravessando o mapa em zigue-zague.</p>
+          <ul>
+            <li><strong>Agrupe paradas</strong> — Se eu vou a uma área para pescar, aproveito para coletar recursos próximos e fazer paradas em loja/NPC se estiver no caminho.</li>
+            <li><strong>Um loop, um objetivo</strong> — Se a sessão é para ingredientes, eu evito misturar com uma rota grande de compras (a não ser que esteja no caminho).</li>
+          </ul>
+
+          <h2>Passo 4: Guias + Códigos para “vitórias rápidas”</h2>
+          <p>Quando estou sem tempo, duas páginas me ajudam a reduzir tentativa e erro:</p>
+          <ul>
+            <li><a href="/guide"><strong>Guias</strong></a> — para revisar rotinas e desbloqueios.</li>
+            <li><a href="/codes"><strong>Códigos</strong></a> — para copiar e resgatar códigos no jogo quando houver códigos ativos.</li>
+          </ul>
+          <p>Se você está começando, leia o <a href="/guide/beginner-guide">guia de iniciante</a>. Se o gargalo for o DG, veja o <a href="/guide/daily-weekly-quests-dg-medals">guia de missões diárias e semanais</a>.</p>
+
+          <h2>Minha checklist “não desperdice tempo”</h2>
+          <ul>
+            <li><strong>Escolha um objetivo</strong> para a sessão.</li>
+            <li><strong>Selecione 3–7 alvos</strong> na Wiki.</li>
+            <li><strong>Roteirize por áreas</strong> para evitar voltar pelo mesmo caminho.</li>
+            <li><strong>Complete o loop</strong> e depois escolha outro objetivo.</li>
+          </ul>
+
+          <h2>Mais recursos</h2>
+          <p>Explore a <a href="/wiki">Heartopia Wiki</a>, confira <a href="/events">Eventos</a> para conteúdo por tempo limitado e use <a href="/characters">Personagens</a> como referência rápida.</p>
+        `,
+    },
   ]

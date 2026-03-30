@@ -123,4 +123,69 @@ export default [
           <p>刚入坑可阅读完整的<a href="/guide/beginner-guide">心动小镇新手指南</a>。礼包与限时奖励见<a href="/codes">兑换码</a>页；收集与成就可在<a href="/wiki">心动小镇 Wiki</a>的<a href="/wiki/achievements">成就</a>栏目查看。</p>
         `,
     },
+    {
+      id: 3,
+      title: '心动小镇互动地图与百科的玩家使用指南',
+      description:
+        '从玩家角度出发：用互动地图 + 百科列表规划路线、追踪收集目标，并尽量减少来回跑图的时间浪费，附一套我自己常用的清单。',
+      publishDate: '2026-03-23',
+      addressBar: 'interactive-map-wiki-player-workflow',
+      imageSrc: '/images/guide/guide01-01.webp',
+      imageAlt: '心动小镇互动地图与百科使用指南封面',
+      seo: {
+        title: '心动小镇互动地图与百科指南 | 玩家路线规划与收集思路',
+        description:
+          '把互动地图和百科一起用：先定目标、再做清单、再规划路线，减少重复跑图。玩家视角的实用流程与检查清单。',
+        keywords: '心动小镇, 互动地图, 百科, wiki, 指南, 路线规划, 收集, 兑换码',
+      },
+      detailsHtml: `
+          <h2>为什么我会把「地图」和「百科」一起用</h2>
+          <p>我玩心动小镇最怕的就是“想去刷点东西，结果一路逛着逛着忘了目标”，或者同一条路来回跑两遍。对我来说最省时间的做法是：把<a href="/map"><strong>互动地图</strong></a>和<a href="/wiki"><strong>百科（Wiki）</strong></a>配合起来用。地图解决“<em>去哪</em>”，百科解决“<em>找什么</em>”。</p>
+
+          <h2>步骤 1：先定目标，而不是先打开地图</h2>
+          <p>我每次上线都会先定一个明确目标：</p>
+          <ul>
+            <li><strong>补收集</strong>（比如鱼、昆虫、鸟等）。</li>
+            <li><strong>为烹饪/制作做准备</strong>，集中刷一波材料。</li>
+            <li><strong>跑一套任务例行</strong>，尽量不走回头路。</li>
+          </ul>
+          <p>目标明确之后，再去查百科做清单，路线就会顺很多。</p>
+
+          <h2>步骤 2：用百科列表做一份“短清单”</h2>
+          <p>我一般只选 3–7 个目标，不会一次列太多。常用页面主要是这些：</p>
+          <ul>
+            <li><a href="/wiki/fish"><strong>鱼类</strong></a></li>
+            <li><a href="/wiki/insects"><strong>昆虫</strong></a>、<a href="/wiki/birds"><strong>鸟类</strong></a></li>
+            <li><a href="/wiki/crops"><strong>作物</strong></a>、<a href="/wiki/flowers"><strong>花卉</strong></a>、<a href="/wiki/foraging"><strong>采集</strong></a></li>
+            <li><a href="/wiki/recipes"><strong>菜谱</strong></a></li>
+          </ul>
+          <p>短清单的好处是：更容易在一趟行程里做完，完成感强，也更容易坚持。</p>
+
+          <h2>步骤 3：打开互动地图，把清单变成路线</h2>
+          <p>接着我会打开<a href="/map"><strong>互动地图</strong></a>来规划路线。我的原则很简单：<strong>按区域分组</strong>，避免在地图上来回“之”字形穿梭。</p>
+          <ul>
+            <li><strong>把顺路的点打包</strong> — 去一个区域抓鱼/采集时，附近的商店或 NPC 停靠点能顺带就顺带。</li>
+            <li><strong>一趟一个主题</strong> — 材料刷取就专心刷材料，大采购如果不顺路就另开一趟。</li>
+          </ul>
+
+          <h2>步骤 4：需要“快速收益”时，我会看 Guides 和 Codes</h2>
+          <p>时间不多时，有两页能明显减少试错：</p>
+          <ul>
+            <li><a href="/guide"><strong>指南（Guides）</strong></a> — 用来回忆解锁路径或每日节奏。</li>
+            <li><a href="/codes"><strong>兑换码（Codes）</strong></a> — 有可用礼包码时，复制后到游戏内兑换。</li>
+          </ul>
+          <p>新玩家建议先读<a href="/guide/beginner-guide">新手指南</a>；如果你觉得 DG 提升卡住了，可以看<a href="/guide/daily-weekly-quests-dg-medals">每日与每周任务指南</a>。</p>
+
+          <h2>我的“少走弯路”检查清单</h2>
+          <ul>
+            <li><strong>先定一个目标</strong>（收集 / 材料 / 任务）。</li>
+            <li><strong>从百科选 3–7 个目标</strong>做短清单。</li>
+            <li><strong>用地图按区域规划路线</strong>，尽量不走回头路。</li>
+            <li><strong>做完这一趟</strong>再换下一个目标。</li>
+          </ul>
+
+          <h2>更多资源</h2>
+          <p>所有条目可以在<a href="/wiki">心动小镇 Wiki</a>里查找；限时内容可看<a href="/events">活动</a>；需要快速对照角色信息时可用<a href="/characters">角色</a>页。</p>
+        `,
+    },
   ]

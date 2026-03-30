@@ -80,7 +80,7 @@ export default [
         'Cómo las misiones diarias y semanales y la historia principal te dan Medallas de Contribución para subir el nivel DG (Gremio de Desarrollo), con una lista práctica para no quedarte atrás.',
       publishDate: '2026-03-23',
       addressBar: 'daily-weekly-quests-dg-medals',
-      imageSrc: '/images/guide/guide01-01.webp',
+      imageSrc: '/images/guide/guide02-01.webp',
       imageAlt: 'Guía de misiones diarias y medallas DG en Heartopia',
       seo: {
         title: 'Heartopia Misiones Diarias y Semanales | Medallas de Contribución y Nivel DG',
@@ -121,6 +121,71 @@ export default [
 
           <h2>Más recursos</h2>
           <p>¿Empiezas ahora? Lee la <a href="/guide/beginner-guide">guía para principiantes de Heartopia</a>. Para códigos y recompensas por tiempo limitado, visita <a href="/codes">Códigos</a>. Los coleccionistas pueden ver <a href="/wiki/achievements">logros</a> en la <a href="/wiki">Wiki de Heartopia</a>.</p>
+        `,
+    },
+    {
+      id: 3,
+      title: 'Cómo uso el mapa interactivo y la Wiki en Heartopia (guía de jugador)',
+      description:
+        'Un flujo de trabajo desde la perspectiva de un jugador: planificar rutas, seguir coleccionables y evitar viajes innecesarios combinando el mapa, las listas de la Wiki y la página de Códigos.',
+      publishDate: '2026-03-23',
+      addressBar: 'interactive-map-wiki-player-workflow',
+      imageSrc: '/images/guide/guide03-01.webp',
+      imageAlt: 'Guía de jugador: mapa interactivo y Wiki de Heartopia',
+      seo: {
+        title: 'Heartopia Mapa Interactivo y Wiki | Consejos de flujo de jugador',
+        description:
+          'Usa el mapa interactivo y la Wiki juntos para planificar rutas, seguir coleccionables y ahorrar tiempo. Checklist práctica y enlaces útiles.',
+        keywords: 'heartopia, mapa interactivo, wiki, guía, consejos, rutas, coleccionables, códigos',
+      },
+      detailsHtml: `
+          <h2>Por qué combino Mapa + Wiki</h2>
+          <p>Cuando juego Heartopia intento evitar las sesiones de “dar vueltas” en las que termino visitando el mismo sitio dos veces o me olvido de lo que iba a farmear. Lo que mejor me funciona es combinar el <a href="/map"><strong>Mapa interactivo</strong></a> con la <a href="/wiki"><strong>Wiki</strong></a>: el mapa me dice <em>dónde</em> ir y la wiki me ayuda a decidir <em>qué</em> buscar.</p>
+
+          <h2>Paso 1: Empieza por un objetivo (no por una ubicación)</h2>
+          <p>Antes de abrir el mapa, elijo un objetivo claro para la sesión:</p>
+          <ul>
+            <li><strong>Completar una lista</strong> (peces, insectos, aves, etc.).</li>
+            <li><strong>Preparar cocina/crafteo</strong> reuniendo ingredientes.</li>
+            <li><strong>Hacer una rutina de misiones</strong> sin ir y volver.</li>
+          </ul>
+          <p>Con ese objetivo, creo una pequeña “lista de compra” en la wiki y luego planifico la ruta.</p>
+
+          <h2>Paso 2: Crea una checklist corta con las listas de la Wiki</h2>
+          <p>Abro la sección adecuada y selecciono pocos objetivos (normalmente 3–7). Estas son mis páginas más usadas:</p>
+          <ul>
+            <li><a href="/wiki/fish"><strong>Peces</strong></a></li>
+            <li><a href="/wiki/insects"><strong>Insectos</strong></a> y <a href="/wiki/birds"><strong>Aves</strong></a></li>
+            <li><a href="/wiki/crops"><strong>Cultivos</strong></a>, <a href="/wiki/flowers"><strong>Flores</strong></a> y <a href="/wiki/foraging"><strong>Recolección</strong></a></li>
+            <li><a href="/wiki/recipes"><strong>Recetas</strong></a></li>
+          </ul>
+          <p>La clave es mantener la lista corta: así termino el circuito y noto el progreso.</p>
+
+          <h2>Paso 3: Planifica la ruta en el mapa interactivo</h2>
+          <p>Luego abro el <a href="/map"><strong>Mapa interactivo</strong></a> y convierto mi checklist en una ruta. Mi regla personal es <strong>agrupar objetivos por zona</strong> para no cruzar el mapa en zig-zag.</p>
+          <ul>
+            <li><strong>Agrupa paradas</strong> — Si voy a una zona a pescar, aprovecho para recoger recursos cercanos y hacer paradas de tiendas/NPCs que queden a mano.</li>
+            <li><strong>Un circuito, un propósito</strong> — Si estoy farmeando ingredientes, no lo mezclo con una ruta larga de compras salvo que esté de camino.</li>
+          </ul>
+
+          <h2>Paso 4: Guías + Códigos para “victorias rápidas”</h2>
+          <p>Cuando tengo poco tiempo, hay dos páginas que me ahorran prueba y error:</p>
+          <ul>
+            <li><a href="/guide"><strong>Guías</strong></a> — para repasar rutinas y desbloqueos.</li>
+            <li><a href="/codes"><strong>Códigos</strong></a> — para copiar un código y canjearlo en el juego cuando hay códigos activos.</li>
+          </ul>
+          <p>Si eres nuevo, empieza con la <a href="/guide/beginner-guide">guía para principiantes</a>. Si el cuello de botella es el DG, mira la <a href="/guide/daily-weekly-quests-dg-medals">guía de misiones diarias y semanales</a>.</p>
+
+          <h2>Mi checklist “no pierdas tiempo”</h2>
+          <ul>
+            <li><strong>Elige un objetivo</strong> para la sesión.</li>
+            <li><strong>Selecciona 3–7 objetivos</strong> en la Wiki.</li>
+            <li><strong>Haz la ruta por zonas</strong> para evitar backtracking.</li>
+            <li><strong>Termina el circuito</strong> y luego elige otro objetivo.</li>
+          </ul>
+
+          <h2>Más recursos</h2>
+          <p>Explora la <a href="/wiki">Wiki de Heartopia</a>, revisa <a href="/events">Eventos</a> para contenido limitado y usa <a href="/characters">Personajes</a> como referencia rápida.</p>
         `,
     },
 ]

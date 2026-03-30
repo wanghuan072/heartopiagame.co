@@ -80,7 +80,7 @@ export default [
         'Wie tägliche und wöchentliche Quests sowie die Hauptstory Beitragsmedaillen liefern und dein DG-Level voranbringen—mit Checkliste, damit du nicht hinterherhinkst.',
       publishDate: '2026-03-23',
       addressBar: 'daily-weekly-quests-dg-medals',
-      imageSrc: '/images/guide/guide01-01.webp',
+      imageSrc: '/images/guide/guide02-01.webp',
       imageAlt: 'Heartopia tägliche Quests und Beitragsmedaillen',
       seo: {
         title: 'Heartopia Tägliche & Wöchentliche Quests | Beitragsmedaillen & DG-Level',
@@ -121,6 +121,71 @@ export default [
 
             <h2>Mehr zu Heartopia</h2>
             <p>Neu dabei? Lies den vollen <a href="/guide/beginner-guide">Heartopia Einsteiger-Guide</a>. Für Codes und zeitlich begrenzte Belohnungen: <a href="/codes">Codes</a>. Sammler finden <a href="/wiki/achievements">Erfolge</a> im <a href="/wiki">Heartopia Wiki</a>.</p>
+          `,
+    },
+    {
+      id: 3,
+      title: 'So nutze ich Karte & Wiki in Heartopia (Spieler-Workflow)',
+      description:
+        'Ein praxisnaher Spieler-Workflow: Routen planen, Sammelziele verfolgen und unnötige Wege vermeiden – mit interaktiver Karte, Wiki-Listen und Codes-Seite.',
+      publishDate: '2026-03-23',
+      addressBar: 'interactive-map-wiki-player-workflow',
+      imageSrc: '/images/guide/guide03-01.webp',
+      imageAlt: 'Heartopia interaktive Karte und Wiki – Spieler-Guide',
+      seo: {
+        title: 'Heartopia Interaktive Karte & Wiki | Spieler-Workflow',
+        description:
+          'Nutze interaktive Karte und Wiki zusammen, um Routen zu planen, Sammelziele zu tracken und Zeit zu sparen. Praktische Checklisten und Links.',
+        keywords: 'heartopia, interaktive karte, wiki, guide, tipps, route, sammeln, codes',
+      },
+      detailsHtml: `
+            <h2>Warum ich Map + Wiki kombiniere</h2>
+            <p>Beim Spielen möchte ich unnötige Wege vermeiden – diese Sessions, in denen man “einfach losläuft” und am Ende vergisst, was man eigentlich farmen wollte. Am besten klappt das, wenn ich die <a href="/map"><strong>Interaktive Karte</strong></a> mit dem <a href="/wiki"><strong>Wiki</strong></a> kombiniere: Die Karte beantwortet <em>wohin</em> ich gehe, das Wiki beantwortet <em>was</em> ich suche.</p>
+
+            <h2>Schritt 1: Erst ein Ziel wählen (nicht erst den Ort)</h2>
+            <p>Bevor ich die Karte öffne, setze ich mir ein klares Ziel für die nächste Runde:</p>
+            <ul>
+              <li><strong>Eine Liste füllen</strong> (Fische, Insekten, Vögel usw.).</li>
+              <li><strong>Für Kochen/Crafting vorbereiten</strong> und Zutaten sammeln.</li>
+              <li><strong>Eine Quest-Routine</strong> erledigen, ohne ständig zurückzulaufen.</li>
+            </ul>
+            <p>Mit einem Ziel kann ich im Wiki eine kleine Checkliste bauen – und erst dann die Route planen.</p>
+
+            <h2>Schritt 2: Im Wiki eine kurze Checkliste erstellen</h2>
+            <p>Ich öffne die passende Wiki-Kategorie und wähle nur wenige Ziele (meist 3–7). Das sind meine Standardseiten:</p>
+            <ul>
+              <li><a href="/wiki/fish"><strong>Fische</strong></a></li>
+              <li><a href="/wiki/insects"><strong>Insekten</strong></a> und <a href="/wiki/birds"><strong>Vögel</strong></a></li>
+              <li><a href="/wiki/crops"><strong>Pflanzen</strong></a>, <a href="/wiki/flowers"><strong>Blumen</strong></a>, <a href="/wiki/foraging"><strong>Sammeln</strong></a></li>
+              <li><a href="/wiki/recipes"><strong>Rezepte</strong></a></li>
+            </ul>
+            <p>Weniger ist mehr: Eine kurze Liste ist leichter “abzufahren” und fühlt sich nach echtem Fortschritt an.</p>
+
+            <h2>Schritt 3: Route auf der Interaktiven Karte planen</h2>
+            <p>Dann öffne ich die <a href="/map"><strong>Interaktive Karte</strong></a> und mache daraus eine Route. Meine Regel: <strong>Ziele nach Gebiet gruppieren</strong>, damit ich nicht kreuz und quer über die Insel laufe.</p>
+            <ul>
+              <li><strong>Stops bündeln</strong> — Wenn ich für Fisch in ein Gebiet gehe, nehme ich Sammelspots oder Shop-/NPC-Stopps in der Nähe gleich mit.</li>
+              <li><strong>Ein Loop, ein Zweck</strong> — Zutatenfarm ist Zutatenfarm. Große Shopping-Touren mache ich separat, außer es liegt ohnehin auf dem Weg.</li>
+            </ul>
+
+            <h2>Schritt 4: Guides + Codes für schnelle Fortschritte</h2>
+            <p>Wenn ich wenig Zeit habe, helfen mir zwei Seiten, damit ich nicht alles neu ausprobieren muss:</p>
+            <ul>
+              <li><a href="/guide"><strong>Guides</strong></a> — Routinen und Freischaltungen kompakt.</li>
+              <li><a href="/codes"><strong>Codes</strong></a> — Codes schnell kopieren und im Spiel einlösen, wenn welche aktiv sind.</li>
+            </ul>
+            <p>Neu dabei? Starte mit dem <a href="/guide/beginner-guide">Einsteiger-Guide</a>. Wenn DG-Progress dein Bottleneck ist: <a href="/guide/daily-weekly-quests-dg-medals">Guide zu Daily &amp; Weekly Quests</a>.</p>
+
+            <h2>Meine “keine Zeit verschwenden”-Checkliste</h2>
+            <ul>
+              <li><strong>Ein Ziel</strong> für die Session festlegen.</li>
+              <li><strong>3–7 Ziele</strong> aus dem Wiki auswählen.</li>
+              <li><strong>Route nach Gebiet</strong> planen, um Backtracking zu vermeiden.</li>
+              <li><strong>Loop abschließen</strong>, dann neues Ziel setzen.</li>
+            </ul>
+
+            <h2>Mehr Ressourcen</h2>
+            <p>Stöbere im <a href="/wiki">Heartopia Wiki</a>, schau bei <a href="/events">Events</a> für zeitlich begrenzte Inhalte vorbei und nutze <a href="/characters">Characters</a> als Nachschlagewerk.</p>
           `,
     },
 ]

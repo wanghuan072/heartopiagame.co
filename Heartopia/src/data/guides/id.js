@@ -123,4 +123,69 @@ export default [
           <p>Baru main? Baca <a href="/guide/beginner-guide">panduan pemula Heartopia</a> lengkap. Untuk kode dan hadiah terbatas waktu, kunjungi <a href="/codes">Kode</a>. Kolektor bisa cek <a href="/wiki/achievements">Pencapaian</a> di <a href="/wiki">Heartopia Wiki</a>.</p>
         `,
     },
+    {
+      id: 3,
+      title: 'Cara Saya Memakai Peta Interaktif & Wiki Heartopia (Panduan Pemain)',
+      description:
+        'Alur praktis dari sudut pandang pemain: merencanakan rute, melacak koleksi, dan menghindari bolak-balik dengan menggabungkan peta, daftar Wiki, dan halaman Kode.',
+      publishDate: '2026-03-23',
+      addressBar: 'interactive-map-wiki-player-workflow',
+      imageSrc: '/images/guide/guide01-01.webp',
+      imageAlt: 'Panduan pemain: peta interaktif dan Wiki Heartopia',
+      seo: {
+        title: 'Heartopia Peta Interaktif & Wiki | Tips alur pemain',
+        description:
+          'Gunakan peta interaktif dan Wiki bersama untuk merencanakan rute, melacak koleksi, dan menghemat waktu. Checklist praktis dan tautan penting.',
+        keywords: 'heartopia, peta interaktif, wiki, panduan, tips, rute, koleksi, kode',
+      },
+      detailsHtml: `
+          <h2>Kenapa saya menggabungkan Peta + Wiki</h2>
+          <p>Saat main Heartopia, saya berusaha menghindari “jalan-jalan tanpa tujuan” yang bikin saya balik ke tempat yang sama atau lupa apa yang sedang dicari. Cara tercepat menurut saya adalah menggabungkan <a href="/map"><strong>Peta Interaktif</strong></a> dengan <a href="/wiki"><strong>Wiki</strong></a>. Peta membantu menentukan <em>ke mana</em> saya pergi, dan wiki membantu menentukan <em>apa</em> targetnya.</p>
+
+          <h2>Langkah 1: Mulai dari tujuan (bukan lokasi)</h2>
+          <p>Sebelum buka peta, saya pilih satu tujuan jelas untuk sesi ini:</p>
+          <ul>
+            <li><strong>Melengkapi daftar koleksi</strong> (ikan, serangga, burung, dll.).</li>
+            <li><strong>Persiapan masak/crafting</strong> dengan mengumpulkan bahan.</li>
+            <li><strong>Menjalankan rutinitas misi</strong> tanpa banyak bolak-balik.</li>
+          </ul>
+          <p>Setelah tujuannya jelas, saya buat checklist kecil dari wiki, lalu baru menyusun rute.</p>
+
+          <h2>Langkah 2: Pakai daftar Wiki untuk checklist singkat</h2>
+          <p>Saya buka kategori yang relevan dan pilih target sedikit saja (biasanya 3–7 item). Halaman yang paling sering saya pakai:</p>
+          <ul>
+            <li><a href="/wiki/fish"><strong>Ikan</strong></a></li>
+            <li><a href="/wiki/insects"><strong>Serangga</strong></a> dan <a href="/wiki/birds"><strong>Burung</strong></a></li>
+            <li><a href="/wiki/crops"><strong>Tanaman</strong></a>, <a href="/wiki/flowers"><strong>Bunga</strong></a>, dan <a href="/wiki/foraging"><strong>Foraging</strong></a></li>
+            <li><a href="/wiki/recipes"><strong>Resep</strong></a></li>
+          </ul>
+          <p>Checklist yang pendek sengaja saya pilih supaya mudah dituntaskan dalam satu putaran dan progres terasa nyata.</p>
+
+          <h2>Langkah 3: Rencanakan rute di Peta Interaktif</h2>
+          <p>Lalu saya buka <a href="/map"><strong>Peta Interaktif</strong></a> dan mengubah checklist jadi rute. Aturan saya sederhana: <strong>kelompokkan target berdasarkan area</strong> agar tidak zig-zag keliling pulau.</p>
+          <ul>
+            <li><strong>Gabungkan pemberhentian</strong> — Kalau saya ke satu area untuk memancing, saya sekalian cek spot gathering, toko, atau NPC yang dekat.</li>
+            <li><strong>Satu putaran, satu fokus</strong> — Kalau fokusnya bahan masak, saya tidak campur dengan belanja besar-besaran kecuali memang searah.</li>
+          </ul>
+
+          <h2>Langkah 4: Gunakan Guides + Codes untuk “hasil cepat”</h2>
+          <p>Kalau waktu saya sedikit, dua halaman ini mengurangi trial-and-error:</p>
+          <ul>
+            <li><a href="/guide"><strong>Guides</strong></a> — untuk mengingat rutinitas atau jalur unlock.</li>
+            <li><a href="/codes"><strong>Kode</strong></a> — untuk menyalin kode hadiah dan menukarnya di game saat kode tersedia.</li>
+          </ul>
+          <p>Kalau baru mulai, baca <a href="/guide/beginner-guide">panduan pemula</a>. Jika progres DG terasa macet, lihat <a href="/guide/daily-weekly-quests-dg-medals">panduan misi harian &amp; mingguan</a>.</p>
+
+          <h2>Checklist “jangan buang waktu” versi saya</h2>
+          <ul>
+            <li><strong>Pilih satu tujuan</strong> untuk sesi.</li>
+            <li><strong>Pilih 3–7 target</strong> dari daftar Wiki.</li>
+            <li><strong>Susun rute per area</strong> untuk menghindari bolak-balik.</li>
+            <li><strong>Selesaikan putaran</strong>, lalu baru ganti tujuan.</li>
+          </ul>
+
+          <h2>Resource lainnya</h2>
+          <p>Jelajahi <a href="/wiki">Heartopia Wiki</a>, cek <a href="/events">Events</a> untuk konten terbatas waktu, dan gunakan <a href="/characters">Characters</a> sebagai referensi cepat.</p>
+        `,
+    },
   ]
