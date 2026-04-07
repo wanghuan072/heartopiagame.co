@@ -188,4 +188,49 @@ export default [
           <p>Jelajahi <a href="/wiki">Heartopia Wiki</a>, cek <a href="/events">Events</a> untuk konten terbatas waktu, dan gunakan <a href="/characters">Characters</a> sebagai referensi cepat.</p>
         `,
     },
+    {
+      id: 4,
+      title: 'Tips Heartopia: energi, memasak & Sea Fishing',
+      description:
+        'Jangan kehabisan energi di tengah peta; jual lebih pintar dengan masak dulu; Sea Fishing lewat Bill — kurangi tebak-tebakan.',
+      publishDate: '2026-04-07',
+      addressBar: 'energy-cooking-sea-fishing-player-tips',
+      imageSrc: '/images/guide/guide04-01.webp',
+      imageAlt: 'Panduan Heartopia energi memasak Sea Fishing',
+      seo: {
+        title: 'Heartopia Energi, Memasak & Sea Fishing | Tips',
+        description:
+          'Atur energi dengan makanan dan pengumpulan, raih emas lewat memasak, ikut Sea Fishing via Bill. Ikan, resep, pencapaian, karakter.',
+        keywords: 'heartopia, energi, memasak, sea fishing, bill, resep, ikan, pencapaian, tips',
+      },
+      detailsHtml: `
+          <h2>Energi: bukan rute-mu jelek — bahan bakarmu kurang</h2>
+          <p>Skenario klasik: setengah peta, hobi belum selesai, <strong>bar habis</strong>. Memancing dan mengumpulkan sudah makan waktu; item <a href="/wiki/foraging">pengumpulan</a> bisa mengisi, dan setelah <strong>Memasak</strong> terbuka <a href="/wiki/recipes">resep</a> menunjukkan pemulihan energi — pilih hidangan sesuai lama sesi.</p>
+          <ul>
+            <li><strong>Rangkai hobi dengan jeda makan di rencana</strong>, bukan panik di tengah jalan, sebelum ke zona jauh.</li>
+            <li><strong>Selaraskan bahan dengan rute</strong> — cek <a href="/wiki/crops">tanaman</a>, <a href="/wiki/foraging">pengumpulan</a>, dan <a href="/wiki/fish">ikan</a> supaya satu rempah tidak mematikan dapur.</li>
+          </ul>
+          <p>Rutinitas harian: <a href="/guide/beginner-guide">panduan pemula</a>.</p>
+
+          <h2>Memasak: mentah laku; yang matang sering yang bayar tagihan</h2>
+          <p>Emas lambat biasanya dari <strong>menjual semua langsung dari tas</strong>. <strong>Hidangan matang sering mengalahkan tumpukan bahan mentah</strong> dan banyak misi minta sesuatu dari kompor. Pilih <strong>2–3 resep andalan</strong> dari <a href="/wiki/recipes">daftar resep</a> yang benar-benar bisa kamu suplai — masak asal menghabiskan waktu dan bahan.</p>
+          <ul>
+            <li><strong>Simpan cadangan bahan kecil</strong> agar misi harian tidak macet karena tomat terakhir sudah terjual.</li>
+          </ul>
+
+          <h2>Sea Fishing: siapa penyelenggara & ikan “event” itu apa</h2>
+          <p><strong>Sea Fishing</strong> adalah sudut perahu/grup, bukan mancing di tepi. <strong>Bill</strong> adalah <strong>Sea Fishing Host</strong> di <strong>Fishing Village</strong>; lewat dia kamu ikut dengan teman atau pemain lain di kota. Lupa lokasi? <a href="/characters">Daftar karakter</a> menunjuk posisinya.</p>
+          <p>Untuk koleksi: <a href="/wiki/fish">daftar ikan</a> menandai <strong>Sea Fishing</strong> supaya tidak mencampur tabel air biasa dengan pool event. <a href="/wiki/achievements">Pencapaian</a>: <strong>Sea Fishing Master</strong> minta <strong>tiga hiu dari golden fish shadows dalam satu Sea Fishing Event</strong> — berat tapi jelas; rank hobi memancing lebih tinggi dan memprioritaskan bayangan emas adalah tuas yang kamu kendalikan.</p>
+
+          <h2>Sebelum tutup game</h2>
+          <ul>
+            <li>Bawa <a href="/wiki/recipes">makanan</a> jika sesi lebih dari putaran singkat.</li>
+            <li>Masak batch saat loop farm dan daftar resep pendek cocok.</li>
+            <li>Hari perahu: cari <strong>Bill</strong>, lalu cocokkan <a href="/wiki/fish">entri Sea Fishing</a> dan bagian Sea Fishing di <a href="/wiki/achievements">pencapaian</a>.</li>
+          </ul>
+
+          <h2>Bacaan lanjutan</h2>
+          <p><a href="/guide/daily-weekly-quests-dg-medals">Misi harian & mingguan & medali DG</a> · <a href="/guide/interactive-map-wiki-player-workflow">Peta + wiki untuk rute</a> · <a href="/codes">Kode</a> · <a href="/events">Events</a></p>
+        `,
+    },
   ]

@@ -110,10 +110,11 @@ export default {
             keywords: 'Heartopia 宠物, Heartopia 猫, Heartopia 狗, Heartopia 宠物护理',
         },
         'guide-list': {
-            title: 'Heartopia 指南 | 新手技巧、代码、赚钱',
+            title: 'Heartopia 指南 | 新手、体力、烹饪、海上钓鱼',
             description:
-                'Heartopia 指南：新手技巧、赚钱方法、礼包码和分步文章。您的 Heartopia 游戏技巧与攻略中心。从这里开始。',
-            keywords: 'Heartopia 指南, Heartopia 新手指南, Heartopia 技巧',
+                'Heartopia 指南：新手起步、DG 每日与每周任务、地图与百科路线、体力与烹饪、海上钓鱼与 Bill、兑换码与赚钱思路，分步攻略一站汇总。',
+            keywords:
+                'Heartopia 指南, Heartopia 新手指南, Heartopia 技巧, Heartopia 体力, Heartopia 烹饪, Heartopia 海上钓鱼, Heartopia DG 任务',
         },
         'guide-detail': {
             title: 'Heartopia 指南与百科 | 配方、地图、兑换码、角色',

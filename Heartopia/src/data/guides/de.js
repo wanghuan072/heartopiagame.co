@@ -188,4 +188,49 @@ export default [
             <p>Stöbere im <a href="/wiki">Heartopia Wiki</a>, schau bei <a href="/events">Events</a> für zeitlich begrenzte Inhalte vorbei und nutze <a href="/characters">Characters</a> als Nachschlagewerk.</p>
           `,
     },
+    {
+      id: 4,
+      title: 'Heartopia Tipps: Energie, Kochen & Sea Fishing',
+      description:
+        'Nicht mitten auf der Route leer werden, mit Kochen smarter verkaufen und Sea Fishing über Bill starten — weniger Rätselraten.',
+      publishDate: '2026-04-07',
+      addressBar: 'energy-cooking-sea-fishing-player-tips',
+      imageSrc: '/images/guide/guide04-01.webp',
+      imageAlt: 'Heartopia Guide Energie Kochen Sea Fishing',
+      seo: {
+        title: 'Heartopia Energie, Kochen & Sea Fishing | Spieler-Tipps',
+        description:
+          'Energie mit Essen und Sammeln im Griff, mit Kochen mehr Gold, Sea Fishing mit Bill. Fischliste, Rezepte, Erfolge, Charaktere.',
+        keywords: 'heartopia, energie, kochen, sea fishing, bill, rezepte, fische, achievements, tipps',
+      },
+      detailsHtml: `
+            <h2>Energie: du routest nicht „schlecht“ — du bist unterversorgt</h2>
+            <p>Der Klassiker: du bist halb über die Karte, Hobbys stehen noch an, und die <strong>Leiste ist leer</strong>. Angeln und Sammeln fressen Zeit; <a href="/wiki/foraging">Sammel</a>-Items füllen nach, und mit <strong>Kochen</strong> zeigen <a href="/wiki/recipes">Rezepte</a>, wie viel Energie zurückkommt — wähle Gerichte passend zur geplanten Session-Länge.</p>
+            <ul>
+              <li><strong>Hobbys ketten, aber Essen im Plan</strong>, nicht als Panik-Stop, bevor du in weite Zonen gehst.</li>
+              <li><strong>Zutaten zur Route passend machen</strong> — <a href="/wiki/crops">Pflanzen</a>, <a href="/wiki/foraging">Sammeln</a>, <a href="/wiki/fish">Fische</a> kurz checken, damit nicht ein Kraut die Küche killt.</li>
+            </ul>
+            <p>Tagesstruktur: <a href="/guide/beginner-guide">Einsteiger-Guide</a>.</p>
+
+            <h2>Kochen: roh geht — gekocht zahlt oft die Rechnung</h2>
+            <p>Wenn Gold tröpfelt, ist der häufige Fehler: <strong>alles direkt aus dem Inventar verkaufen</strong>. <strong>Gekochte Gerichte schlagen oft Rohstapel</strong>, und Quests wollen oft was vom Herd. Such dir <strong>2–3 Stammrezepte</strong> aus der <a href="/wiki/recipes">Rezeptliste</a>, die du wirklich befüllen kannst — Zufallskochen verbrennt Zeit und Mats.</p>
+            <ul>
+              <li><strong>Kleine Zutatenreserve</strong>, damit ein Daily nicht scheitert, weil du die letzte Tomate verkauft hast.</li>
+            </ul>
+
+            <h2>Sea Fishing: wer’s hostet und was „Event“-Fisch ist</h2>
+            <p><strong>Sea Fishing</strong> ist Boot/Gruppen-Winkel — nicht Ufer-Idle. <strong>Bill</strong> ist <strong>Sea Fishing Host</strong> im <strong>Fishing Village</strong>; bei ihm steigst du ein mit Freunden oder Leuten aus der Stadt. Standort vergessen? <a href="/characters">Charakterliste</a> zeigt ihn.</p>
+            <p>Für Sammler: die <a href="/wiki/fish">Fischliste</a> markiert <strong>Sea Fishing</strong>, damit du normale Gewässer nicht mit Event-Pools verwechselst. <a href="/wiki/achievements">Erfolge</a>: <strong>Sea Fishing Master</strong> verlangt <strong>drei Haie aus golden fish shadows in einem Sea-Fishing-Event</strong> — hart, aber klar; höheres Angel-Ranking und Fokus auf goldene Schatten sind dein Hebel.</p>
+
+            <h2>Bevor du ausloggst</h2>
+            <ul>
+              <li><a href="/wiki/recipes">Essen</a> einpacken, wenn die Runde länger als ein Kurzlap ist.</li>
+              <li>Batch-Kochen, wenn Farm-Loop und Rezept-Kurzliste zusammenpassen.</li>
+              <li>Boot-Tag: <strong>Bill</strong> finden, dann <a href="/wiki/fish">Sea-Fishing-Einträge</a> und Sea-Fishing bei <a href="/wiki/achievements">Achievements</a> abgleichen.</li>
+            </ul>
+
+            <h2>Weiterlesen</h2>
+            <p><a href="/guide/daily-weekly-quests-dg-medals">Daily &amp; Weekly Quests &amp; DG-Medaillen</a> · <a href="/guide/interactive-map-wiki-player-workflow">Karte + Wiki Routen</a> · <a href="/codes">Codes</a> · <a href="/events">Events</a></p>
+          `,
+    },
 ]

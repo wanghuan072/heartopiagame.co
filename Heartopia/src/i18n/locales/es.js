@@ -110,10 +110,11 @@ export default {
             keywords: 'mascotas de Heartopia, gatos Heartopia, perros Heartopia, cuidado de mascotas Heartopia',
         },
         'guide-list': {
-            title: 'Guías de Heartopia | Consejos para Principiantes, Códigos, Dinero',
+            title: 'Guías Heartopia | Principiante, energía, cocina, pesca en alta mar',
             description:
-                'Guías de Heartopia: consejos para principiantes, cómo ganar dinero, códigos de regalo y artículos paso a paso. Tu centro de guías de Heartopia para todos los consejos y tutoriales. Empieza aquí.',
-            keywords: 'guías de Heartopia, guía para principiantes Heartopia, consejos Heartopia',
+                'Guías Heartopia: inicio, misiones DG diarias y semanales, rutas mapa + wiki, energía y cocina, Sea Fishing con Bill, códigos y oro — artículos paso a paso en un solo hub.',
+            keywords:
+                'guías de Heartopia, guía para principiantes Heartopia, consejos Heartopia, Heartopia energía, Heartopia cocina, Heartopia Sea Fishing, Heartopia misiones DG',
         },
         'guide-detail': {
             title: 'Guía y Wiki de Heartopia | Recetas, Mapa, Códigos, Personajes',

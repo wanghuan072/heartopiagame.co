@@ -110,10 +110,11 @@ export default {
             keywords: 'สัตว์เลี้ยง Heartopia, แมว Heartopia, หมา Heartopia, การดูแลสัตว์เลี้ยง Heartopia',
         },
         'guide-list': {
-            title: 'คู่มือ Heartopia | เทคนิคสำหรับมือใหม่, โค้ด, การหาเงิน',
+            title: 'คู่มือ Heartopia | มือใหม่, พลังงาน, ทำอาหาร, Sea Fishing',
             description:
-                'คู่มือ Heartopia: เทคนิคเริ่มเล่น, การหาเงิน, โค้ดของขวัญ และบทความสอนทีละขั้นตอน ศูนย์รวมคู่มือ Heartopia สำหรับเทคนิคการเล่นและบทสรุป เริ่มต้นที่นี่',
-            keywords: 'คู่มือ Heartopia, คู่มือมือใหม่ Heartopia, เทคนิค Heartopia',
+                'คู่มือ Heartopia: เริ่มต้น, เควส DG รายวัน/รายสัปดาห์, เวิร์กโฟลว์แผนที่ + wiki, พลังงานและทำอาหาร, Sea Fishing กับ Bill, โค้ดและหาเงิน — บทความทีละขั้นรวมที่เดียว',
+            keywords:
+                'คู่มือ Heartopia, คู่มือมือใหม่ Heartopia, เทคนิค Heartopia, Heartopia พลังงาน, Heartopia ทำอาหาร, Heartopia Sea Fishing, Heartopia เควส DG',
         },
         'guide-detail': {
             title: 'คู่มือและวิกิ Heartopia | สูตรอาหาร, แผนที่, โค้ด, ตัวละคร',

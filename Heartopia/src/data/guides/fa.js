@@ -188,4 +188,49 @@ export default [
           <p>Tout est regroupé dans le <a href="/wiki">Wiki Heartopia</a>. Consultez <a href="/events">Événements</a> pour le contenu limité dans le temps, et utilisez <a href="/characters">Personnages</a> comme page de référence rapide.</p>
         `,
     },
+    {
+      id: 4,
+      title: 'Astuces Heartopia : énergie, cuisine et pêche en mer',
+      description:
+        'Ne restez pas à sec en pleine route, vendez mieux en cuisinant d’abord, la pêche en mer passe par Bill — moins de tâtonnements.',
+      publishDate: '2026-04-07',
+      addressBar: 'energy-cooking-sea-fishing-player-tips',
+      imageSrc: '/images/guide/guide04-01.webp',
+      imageAlt: 'Guide Heartopia énergie cuisine Sea Fishing',
+      seo: {
+        title: 'Heartopia Énergie, Cuisine et Sea Fishing | Astuces',
+        description:
+          'Gérez l’énergie avec la nourriture et la cueillette, gagnez de l’or en cuisinant, rejoignez Sea Fishing avec Bill. Poissons, recettes, succès, personnages.',
+        keywords: 'heartopia, énergie, cuisine, sea fishing, bill, recettes, poissons, succès, astuces',
+      },
+      detailsHtml: `
+          <h2>Énergie : ce n’est pas que vous “mal routez” — vous manquez de carburant</h2>
+          <p>Le classique : mi-parcours, hobbies en attente et <strong>barre vide</strong>. Pêche et cueillette mangent déjà la journée ; les objets de <a href="/wiki/foraging">cueillette</a> remontent la jauge, et avec la <strong>cuisine</strong> les <a href="/wiki/recipes">recettes</a> indiquent l’énergie récupérée — choisissez des plats selon la durée prévue.</p>
+          <ul>
+            <li><strong>Enchaînez les hobbies avec une pause repas planifiée</strong>, pas en dernier recours, avant les zones lointaines.</li>
+            <li><strong>Alignez ingrédients et trajet</strong> — parcourez <a href="/wiki/crops">cultures</a>, <a href="/wiki/foraging">cueillette</a> et <a href="/wiki/fish">poissons</a> pour ne pas bloquer la cuisine pour une herbe.</li>
+          </ul>
+          <p>Cadre quotidien : <a href="/guide/beginner-guide">guide du débutant</a>.</p>
+
+          <h2>Cuisine : le cru se vend ; le cuit paie souvent les factures</h2>
+          <p>L’or lent vient souvent de <strong>tout vendre depuis l’inventaire</strong>. <strong>Les plats prêts battent souvent les piles de matières premières</strong> et beaucoup de quêtes demandent du fourneau. Choisissez <strong>2–3 recettes fixes</strong> dans la <a href="/wiki/recipes">liste des recettes</a> que vous pouvez réellement approvisionner — cuisiner au hasard brûle temps et matériaux.</p>
+          <ul>
+            <li><strong>Gardez une petite réserve d’ingrédients</strong> pour qu’un daily ne casse pas parce que vous avez vendu la dernière tomate.</li>
+          </ul>
+
+          <h2>Sea Fishing : qui organise et qu’est-ce qu’un poisson “événement”</h2>
+          <p><strong>Sea Fishing</strong>, c’est bateau / groupe, pas la rive. <strong>Bill</strong> est le <strong>Sea Fishing Host</strong> au <strong>Fishing Village</strong> ; avec lui vous entrez entre amis ou joueurs en ville. Oublié l’emplacement ? La <a href="/characters">liste des personnages</a> le situe.</p>
+          <p>Pour la collection : la <a href="/wiki/fish">liste des poissons</a> balise <strong>Sea Fishing</strong> pour ne pas mélanger tables d’eau normales et bassins d’événement. <a href="/wiki/achievements">Succès</a> : <strong>Sea Fishing Master</strong> exige <strong>trois requins issus de golden fish shadows lors d’un seul Sea Fishing Event</strong> — dur mais clair ; rang de pêche plus élevé et priorité aux ombres dorées, c’est ce que vous contrôlez.</p>
+
+          <h2>Avant de quitter le jeu</h2>
+          <ul>
+            <li>Emportez de la <a href="/wiki/recipes">nourriture</a> si la session dépasse un aller-retour rapide.</li>
+            <li>Cuisinez en série quand la boucle farm et la shortlist recettes concordent.</li>
+            <li>Jour bateau : trouvez <strong>Bill</strong>, puis croisez les <a href="/wiki/fish">entrées Sea Fishing</a> et l’angle Sea Fishing des <a href="/wiki/achievements">succès</a>.</li>
+          </ul>
+
+          <h2>À lire ensuite</h2>
+          <p><a href="/guide/daily-weekly-quests-dg-medals">Quêtes quotidiennes &amp; hebdomadaires et médailles DG</a> · <a href="/guide/interactive-map-wiki-player-workflow">Carte + wiki pour les routes</a> · <a href="/codes">Codes</a> · <a href="/events">Événements</a></p>
+        `,
+    },
   ]

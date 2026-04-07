@@ -188,4 +188,49 @@ export default [
         <p>Browse everything in the <a href="/wiki">Heartopia Wiki</a>, check <a href="/events">Events</a> for limited-time content, and use the <a href="/characters">Characters</a> page when you need names and references in one place.</p>
       `,
   },
+  {
+    id: 4,
+    title: 'Heartopia Player Tips: Energy, Cooking & Sea Fishing',
+    description:
+      'Stop running dry mid-route, sell smarter by cooking first, and line up Sea Fishing with Bill—energy, gold, and rare catches without the usual guesswork.',
+    publishDate: '2026-04-07',
+    addressBar: 'energy-cooking-sea-fishing-player-tips',
+    imageSrc: '/images/guide/guide04-01.webp',
+    imageAlt: 'Heartopia energy, cooking and sea fishing tips guide cover',
+    seo: {
+      title: 'Heartopia Energy, Cooking & Sea Fishing Tips | Player Guide',
+      description:
+        'Practical Heartopia tips: manage energy with food and foraging, sell smarter with cooking, and join Sea Fishing via Bill. Fish list, recipes, achievements, and character reference.',
+      keywords: 'heartopia, energy, cooking, sea fishing, bill, recipes, fish, achievements, tips',
+    },
+    detailsHtml: `
+        <h2>Energy: you’re not “bad at routing”—you’re under-fueled</h2>
+        <p>The classic pain point is halfway across the map with hobbies left to do and <strong>no bar left</strong>. Fishing and foraging already eat into your day; <a href="/wiki/foraging">forage</a> items can top you up, and once <strong>Cooking</strong> is open, <a href="/wiki/recipes">recipes</a> show how much energy you get back—pick dishes that match how long you plan to stay out.</p>
+        <ul>
+          <li><strong>Chain hobbies with a food stop in the plan</strong>, not as an afterthought, before you commit to the far zones.</li>
+          <li><strong>Line up ingredients with your route</strong> — skim <a href="/wiki/crops">crops</a>, <a href="/wiki/foraging">foraging</a>, and <a href="/wiki/fish">fish</a> so you’re not one missing herb away from a dead kitchen.</li>
+        </ul>
+        <p>More daily structure: <a href="/guide/beginner-guide">beginner guide</a>.</p>
+
+        <h2>Cooking: raw sells; cooked often pays the bills</h2>
+        <p>If gold feels slow, the usual mistake is vending everything straight from the inventory. <strong>Cooked dishes often beat raw stacks</strong>, and plenty of quests expect something from the stove. Pick <strong>2–3 staple recipes</strong> from the <a href="/wiki/recipes">recipe list</a> you can actually keep supplied—random cooking burns time and mats.</p>
+        <ul>
+          <li><strong>Keep a small ingredient buffer</strong> so a daily ask doesn’t brick your progress because you sold the last tomato.</li>
+        </ul>
+
+        <h2>Sea Fishing: who runs it and what counts as “event” fish</h2>
+        <p><strong>Sea Fishing</strong> is the boat / group-style fishing angle—not the same as standing on a riverbank. <strong>Bill</strong> is the <strong>Sea Fishing Host</strong> in the <strong>Fishing Village</strong>; he’s the NPC you talk to when you want in with friends or whoever’s in town. <a href="/characters">Character roster</a> has his spot pinned if you forget.</p>
+        <p>For the collection grind, the <a href="/wiki/fish">fish list</a> tags what shows up under <strong>Sea Fishing</strong> so you don’t confuse regular water tables with event pools. Chasing <a href="/wiki/achievements">achievements</a>? <strong>Sea Fishing Master</strong> wants <strong>three sharks from golden fish shadows in one Sea Fishing Event</strong>—brutal but clear; higher Fishing hobby rank and prioritizing those gold shadows is the lever you actually control.</p>
+
+        <h2>Before you close the game</h2>
+        <ul>
+          <li>Pack <a href="/wiki/recipes">food</a> if the session is longer than a quick lap.</li>
+          <li>Batch cook when your farm loop and your recipe shortlist actually match.</li>
+          <li>Boat day: find <strong>Bill</strong>, then cross-check <a href="/wiki/fish">Sea Fishing entries</a> and the <strong>Sea Fishing</strong> angle on <a href="/wiki/achievements">achievements</a>.</li>
+        </ul>
+
+        <h2>Next reads</h2>
+        <p><a href="/guide/daily-weekly-quests-dg-medals">Daily &amp; weekly quests &amp; DG medals</a> · <a href="/guide/interactive-map-wiki-player-workflow">Map + wiki route workflow</a> · <a href="/codes">Codes</a> · <a href="/events">Events</a></p>
+      `,
+  },
 ]

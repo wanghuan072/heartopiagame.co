@@ -188,4 +188,49 @@ export default [
           <p>รวมข้อมูลทั้งหมดอยู่ที่ <a href="/wiki">Heartopia Wiki</a> เช็ค <a href="/events">Events</a> สำหรับคอนเทนต์จำกัดเวลา และใช้ <a href="/characters">Characters</a> เป็นหน้ารวมชื่อ/อ้างอิงได้รวดเร็ว</p>
         `,
     },
+    {
+      id: 4,
+      title: 'เคล็ด Heartopia: พลังงาน การทำอาหาร และตกปลาในทะเล',
+      description:
+        'อย่าให้พลังหมดกลางทาง ขายเก่งขึ้นด้วยการทำอาหารก่อน ตกปลาในทะเลต้องผ่าน Bill — ลดการเดา',
+      publishDate: '2026-04-07',
+      addressBar: 'energy-cooking-sea-fishing-player-tips',
+      imageSrc: '/images/guide/guide04-01.webp',
+      imageAlt: 'คู่มือ Heartopia พลังงาน ทำอาหาร Sea Fishing',
+      seo: {
+        title: 'Heartopia พลังงาน การทำอาหาร Sea Fishing | เคล็ดลับ',
+        description:
+          'จัดการพลังด้วยอาหารและเก็บของ หาเงินด้วยการทำอาหาร เข้าร่วม Sea Fishing กับ Bill รายการปลา สูตร ความสำเร็จ ตัวละคร',
+        keywords: 'heartopia, พลังงาน, ทำอาหาร, sea fishing, bill, สูตร, ปลา, ความสำเร็จ, เคล็ดลับ',
+      },
+      detailsHtml: `
+          <h2>พลังงาน: ไม่ใช่แผนที่วิ่งผิด — แค่เชื้อเพลิงไม่พอ</h2>
+          <p>สถานการณ์ที่เจอบ่อย: อยู่กลางแผนที่ งานอดิเรกยังค้าง <strong>แต่แถบหมดแล้ว</strong> ตกปลากับเก็บของกินเวลาอยู่แล้ว ของจาก<a href="/wiki/foraging">การเก็บ</a>ช่วยเติม พอปลด<strong>ทำอาหาร</strong> <a href="/wiki/recipes">สูตร</a>จะบอกว่าได้พลังคืนเท่าไร — เลือกจานให้ตรงกับเวลาที่จะอยู่ข้างนอก</p>
+          <ul>
+            <li><strong>ทำงานอดิเรกต่อเนื่องแต่ใส่จุดกินในแผน</strong> ไม่ใช่รีบแก้ตอนสาย ก่อนจะไปโซนไกล</li>
+            <li><strong>ให้วัตถุดิบกับเส้นทางสอดคล้องกัน</strong> — ดู<a href="/wiki/crops">พืชผล</a> <a href="/wiki/foraging">เก็บของ</a> <a href="/wiki/fish">ปลา</a> อย่าให้ขาดตัวเดียวแล้วครัวเงียบ</li>
+          </ul>
+          <p>โครงรูปรายวัน: <a href="/guide/beginner-guide">คู่มือผู้เล่นใหม่</a></p>
+
+          <h2>ทำอาหาร: ขายดิบได้ แต่มักจ่ายค่าบิลได้ดีกว่าคือจานสุก</h2>
+          <p>เงินช้า มักมาจาก<strong>ขายทุกอย่างตรงจากกระเป๋า</strong> <strong>อาหารจานมักชนะกองวัตถุดิบ</strong> และเควสหลายอันต้องการของจากเตา เลือก<strong>สูตรประจำ 2–3 อย่าง</strong>จาก<a href="/wiki/recipes">รายการสูตร</a>ที่หามาเลี้ยงได้จริง — ทำมั่วๆ เผาเวลาและวัตถุดิบ</p>
+          <ul>
+            <li><strong>สำรองวัตถุดิบเล็กน้อย</strong> เผื่อเควสประจำวันไม่ค้างเพราะขายมะเขือเทศสุดท้ายไปแล้ว</li>
+          </ul>
+
+          <h2>Sea Fishing: ใครจัด ปลาแบบอีเวนต์คืออะไร</h2>
+          <p><strong>Sea Fishing</strong> เป็นมุมเรือ/กลุ่ม ไม่ใช่ยืนขอบฝั่ง <strong>Bill</strong> เป็น<strong>Sea Fishing Host</strong> ที่<strong>Fishing Village</strong> จะเข้ากับเพื่อนหรือคนในเมืองก็คุยกับเขา ลืมที่? <a href="/characters">รายชื่อตัวละคร</a>ช่วยจำตำแหน่ง</p>
+          <p>สายสะสม: <a href="/wiki/fish">รายการปลา</a>ติดแท็ก <strong>Sea Fishing</strong> แยกจากตารางน้ำธรรมดากับพูลอีเวนต์ <a href="/wiki/achievements">ความสำเร็จ</a>: <strong>Sea Fishing Master</strong> ต้อง<strong>จับฉลามสามตัวจาก golden fish shadows ใน Sea Fishing Event เดียว</strong> — โหดแต่ชัด แรงก์งานอดิเรกตกปลาและโฟกัสเงาทองคือสิ่งที่คุมได้</p>
+
+          <h2>ก่อนปิดเกม</h2>
+          <ul>
+            <li>ห่อ<a href="/wiki/recipes">อาหาร</a>ถ้าเซสชันยาวกว่าแว๊บเดียว</li>
+            <li>ทำอาหารเป็นชุดเมื่อลูปฟาร์มกับลิสต์สูตรสั้นเข้าคู่กัน</li>
+            <li>วันขึ้นเรือ: หา<strong>Bill</strong> แล้วเช็ค<a href="/wiki/fish">รายการ Sea Fishing</a> กับมุม Sea Fishing ใน<a href="/wiki/achievements">ความสำเร็จ</a></li>
+          </ul>
+
+          <h2>อ่านต่อ</h2>
+          <p><a href="/guide/daily-weekly-quests-dg-medals">เควสรายวัน/รายสัปดาห์และเหรียญ DG</a> · <a href="/guide/interactive-map-wiki-player-workflow">แผนที่ + wiki วางเส้นทาง</a> · <a href="/codes">โค้ด</a> · <a href="/events">Events</a></p>
+        `,
+    },
   ]

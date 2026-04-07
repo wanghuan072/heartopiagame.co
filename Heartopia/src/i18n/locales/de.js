@@ -110,10 +110,11 @@ export default {
             keywords: 'Heartopia Haustiere, Heartopia Katzen, Heartopia Hunde, Heartopia Tierpflege',
         },
         'guide-list': {
-            title: 'Heartopia Guides | Tipps für Anfänger, Codes, Geld',
+            title: 'Heartopia Guides | Anfänger, Energie, Kochen, Sea Fishing',
             description:
-                'Heartopia Guides: Anfängertipps, Geld verdienen, Geschenk-Codes und Schritt-für-Schritt-Anleitungen. Dein Hub für alle Heartopia Tipps. Starte hier.',
-            keywords: 'Heartopia Guides, Heartopia Anfänger-Guide, Heartopia Tipps',
+                'Heartopia Guides: Anfängertipps, tägliche & wöchentliche DG-Quests, Karten- & Wiki-Workflows, Energie & Kochen, Sea Fishing mit Bill, Codes und Gold-Routen — alles in einem Hub.',
+            keywords:
+                'Heartopia Guides, Heartopia Anfänger-Guide, Heartopia Tipps, Heartopia Energie, Heartopia Kochen, Heartopia Sea Fishing, Heartopia DG Quests',
         },
         'guide-detail': {
             title: 'Heartopia Guide & Wiki | Rezepte, Karte, Codes, Charaktere',

@@ -188,4 +188,49 @@ export default [
           <p>Explore a <a href="/wiki">Heartopia Wiki</a>, confira <a href="/events">Eventos</a> para conteúdo por tempo limitado e use <a href="/characters">Personagens</a> como referência rápida.</p>
         `,
     },
+    {
+      id: 4,
+      title: 'Dicas Heartopia: energia, culinária e pesca em alto-mar',
+      description:
+        'Não fique sem energia no meio do mapa; venda melhor cozinhando antes; a pesca em alto-mar passa pelo Bill — menos chute.',
+      publishDate: '2026-04-07',
+      addressBar: 'energy-cooking-sea-fishing-player-tips',
+      imageSrc: '/images/guide/guide04-01.webp',
+      imageAlt: 'Guia Heartopia energia culinária Sea Fishing',
+      seo: {
+        title: 'Heartopia Energia, Culinária e Sea Fishing | Dicas',
+        description:
+          'Controle energia com comida e coleta, ganhe ouro cozinhando, entre em Sea Fishing com Bill. Peixes, receitas, conquistas e personagens.',
+        keywords: 'heartopia, energia, culinária, sea fishing, bill, receitas, peixes, conquistas, dicas',
+      },
+      detailsHtml: `
+          <h2>Energia: você não “erra a rota” — está sem combustível</h2>
+          <p>O clássico: metade do mapa, hobbies a fazer e <strong>barra zerada</strong>. Pesca e coleta já consomem o dia; itens de <a href="/wiki/foraging">coleta</a> ajudam, e com <strong>Culinária</strong> as <a href="/wiki/recipes">receitas</a> mostram quanta energia volta — escolha pratos conforme o tempo que vai ficar fora.</p>
+          <ul>
+            <li><strong>Encadeie hobbies com pausa para comer no plano</strong>, não como remendo, antes de ir para zonas longínquas.</li>
+            <li><strong>Alinhe ingredientes à rota</strong> — confira <a href="/wiki/crops">plantações</a>, <a href="/wiki/foraging">coleta</a> e <a href="/wiki/fish">peixes</a> para não faltar um tempero e travar a cozinha.</li>
+          </ul>
+          <p>Rotina diária: <a href="/guide/beginner-guide">guia de iniciante</a>.</p>
+
+          <h2>Culinária: cru vende; cozido costuma pagar as contas</h2>
+          <p>Ouro lento quase sempre vem de <strong>liquidar tudo direto do inventário</strong>. <strong>Pratos prontos costumam vencer pilhas de ingredientes</strong> e muitas missões pedem algo do fogão. Escolha <strong>2–3 receitas fixas</strong> na <a href="/wiki/recipes">lista de receitas</a> que você consiga manter — cozinhar no escuro queima tempo e material.</p>
+          <ul>
+            <li><strong>Mantenha uma reserva pequena de ingredientes</strong> para um daily não travar porque você vendeu o último tomate.</li>
+          </ul>
+
+          <h2>Sea Fishing: quem organiza e o que é peixe de evento</h2>
+          <p><strong>Sea Fishing</strong> é barco/grupo, não ficar na margem. <strong>Bill</strong> é o <strong>Sea Fishing Host</strong> na <strong>Fishing Village</strong>; com ele você entra com amigos ou quem estiver na cidade. Esqueceu o lugar? A <a href="/characters">lista de personagens</a> mostra.</p>
+          <p>Para coleção: a <a href="/wiki/fish">lista de peixes</a> marca <strong>Sea Fishing</strong> para não misturar tabela normal com pool de evento. <a href="/wiki/achievements">Conquistas</a>: <strong>Sea Fishing Master</strong> exige <strong>três tubarões de golden fish shadows em um único Sea Fishing Event</strong> — difícil, porém claro; rank de pesca maior e foco nas sombras douradas é o que você controla.</p>
+
+          <h2>Antes de sair do jogo</h2>
+          <ul>
+            <li>Leve <a href="/wiki/recipes">comida</a> se a sessão for mais que uma volta rápida.</li>
+            <li>Cozinhe em lote quando o loop de farm e a lista curta de receitas baterem.</li>
+            <li>Dia de barco: ache <strong>Bill</strong>, depois confira <a href="/wiki/fish">entradas Sea Fishing</a> e Sea Fishing em <a href="/wiki/achievements">conquistas</a>.</li>
+          </ul>
+
+          <h2>Próximas leituras</h2>
+          <p><a href="/guide/daily-weekly-quests-dg-medals">Missões diárias e semanais e medalhas DG</a> · <a href="/guide/interactive-map-wiki-player-workflow">Mapa + wiki para rotas</a> · <a href="/codes">Códigos</a> · <a href="/events">Eventos</a></p>
+        `,
+    },
   ]

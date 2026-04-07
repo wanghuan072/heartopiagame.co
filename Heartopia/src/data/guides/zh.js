@@ -188,4 +188,49 @@ export default [
           <p>所有条目可以在<a href="/wiki">心动小镇 Wiki</a>里查找；限时内容可看<a href="/events">活动</a>；需要快速对照角色信息时可用<a href="/characters">角色</a>页。</p>
         `,
     },
+    {
+      id: 4,
+      title: '心动小镇实战向：体力、烹饪与海上钓鱼',
+      description:
+        '别跑到一半没体力；先做饭再卖更划算；海上钓鱼认准比尔——少走冤枉路。',
+      publishDate: '2026-04-07',
+      addressBar: 'energy-cooking-sea-fishing-player-tips',
+      imageSrc: '/images/guide/guide04-01.webp',
+      imageAlt: '心动小镇体力、烹饪与海上钓鱼指南封面',
+      seo: {
+        title: '心动小镇体力、烹饪与海上钓鱼技巧 | 玩家攻略',
+        description:
+          '稳住体力：料理与采集；赚钱：先烹饪再出售；海上钓鱼找比尔。鱼类列表、菜谱、成就与角色速查。',
+        keywords: '心动小镇, 体力, 烹饪, 海上钓鱼, Bill, 菜谱, 鱼类, 成就, 攻略',
+      },
+      detailsHtml: `
+          <h2>体力：不是路不会跑，是补给没算进去</h2>
+          <p>最常见的糟心是：地图跑了一半、爱好还没做完，<strong>体力条已经空了</strong>。钓鱼、采集本来就耗时间；<a href="/wiki/foraging">采集</a>物能补一点，解锁<strong>烹饪</strong>后，<a href="/wiki/recipes">菜谱</a>上会标能量回复——按你这次准备在外面待多久来选菜。</p>
+          <ul>
+            <li><strong>连续做爱好前，先把「吃饭/料理」写进路线</strong>，别当成临时补救，再去远图。</li>
+            <li><strong>材料和路线一起对齐</strong> — 扫一眼<a href="/wiki/crops">作物</a>、<a href="/wiki/foraging">采集</a>、<a href="/wiki/fish">鱼类</a>，别因为少一棵草导致厨房停摆。</li>
+          </ul>
+          <p>日常节奏更细：<a href="/guide/beginner-guide">新手指南</a>。</p>
+
+          <h2>烹饪：生卖也行，做熟了往往才赚得多</h2>
+          <p>感觉金币涨得慢，很多人的坑是<strong>啥都直接从背包卖给商店</strong>。<strong>成品菜常常比一堆原材料划算</strong>，而且不少任务要你上交料理。从<a href="/wiki/recipes">菜谱列表</a>里固定 <strong>2–3 道主做菜</strong>，保证供应得上——乱做只会烧时间和材料。</p>
+          <ul>
+            <li><strong>留一点备用食材</strong>，别让每日任务因为「刚把最后一个番茄卖了」而卡死。</li>
+          </ul>
+
+          <h2>海上钓鱼：谁主办、哪些算「活动鱼」</h2>
+          <p><strong>海上钓鱼</strong>是坐船、偏组队/活动向的钓鱼，和蹲在河边不是一回事。<strong>比尔（Bill）</strong>是<strong>渔村（Fishing Village）</strong>的<strong>海上钓鱼主持人</strong>，想和朋友或镇上的人一起上车就找他。忘了在哪，打开<a href="/characters">角色一览</a>能对上位置。</p>
+          <p>收集向就翻<a href="/wiki/fish">鱼类列表</a>，看地点里标了 <strong>Sea Fishing</strong> 的，别和普通水域表混在一起。冲<a href="/wiki/achievements">成就</a>的话，<strong>Sea Fishing Master</strong> 要求<strong>在一次海上钓鱼活动里，从金色鱼影钓起三条鲨鱼</strong>——难但目标清晰；钓鱼爱好等级上去、优先盯金色鱼影，是你能控制的杠杆。</p>
+
+          <h2>下线前扫一眼</h2>
+          <ul>
+            <li>这次要跑久一点，先备好<a href="/wiki/recipes">料理</a>。</li>
+            <li>农场循环和菜谱短名单对得上时，再批量做饭。</li>
+            <li>上船日：先找<strong>比尔</strong>，再对照<a href="/wiki/fish">海上钓鱼相关鱼类</a>和<a href="/wiki/achievements">成就</a>里与 Sea Fishing 相关的条目。</li>
+          </ul>
+
+          <h2>延伸阅读</h2>
+          <p><a href="/guide/daily-weekly-quests-dg-medals">每日与每周任务 · 贡献勋章</a> · <a href="/guide/interactive-map-wiki-player-workflow">地图 + 百科路线工作流</a> · <a href="/codes">兑换码</a> · <a href="/events">活动</a></p>
+        `,
+    },
   ]

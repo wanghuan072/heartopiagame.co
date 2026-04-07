@@ -110,10 +110,11 @@ export default {
             keywords: 'hewan peliharaan Heartopia, kucing Heartopia, anjing Heartopia, perawatan hewan peliharaan',
         },
         'guide-list': {
-            title: 'Panduan Heartopia | Tips Pemula, Kode, Uang',
+            title: 'Panduan Heartopia | Pemula, energi, memasak, Sea Fishing',
             description:
-                'Panduan Heartopia: tips pemula, cara mencari uang, kode hadiah, dan artikel langkah demi langkah. Hub panduan Heartopia Anda untuk semua tips game.',
-            keywords: 'panduan Heartopia, panduan pemula Heartopia, tips Heartopia',
+                'Panduan Heartopia: awalan, misi DG harian & mingguan, alur peta + wiki, energi & memasak, Sea Fishing dengan Bill, kode & emas — artikel langkah demi langkah dalam satu hub.',
+            keywords:
+                'panduan Heartopia, panduan pemula Heartopia, tips Heartopia, Heartopia energi, Heartopia memasak, Heartopia Sea Fishing, Heartopia misi DG',
         },
         'guide-detail': {
             title: 'Panduan & Wiki Heartopia | Resep, Peta, Kode, Karakter',

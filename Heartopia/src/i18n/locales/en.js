@@ -110,10 +110,11 @@ export default {
       keywords: 'Heartopia pets, Heartopia cats, Heartopia dogs, Heartopia pet care',
     },
     'guide-list': {
-      title: 'Heartopia Guides | Beginner Tips, Codes, Money',
+      title: 'Heartopia Guides | Beginner Tips, Energy, Cooking, Sea Fishing',
       description:
-        'Heartopia guides: beginner tips, money-making, gift codes and step-by-step articles. Your Heartopia guides hub for all game tips and walkthroughs. Start here.',
-      keywords: 'Heartopia guides, Heartopia beginner guide, Heartopia tips',
+        'Heartopia guides: beginner tips, DG daily & weekly quests, map + wiki workflows, energy & cooking, Sea Fishing with Bill, gift codes, and gold routes—step-by-step articles in one hub.',
+      keywords:
+        'Heartopia guides, Heartopia beginner guide, Heartopia tips, Heartopia energy, Heartopia cooking, Heartopia Sea Fishing, Heartopia DG quests',
     },
     'guide-detail': {
       title: 'Heartopia Guide & Wiki | Recipes, Map, Codes, Characters',
