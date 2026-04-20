@@ -233,4 +233,55 @@ export default [
           <p><a href="/guide/daily-weekly-quests-dg-medals">每日与每周任务 · 贡献勋章</a> · <a href="/guide/interactive-map-wiki-player-workflow">地图 + 百科路线工作流</a> · <a href="/codes">兑换码</a> · <a href="/events">活动</a></p>
         `,
     },
+    {
+      id: 5,
+      title: '海上钓鱼 Sea Fishing Master：金色鱼影清单',
+      description:
+        '总是钓不到鲨鱼、时间不够用？这份清单只盯金色鱼影，帮你把 Sea Fishing Master（单次活动 3 条鲨鱼）打出来。',
+      publishDate: '2026-04-10',
+      addressBar: 'sea-fishing-master-golden-shadows',
+      imageSrc: '/images/guide/guide04-01.webp',
+      imageAlt: '海上钓鱼 Sea Fishing Master 金色鱼影清单封面',
+      seo: {
+        title: 'Sea Fishing Master（心动小镇）| 金色鱼影清单',
+        description:
+          '海上钓鱼实战：优先金色鱼影，推进 Sea Fishing Master（单次活动 3 条鲨鱼）。附鱼类、成就与角色速查。',
+        keywords: '心动小镇, 海上钓鱼, Sea Fishing Master, 金色鱼影, 鲨鱼, Bill, 成就',
+      },
+      detailsHtml: `
+          <h2>痛点：上船了，也钓了，还是“啥都没捞到”</h2>
+          <p>海上钓鱼最容易变成一团乱：上船、抛竿、收线、倒计时结束。问题不是“手不够快”，而是<strong>目标没选对</strong>。在<a href="/wiki/achievements">成就</a>里，<strong>Sea Fishing Master</strong>写得非常清楚：<strong>在一次海上钓鱼活动里，从金色鱼影钓起三条鲨鱼</strong>。</p>
+
+          <h2>开船前 60 秒准备</h2>
+          <ul>
+            <li><strong>认准主持人</strong> — 海上钓鱼找<strong>比尔（Bill）</strong>，地点在<strong>渔村（Fishing Village）</strong>。忘了就去<a href="/characters">角色</a>页搜他。</li>
+            <li><strong>带一个最小体力方案</strong> — 当天体力崩了就别谈成就。用<a href="/wiki/recipes">菜谱</a> + <a href="/wiki/foraging">采集</a>当你的补给循环。</li>
+            <li><strong>把“对照页”先打开</strong> — <a href="/wiki/fish">鱼类</a> + <a href="/wiki/achievements">成就</a>。</li>
+          </ul>
+
+          <h2>活动中：金色鱼影就是全部</h2>
+          <ul>
+            <li><strong>不是金色鱼影，就不是你的优先级</strong>。</li>
+            <li><strong>果断换点</strong> — 走几秒路也比把整段时间耗在错误鱼影上强。</li>
+          </ul>
+
+          <h2>活动后：把“进度”拆清楚</h2>
+          <ul>
+            <li><strong>成就尝试</strong> — 这一次活动里，金色鱼影的鲨鱼有没有凑到 3 条？</li>
+            <li><strong>收集进度</strong> — 去<a href="/wiki/fish">鱼类列表</a>看标注 <strong>Sea Fishing</strong> 的条目（那才是活动池）。</li>
+            <li><strong>能力上限</strong> — 如果你一直来不及/老脱钩，就先在非活动时间把钓鱼爱好练起来，再回去冲。</li>
+          </ul>
+
+          <h2>“没借口”清单</h2>
+          <ul>
+            <li>找到<strong>比尔</strong>（渔村）。</li>
+            <li>带好补给（<a href="/wiki/recipes">菜谱</a> / <a href="/wiki/foraging">采集</a>）。</li>
+            <li>活动里：<strong>金色鱼影优先</strong>。</li>
+            <li>结束后：核对<a href="/wiki/achievements">Sea Fishing Master</a>，复盘<a href="/wiki/fish">Sea Fishing</a>鱼类条目。</li>
+          </ul>
+
+          <h2>延伸阅读</h2>
+          <p><a href="/guide/energy-cooking-sea-fishing-player-tips">体力 + 烹饪 + 海上钓鱼</a> · <a href="/wiki/achievements">成就</a> · <a href="/wiki/fish">鱼类</a> · <a href="/characters">角色</a></p>
+        `,
+    },
   ]

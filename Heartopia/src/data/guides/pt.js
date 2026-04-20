@@ -233,4 +233,55 @@ export default [
           <p><a href="/guide/daily-weekly-quests-dg-medals">Missões diárias e semanais e medalhas DG</a> · <a href="/guide/interactive-map-wiki-player-workflow">Mapa + wiki para rotas</a> · <a href="/codes">Códigos</a> · <a href="/events">Eventos</a></p>
         `,
     },
+    {
+      id: 5,
+      title: 'Sea Fishing Master: checklist de sombras douradas (Heartopia)',
+      description:
+        'Se você vive errando tubarões ou o tempo acaba: checklist prática de Sea Fishing focada em golden fish shadows e no Sea Fishing Master.',
+      publishDate: '2026-04-10',
+      addressBar: 'sea-fishing-master-golden-shadows',
+      imageSrc: '/images/guide/guide04-01.webp',
+      imageAlt: 'Sea Fishing Master checklist sombras douradas',
+      seo: {
+        title: 'Sea Fishing Master (Heartopia) | Checklist de golden fish shadows',
+        description:
+          'Plano prático de Sea Fishing: priorize golden fish shadows e avance para Sea Fishing Master (3 tubarões em um evento).',
+        keywords: 'heartopia, sea fishing master, golden fish shadows, tubarões, sea fishing, bill, conquista',
+      },
+      detailsHtml: `
+          <h2>A dor: “fiz Sea Fishing e não veio nada”</h2>
+          <p>Sea Fishing pode virar bagunça: barco, arremesso, recolhe, acabou o tempo. O ajuste não é “pescar mais”, é <strong>seleção de alvo</strong>. Em <a href="/wiki/achievements">Conquistas</a>, <strong>Sea Fishing Master</strong> é direto: <strong>três tubarões de golden fish shadows em um único Sea Fishing Event</strong>.</p>
+
+          <h2>Antes de começar: setup de 60 segundos</h2>
+          <ul>
+            <li><strong>Saiba quem inicia</strong> — Sea Fishing passa pelo <strong>Bill</strong> na <strong>Fishing Village</strong>. Se esquecer, abra <a href="/characters">Personagens</a>.</li>
+            <li><strong>Plano mínimo de energia</strong> — se você ficar zerado no dia do evento, já era. Use <a href="/wiki/recipes">receitas</a> e <a href="/wiki/foraging">coleta</a> como recarga simples.</li>
+            <li><strong>Deixe os trackers abertos</strong> — <a href="/wiki/fish">Peixes</a> e <a href="/wiki/achievements">Conquistas</a>.</li>
+          </ul>
+
+          <h2>No evento: sombras douradas são o jogo</h2>
+          <ul>
+            <li><strong>Se não é golden fish shadow, não é prioridade</strong>.</li>
+            <li><strong>Reposicione rápido</strong> — perder alguns segundos andando é melhor do que gastar a janela toda na sombra errada.</li>
+          </ul>
+
+          <h2>Depois: separe progresso real de sensação</h2>
+          <ul>
+            <li><strong>Tentativa de conquista</strong> — foram 3 tubarões de sombras douradas <em>no mesmo evento</em>?</li>
+            <li><strong>Coleção</strong> — na <a href="/wiki/fish">lista de peixes</a>, foque nas entradas com <strong>Sea Fishing</strong>.</li>
+            <li><strong>Teto de skill</strong> — se você sempre fica lento, suba o hobby de pesca fora do evento e volte.</li>
+          </ul>
+
+          <h2>Checklist sem desculpas</h2>
+          <ul>
+            <li>Encontre <strong>Bill</strong> (Fishing Village).</li>
+            <li>Leve comida (<a href="/wiki/recipes">receitas</a> / <a href="/wiki/foraging">coleta</a>).</li>
+            <li>No evento: <strong>sombras douradas primeiro</strong>.</li>
+            <li>No fim: confira <a href="/wiki/achievements">Sea Fishing Master</a> e <a href="/wiki/fish">Sea Fishing</a>.</li>
+          </ul>
+
+          <h2>Próximas leituras</h2>
+          <p><a href="/guide/energy-cooking-sea-fishing-player-tips">Energia + culinária + Sea Fishing</a> · <a href="/wiki/achievements">Conquistas</a> · <a href="/wiki/fish">Peixes</a> · <a href="/characters">Personagens</a></p>
+        `,
+    },
   ]

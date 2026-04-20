@@ -233,4 +233,58 @@ export default [
         <p><a href="/guide/daily-weekly-quests-dg-medals">Daily &amp; weekly quests &amp; DG medals</a> · <a href="/guide/interactive-map-wiki-player-workflow">Map + wiki route workflow</a> · <a href="/codes">Codes</a> · <a href="/events">Events</a></p>
       `,
   },
+  {
+    id: 5,
+    title: 'Sea Fishing Master: Golden Shadow Checklist (Heartopia)',
+    description:
+      'If you keep missing sharks or running out of time: a practical Sea Fishing checklist focused on golden fish shadows, what to prep, and how to track progress toward the Sea Fishing Master achievement.',
+    publishDate: '2026-04-10',
+    addressBar: 'sea-fishing-master-golden-shadows',
+    imageSrc: '/images/guide/guide04-01.webp',
+    imageAlt: 'Sea Fishing Master golden shadow checklist guide cover',
+    seo: {
+      title: 'Sea Fishing Master (Heartopia) | Golden Fish Shadows Checklist',
+      description:
+        'A player-first Sea Fishing plan: prioritize golden fish shadows, track Sea Fishing fish entries, and push toward the Sea Fishing Master achievement (3 sharks in one event).',
+      keywords: 'heartopia, sea fishing master, golden fish shadows, sharks, sea fishing, bill, achievement',
+    },
+    detailsHtml: `
+        <h2>The pain point: “I did Sea Fishing and still got nothing”</h2>
+        <p>If Sea Fishing feels like chaos—boarding, casting, reeling, and then the timer ends—you’re not alone. The fix isn’t “fish harder.” It’s <strong>target selection</strong>. The <a href="/wiki/achievements">Achievements</a> list spells out one of the clearest goals: <strong>Sea Fishing Master</strong> requires <strong>three sharks from golden fish shadows in a single Sea Fishing Event</strong>.</p>
+
+        <h2>Before you start: the 60‑second setup</h2>
+        <ul>
+          <li><strong>Know the host</strong> — Sea Fishing runs through <strong>Bill</strong> in the <strong>Fishing Village</strong>. If you blank on where that is, open <a href="/characters">Characters</a> and look him up.</li>
+          <li><strong>Bring a small energy plan</strong> — If you run dry mid-event day, you’re done. Use <a href="/wiki/recipes">recipes</a> and <a href="/wiki/foraging">foraging</a> as your simple refill loop.</li>
+          <li><strong>Bookmark your trackers</strong> — keep these open: <a href="/wiki/fish">Fish</a> and <a href="/wiki/achievements">Achievements</a>.</li>
+        </ul>
+
+        <h2>During the event: golden shadows are the entire game</h2>
+        <p>For this achievement, normal catches don’t matter. Your rule is:</p>
+        <ul>
+          <li><strong>If it’s not a golden fish shadow, it’s not your priority</strong>.</li>
+          <li><strong>Reposition quickly</strong> — losing a few seconds to move beats spending the whole window on the wrong shadow.</li>
+        </ul>
+        <p>That sounds blunt, but it’s what “three sharks in one event” demands. You’re optimizing for a narrow target.</p>
+
+        <h2>After the event: track what counts (and what doesn’t)</h2>
+        <p>To avoid false progress, separate three things:</p>
+        <ul>
+          <li><strong>Achievement attempt</strong> — Did you hit three sharks from golden shadows <em>within the same event</em>?</li>
+          <li><strong>Collection progress</strong> — Check the <a href="/wiki/fish">fish list</a> for entries tagged with <strong>Sea Fishing</strong>. That’s the pool you’re actually touching.</li>
+          <li><strong>Skill ceiling</strong> — If you’re consistently too slow or missing too many bites, spend a few sessions leveling your Fishing hobby outside the event, then come back.</li>
+        </ul>
+
+        <h2>My “no excuses” Sea Fishing Master checklist</h2>
+        <ul>
+          <li>Find <strong>Bill</strong> (Fishing Village).</li>
+          <li>Carry food (use <a href="/wiki/recipes">recipes</a> / <a href="/wiki/foraging">foraging</a>).</li>
+          <li>In the event: <strong>golden shadows first</strong>, everything else second.</li>
+          <li>After the run: verify via <a href="/wiki/achievements">Sea Fishing Master</a> and review <a href="/wiki/fish">Sea Fishing</a> entries.</li>
+        </ul>
+
+        <h2>Next reads</h2>
+        <p><a href="/guide/energy-cooking-sea-fishing-player-tips">Energy + cooking + Sea Fishing basics</a> · <a href="/wiki/achievements">Achievements</a> · <a href="/wiki/fish">Fish</a> · <a href="/characters">Characters</a></p>
+      `,
+  },
 ]

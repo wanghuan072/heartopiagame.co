@@ -233,4 +233,55 @@ export default [
           <p><a href="/guide/daily-weekly-quests-dg-medals">เควสรายวัน/รายสัปดาห์และเหรียญ DG</a> · <a href="/guide/interactive-map-wiki-player-workflow">แผนที่ + wiki วางเส้นทาง</a> · <a href="/codes">โค้ด</a> · <a href="/events">Events</a></p>
         `,
     },
+    {
+      id: 5,
+      title: 'Sea Fishing Master: เช็กลิสต์เงาทอง (Heartopia)',
+      description:
+        'ถ้าพลาดฉลามบ่อยหรือหมดเวลา: เช็กลิสต์ Sea Fishing ที่โฟกัส golden fish shadows และเป้าหมาย Sea Fishing Master',
+      publishDate: '2026-04-10',
+      addressBar: 'sea-fishing-master-golden-shadows',
+      imageSrc: '/images/guide/guide04-01.webp',
+      imageAlt: 'Sea Fishing Master เช็กลิสต์เงาทอง',
+      seo: {
+        title: 'Sea Fishing Master (Heartopia) | เช็กลิสต์ golden fish shadows',
+        description:
+          'แผน Sea Fishing แบบใช้งานจริง: โฟกัส golden fish shadows และดัน Sea Fishing Master (ฉลาม 3 ตัวในอีเวนต์เดียว)',
+        keywords: 'heartopia, sea fishing master, golden fish shadows, ฉลาม, sea fishing, bill, ความสำเร็จ',
+      },
+      detailsHtml: `
+          <h2>ปัญหา: “ไป Sea Fishing แล้วก็ยังไม่ได้อะไร”</h2>
+          <p>Sea Fishing มักรู้สึกวุ่นวาย: ขึ้นเรือ โยนเบ็ด ดึง เสร็จเวลา หมดแล้ว จุดแก้ไม่ใช่ “ตกให้มากขึ้น” แต่คือ <strong>เลือกเป้าหมาย</strong> ใน <a href="/wiki/achievements">ความสำเร็จ</a> ระบุชัด: <strong>Sea Fishing Master</strong> ต้อง <strong>ฉลาม 3 ตัวจาก golden fish shadows ใน Sea Fishing Event เดียว</strong></p>
+
+          <h2>ก่อนเริ่ม: เตรียม 60 วินาที</h2>
+          <ul>
+            <li><strong>จำคนเริ่มอีเวนต์</strong> — Sea Fishing ผ่าน <strong>Bill</strong> ที่ <strong>Fishing Village</strong> ลืมตำแหน่ง? เปิด <a href="/characters">Characters</a></li>
+            <li><strong>แผนพลังงานขั้นต่ำ</strong> — ถ้าพลังหมดในวันอีเวนต์ก็จบ ใช้ <a href="/wiki/recipes">สูตรอาหาร</a> และ <a href="/wiki/foraging">เก็บของ</a> เป็นการเติมง่ายๆ</li>
+            <li><strong>เปิดหน้าติดตาม</strong> — <a href="/wiki/fish">ปลา</a> และ <a href="/wiki/achievements">ความสำเร็จ</a></li>
+          </ul>
+
+          <h2>ระหว่างอีเวนต์: เงาทองคือทั้งหมด</h2>
+          <ul>
+            <li><strong>ไม่ใช่ golden fish shadow = ไม่ใช่ลำดับแรก</strong></li>
+            <li><strong>ย้ายตำแหน่งให้ไว</strong> — เสียเวลาเดินนิดหน่อยดีกว่าหมดหน้าต่างกับเงาผิด</li>
+          </ul>
+
+          <h2>หลังอีเวนต์: แยก “โปรเกรสจริง” ออกจากความรู้สึก</h2>
+          <ul>
+            <li><strong>ลองทำสำเร็จไหม</strong> — 3 ฉลามจากเงาทอง <em>ในอีเวนต์เดียว</em>?</li>
+            <li><strong>สะสม</strong> — ใน <a href="/wiki/fish">รายการปลา</a> โฟกัสเอนทรีที่มี <strong>Sea Fishing</strong></li>
+            <li><strong>เพดานสกิล</strong> — ถ้าช้า/หลุดบ่อย ให้ไปอัป Fishing นอกอีเวนต์ก่อนแล้วค่อยกลับมา</li>
+          </ul>
+
+          <h2>เช็กลิสต์แบบไม่มีข้ออ้าง</h2>
+          <ul>
+            <li>หา <strong>Bill</strong> (Fishing Village)</li>
+            <li>พกอาหาร (<a href="/wiki/recipes">สูตร</a> / <a href="/wiki/foraging">เก็บของ</a>)</li>
+            <li>ในอีเวนต์: <strong>เงาทองก่อน</strong></li>
+            <li>จบแล้ว: เช็ค <a href="/wiki/achievements">Sea Fishing Master</a> และ <a href="/wiki/fish">Sea Fishing</a></li>
+          </ul>
+
+          <h2>อ่านต่อ</h2>
+          <p><a href="/guide/energy-cooking-sea-fishing-player-tips">พลังงาน + ทำอาหาร + Sea Fishing</a> · <a href="/wiki/achievements">ความสำเร็จ</a> · <a href="/wiki/fish">ปลา</a> · <a href="/characters">Characters</a></p>
+        `,
+    },
   ]

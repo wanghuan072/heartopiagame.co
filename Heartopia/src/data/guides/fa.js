@@ -233,4 +233,55 @@ export default [
           <p><a href="/guide/daily-weekly-quests-dg-medals">Quêtes quotidiennes &amp; hebdomadaires et médailles DG</a> · <a href="/guide/interactive-map-wiki-player-workflow">Carte + wiki pour les routes</a> · <a href="/codes">Codes</a> · <a href="/events">Événements</a></p>
         `,
     },
+    {
+      id: 5,
+      title: 'Sea Fishing Master : checklist des ombres dorées (Heartopia)',
+      description:
+        'Si vous ratez les requins ou manquez de temps : checklist Sea Fishing centrée sur les golden fish shadows et l’objectif Sea Fishing Master.',
+      publishDate: '2026-04-10',
+      addressBar: 'sea-fishing-master-golden-shadows',
+      imageSrc: '/images/guide/guide04-01.webp',
+      imageAlt: 'Sea Fishing Master checklist ombres dorées',
+      seo: {
+        title: 'Sea Fishing Master (Heartopia) | Checklist golden fish shadows',
+        description:
+          'Plan Sea Fishing concret : priorisez les golden fish shadows et visez Sea Fishing Master (3 requins en un seul event).',
+        keywords: 'heartopia, sea fishing master, golden fish shadows, requins, sea fishing, bill, succès',
+      },
+      detailsHtml: `
+          <h2>Le problème : « j’ai fait Sea Fishing et j’ai rien eu »</h2>
+          <p>Sea Fishing peut vite devenir chaotique : bateau, lancer, remonter… et le timer s’arrête. La solution n’est pas « pêcher plus fort », c’est <strong>choisir la bonne cible</strong>. Dans <a href="/wiki/achievements">Succès</a>, <strong>Sea Fishing Master</strong> est limpide : <strong>trois requins depuis des golden fish shadows lors d’un seul Sea Fishing Event</strong>.</p>
+
+          <h2>Avant de lancer : setup en 60 secondes</h2>
+          <ul>
+            <li><strong>Repérez le host</strong> — Sea Fishing passe par <strong>Bill</strong> au <strong>Fishing Village</strong>. En cas d’oubli : <a href="/characters">Personnages</a>.</li>
+            <li><strong>Mini-plan énergie</strong> — si vous tombez à zéro le jour de l’event, c’est fini. Utilisez <a href="/wiki/recipes">recettes</a> et <a href="/wiki/foraging">cueillette</a> pour recharger.</li>
+            <li><strong>Ouvrez vos trackers</strong> — <a href="/wiki/fish">Poissons</a> et <a href="/wiki/achievements">Succès</a>.</li>
+          </ul>
+
+          <h2>Pendant l’event : les ombres dorées, point</h2>
+          <ul>
+            <li><strong>Pas de golden fish shadow = pas prioritaire</strong>.</li>
+            <li><strong>Repositionnez vite</strong> — perdre quelques secondes à bouger vaut mieux que griller toute la fenêtre sur la mauvaise ombre.</li>
+          </ul>
+
+          <h2>Après : séparez le vrai progrès du “ressenti”</h2>
+          <ul>
+            <li><strong>Tentative succès</strong> — 3 requins depuis des ombres dorées <em>dans le même event</em> ?</li>
+            <li><strong>Collection</strong> — dans <a href="/wiki/fish">Poissons</a>, ciblez les entrées marquées <strong>Sea Fishing</strong>.</li>
+            <li><strong>Plafond de skill</strong> — si vous êtes constamment trop lent, montez la pêche hors event puis revenez.</li>
+          </ul>
+
+          <h2>Checklist sans excuses</h2>
+          <ul>
+            <li>Trouvez <strong>Bill</strong> (Fishing Village).</li>
+            <li>Emportez de la nourriture (<a href="/wiki/recipes">recettes</a> / <a href="/wiki/foraging">cueillette</a>).</li>
+            <li>Dans l’event : <strong>ombres dorées d’abord</strong>.</li>
+            <li>Fin : vérifiez <a href="/wiki/achievements">Sea Fishing Master</a> et les entrées <a href="/wiki/fish">Sea Fishing</a>.</li>
+          </ul>
+
+          <h2>À lire ensuite</h2>
+          <p><a href="/guide/energy-cooking-sea-fishing-player-tips">Énergie + cuisine + Sea Fishing</a> · <a href="/wiki/achievements">Succès</a> · <a href="/wiki/fish">Poissons</a> · <a href="/characters">Personnages</a></p>
+        `,
+    },
   ]

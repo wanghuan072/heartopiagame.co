@@ -233,4 +233,55 @@ export default [
           <p><a href="/guide/daily-weekly-quests-dg-medals">Misi harian & mingguan & medali DG</a> · <a href="/guide/interactive-map-wiki-player-workflow">Peta + wiki untuk rute</a> · <a href="/codes">Kode</a> · <a href="/events">Events</a></p>
         `,
     },
+    {
+      id: 5,
+      title: 'Sea Fishing Master: checklist bayangan emas (Heartopia)',
+      description:
+        'Kalau kamu sering meleset hiu atau kehabisan waktu: checklist Sea Fishing yang fokus ke golden fish shadows dan target Sea Fishing Master.',
+      publishDate: '2026-04-10',
+      addressBar: 'sea-fishing-master-golden-shadows',
+      imageSrc: '/images/guide/guide04-01.webp',
+      imageAlt: 'Sea Fishing Master checklist bayangan emas',
+      seo: {
+        title: 'Sea Fishing Master (Heartopia) | Checklist golden fish shadows',
+        description:
+          'Rencana praktis Sea Fishing: prioritaskan golden fish shadows dan dorong Sea Fishing Master (3 hiu dalam satu event).',
+        keywords: 'heartopia, sea fishing master, golden fish shadows, hiu, sea fishing, bill, pencapaian',
+      },
+      detailsHtml: `
+          <h2>Masalahnya: “sudah Sea Fishing, tapi tetap kosong”</h2>
+          <p>Sea Fishing sering terasa chaos: naik perahu, lempar, tarik, waktu habis. Solusinya bukan “mancing lebih keras”, tapi <strong>pilih target</strong>. Di <a href="/wiki/achievements">Pencapaian</a>, <strong>Sea Fishing Master</strong> jelas: <strong>tiga hiu dari golden fish shadows dalam satu Sea Fishing Event</strong>.</p>
+
+          <h2>Sebelum mulai: setup 60 detik</h2>
+          <ul>
+            <li><strong>Kenali host</strong> — Sea Fishing lewat <strong>Bill</strong> di <strong>Fishing Village</strong>. Lupa? buka <a href="/characters">Characters</a>.</li>
+            <li><strong>Rencana energi minimal</strong> — kalau kamu habis energi di hari event, selesai. Pakai <a href="/wiki/recipes">resep</a> dan <a href="/wiki/foraging">foraging</a> untuk isi ulang.</li>
+            <li><strong>Buka tracker</strong> — <a href="/wiki/fish">Ikan</a> dan <a href="/wiki/achievements">Pencapaian</a>.</li>
+          </ul>
+
+          <h2>Saat event: bayangan emas itu segalanya</h2>
+          <ul>
+            <li><strong>Kalau bukan golden fish shadow, bukan prioritas</strong>.</li>
+            <li><strong>Cepat pindah posisi</strong> — beberapa detik bergerak lebih baik daripada habis waktu di bayangan yang salah.</li>
+          </ul>
+
+          <h2>Sesudahnya: bedakan progres asli vs “terasa”</h2>
+          <ul>
+            <li><strong>Attempt pencapaian</strong> — 3 hiu dari bayangan emas <em>dalam event yang sama</em>?</li>
+            <li><strong>Koleksi</strong> — di <a href="/wiki/fish">daftar ikan</a>, fokus pada entri bertag <strong>Sea Fishing</strong>.</li>
+            <li><strong>Batas skill</strong> — kalau kamu konsisten terlalu lambat, naikkan hobby Fishing di luar event, lalu coba lagi.</li>
+          </ul>
+
+          <h2>Checklist tanpa alasan</h2>
+          <ul>
+            <li>Temui <strong>Bill</strong> (Fishing Village).</li>
+            <li>Bawa makanan (<a href="/wiki/recipes">resep</a> / <a href="/wiki/foraging">foraging</a>).</li>
+            <li>Di event: <strong>golden shadows dulu</strong>.</li>
+            <li>Selesai: cek <a href="/wiki/achievements">Sea Fishing Master</a> dan <a href="/wiki/fish">Sea Fishing</a>.</li>
+          </ul>
+
+          <h2>Bacaan lanjutan</h2>
+          <p><a href="/guide/energy-cooking-sea-fishing-player-tips">Energi + memasak + Sea Fishing</a> · <a href="/wiki/achievements">Pencapaian</a> · <a href="/wiki/fish">Ikan</a> · <a href="/characters">Characters</a></p>
+        `,
+    },
   ]

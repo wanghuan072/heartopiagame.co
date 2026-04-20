@@ -233,4 +233,55 @@ export default [
             <p><a href="/guide/daily-weekly-quests-dg-medals">Daily &amp; Weekly Quests &amp; DG-Medaillen</a> · <a href="/guide/interactive-map-wiki-player-workflow">Karte + Wiki Routen</a> · <a href="/codes">Codes</a> · <a href="/events">Events</a></p>
           `,
     },
+    {
+      id: 5,
+      title: 'Sea Fishing Master: Goldschatten-Checkliste (Heartopia)',
+      description:
+        'Wenn du Haie verpasst oder dir die Zeit ausgeht: eine Sea-Fishing-Checkliste mit Fokus auf golden fish shadows und den Sea Fishing Master Erfolg.',
+      publishDate: '2026-04-10',
+      addressBar: 'sea-fishing-master-golden-shadows',
+      imageSrc: '/images/guide/guide04-01.webp',
+      imageAlt: 'Sea Fishing Master Goldschatten Checkliste',
+      seo: {
+        title: 'Sea Fishing Master (Heartopia) | Golden Fish Shadows Checkliste',
+        description:
+          'Praktischer Sea-Fishing-Plan: golden fish shadows priorisieren und Richtung Sea Fishing Master pushen (3 Haie in einem Event).',
+        keywords: 'heartopia, sea fishing master, golden fish shadows, haie, sea fishing, bill, erfolg',
+      },
+      detailsHtml: `
+            <h2>Das Problem: „Sea Fishing gemacht, trotzdem nichts bekommen“</h2>
+            <p>Wenn Sea Fishing sich wie Chaos anfühlt — Boot, Wurf, Drill, Timer vorbei — normal. Der Hebel ist nicht „mehr angeln“, sondern <strong>Target Selection</strong>. In <a href="/wiki/achievements">Achievements</a> steht’s schwarz auf weiß: <strong>Sea Fishing Master</strong> verlangt <strong>drei Haie aus golden fish shadows in einem einzelnen Sea Fishing Event</strong>.</p>
+
+            <h2>Vor dem Start: 60‑Sekunden-Setup</h2>
+            <ul>
+              <li><strong>Host kennen</strong> — Sea Fishing läuft über <strong>Bill</strong> im <strong>Fishing Village</strong>. Wenn du’s vergisst: <a href="/characters">Characters</a>.</li>
+              <li><strong>Mini-Energieplan</strong> — wenn du am Event-Tag leer läufst, war’s das. Nutze <a href="/wiki/recipes">Rezepte</a> und <a href="/wiki/foraging">Sammeln</a> als einfache Refill-Schleife.</li>
+              <li><strong>Tracker offen</strong> — <a href="/wiki/fish">Fische</a> und <a href="/wiki/achievements">Achievements</a>.</li>
+            </ul>
+
+            <h2>Im Event: goldene Schatten sind alles</h2>
+            <ul>
+              <li><strong>Kein golden fish shadow = keine Priorität</strong>.</li>
+              <li><strong>Schnell umpositionieren</strong> — ein paar Sekunden Bewegung sind besser als das ganze Fenster am falschen Schatten.</li>
+            </ul>
+
+            <h2>Nach dem Event: echtes vs. gefühltes Progress</h2>
+            <ul>
+              <li><strong>Erfolgsversuch</strong> — drei Haie aus goldenen Schatten <em>im selben Event</em>?</li>
+              <li><strong>Sammlung</strong> — <a href="/wiki/fish">Fischliste</a> nach <strong>Sea Fishing</strong> filtern.</li>
+              <li><strong>Skill-Ceiling</strong> — wenn du konstant zu langsam bist: Fishing-Hobby außerhalb leveln, dann wieder rein.</li>
+            </ul>
+
+            <h2>„Keine Ausreden“-Checkliste</h2>
+            <ul>
+              <li><strong>Bill</strong> finden (Fishing Village).</li>
+              <li>Essen mitnehmen (<a href="/wiki/recipes">Rezepte</a> / <a href="/wiki/foraging">Sammeln</a>).</li>
+              <li>Im Event: <strong>goldene Schatten zuerst</strong>.</li>
+              <li>Danach: <a href="/wiki/achievements">Sea Fishing Master</a> und <a href="/wiki/fish">Sea Fishing</a> prüfen.</li>
+            </ul>
+
+            <h2>Weiterlesen</h2>
+            <p><a href="/guide/energy-cooking-sea-fishing-player-tips">Energie + Kochen + Sea Fishing</a> · <a href="/wiki/achievements">Achievements</a> · <a href="/wiki/fish">Fische</a> · <a href="/characters">Characters</a></p>
+          `,
+    },
 ]
